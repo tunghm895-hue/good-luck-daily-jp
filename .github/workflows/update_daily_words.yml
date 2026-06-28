@@ -40,7 +40,7 @@ jobs:
 
       - name: Luu today_words.json vao repository
         run: |
-          if git diff --quiet -- public/today_words.json; then
+          if [ -z "$(git status --porcelain -- public/today_words.json)" ]; then
             echo "Khong co thay doi."
             exit 0
           fi
