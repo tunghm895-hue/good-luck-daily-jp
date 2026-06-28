@@ -50,4 +50,19 @@ jobs:
 
           git add public/today_words.json
           git commit -m "chore: update daily Japanese terms"
-          git push
+
+          # Nếu main có commit mới trong lúc workflow đang chạy, rebase commit
+          # JSON lên main mới nhất rồi thử push lại. "theirs" ưu tiên file JSON
+          # vừa do workflow tạo khi chính file đó bị thay đổi đồng thời.
+          for attempt in 1 2 3; do
+            if git pull --rebase -X theirs origin main && git push origin HEAD:main; then
+              echo "Da luu today_words.json vao main."
+              exit 0
+            fi
+
+            echo "Lan day thu $attempt chua push duoc; thu dong bo lai..."
+            sleep $((attempt * 2))
+          done
+
+          echo "Khong the push sau 3 lan thu."
+          exit 1
