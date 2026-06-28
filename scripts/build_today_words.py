@@ -19,6 +19,10 @@ from sudachipy import dictionary, tokenizer
 
 OUTPUT_FILE = Path("public/today_words.json")
 TARGET_PER_LEVEL = 15
+# Riêng N*: tách quota theo nguồn để sheet Cộng đồng luôn có
+# tối đa 20 mục Báo chí và 10 mục Forum.
+NSTAR_NEWS_TARGET = 20
+NSTAR_FORUM_TARGET = 10
 
 # N* = từ được Sudachi tách ra nhưng không nằm trong bất kỳ danh sách N1–N5
 # tham chiếu nào. Trong app, N* được coi là bậc cao nhất.
@@ -256,12 +260,39 @@ def extract_terms(text: str) -> list[str]:
     return terms
 
 
-def build_items(articles: list[Article], jlpt_levels: dict[str, str]) -> tuple[list[dict], dict[str, int]]:
+def _sort_candidates(candidates: list[dict]) -> list[dict]:
+    """Sắp xếp ưu tiên theo số bài, số nguồn và điểm nổi bật."""
+    candidates.sort(
+        key=lambda item: (
+            item["articleCount"],
+            len(item["channels"]),
+            item["score"],
+            item["term"],
+        ),
+        reverse=True,
+    )
+    return candidates
+
+
+def build_items(
+    articles: list[Article],
+    jlpt_levels: dict[str, str],
+) -> tuple[list[dict], dict[str, int], dict[str, int]]:
+    """Tạo danh sách từ theo mức JLPT.
+
+    N1-N5: tối đa 15 từ mỗi mức như trước.
+    N*: tách riêng tối đa 20 từ thuộc báo chí và 10 từ thuộc Forum.
+    Một từ N* đã được chọn cho báo chí sẽ không lặp lại ở Forum để tránh
+    thẻ trùng trong mục Tất cả. Item N* chỉ mang channel mà nó được chọn,
+    nhờ đó bộ lọc Báo chí/Forum hiện đúng quota của từng nguồn.
+    """
     stats = defaultdict(
         lambda: {
             "article_ids": set(),
             "channels": set(),
             "links": set(),
+            "article_ids_by_channel": defaultdict(set),
+            "links_by_channel": defaultdict(set),
             "jlpt_level": "",
         }
     )
@@ -276,9 +307,8 @@ def build_items(articles: list[Article], jlpt_levels: dict[str, str]) -> tuple[l
             level = jlpt_levels.get(term, "N*")
 
             # Từ đúng một Kanji ở N4/N5 thường là từ quá cơ bản đối với
-            # danh sách gợi ý của sheet Cộng đồng (ví dụ các chữ Kanji đơn
-            # giản). Các từ một Kanji ở N*, N1, N2 hoặc N3 vẫn được giữ.
-            # Nhóm từ chức năng/cảm thán đã được lọc trước ở should_keep_term.
+            # danh sách gợi ý của sheet Cộng đồng. Các từ một Kanji ở N*,
+            # N1, N2 hoặc N3 vẫn được giữ.
             if SINGLE_KANJI.fullmatch(term) and level in {"N4", "N5"}:
                 continue
 
@@ -286,17 +316,53 @@ def build_items(articles: list[Article], jlpt_levels: dict[str, str]) -> tuple[l
             stat = stats[term]
             stat["article_ids"].add(index)
             stat["channels"].add(article.channel)
+            stat["article_ids_by_channel"][article.channel].add(index)
             stat["jlpt_level"] = level
+
             if article.link:
                 stat["links"].add(article.link)
+                stat["links_by_channel"][article.channel].add(article.link)
 
-    by_level: dict[str, list[dict]] = {level: [] for level in OUTPUT_LEVELS_HARD_TO_EASY}
+    by_level: dict[str, list[dict]] = {
+        level: [] for level in OUTPUT_LEVELS_HARD_TO_EASY
+    }
+    nstar_by_channel: dict[str, list[dict]] = {
+        "news": [],
+        "community": [],
+    }
+
     for term, info in stats.items():
+        level = info["jlpt_level"]
+        if level not in by_level:
+            continue
+
         article_count = len(info["article_ids"])
         channel_count = len(info["channels"])
         score = article_count * 3 + channel_count * 5
-        level = info["jlpt_level"]
-        if level not in by_level:
+
+        # Với N*, tạo ứng viên riêng theo từng nguồn. Việc này để quota
+        # 20 Báo chí + 10 Forum không bị một từ xuất hiện ở hai nguồn chiếm
+        # cả hai vị trí hoặc hiện trùng trong mục Tất cả.
+        if level == "N*":
+            for channel in ("news", "community"):
+                source_article_ids = info["article_ids_by_channel"].get(channel, set())
+                if not source_article_ids:
+                    continue
+
+                source_article_count = len(source_article_ids)
+                source_score = source_article_count * 3 + 5
+                nstar_by_channel[channel].append(
+                    {
+                        "term": term,
+                        "jlptLevel": level,
+                        "articleCount": source_article_count,
+                        "channels": [channel],
+                        "score": source_score,
+                        "sourceUrls": sorted(
+                            info["links_by_channel"].get(channel, set())
+                        )[:3],
+                    }
+                )
             continue
 
         by_level[level].append(
@@ -310,27 +376,31 @@ def build_items(articles: list[Article], jlpt_levels: dict[str, str]) -> tuple[l
             }
         )
 
-    result: list[dict] = []
-    level_counts: dict[str, int] = {}
-    for level in OUTPUT_LEVELS_HARD_TO_EASY:
-        candidates = by_level[level]
-        # Ưu tiên từ có nhiều bài nguồn; nếu chưa đủ 15 thì từ 1 bài cũng được
-        # giữ để cố gắng luôn cung cấp đủ danh sách trong từng mức.
-        candidates.sort(
-            key=lambda item: (
-                item["articleCount"],
-                len(item["channels"]),
-                item["score"],
-                item["term"],
-            ),
-            reverse=True,
-        )
-        selected = candidates[:TARGET_PER_LEVEL]
+    # N*: 20 Báo chí trước, sau đó 10 Forum và không cho trùng term để
+    # danh sách Tất cả không có hai thẻ cho cùng một từ.
+    nstar_news = _sort_candidates(nstar_by_channel["news"])[:NSTAR_NEWS_TARGET]
+    selected_nstar_terms = {item["term"] for item in nstar_news}
+
+    nstar_forum_candidates = [
+        item for item in nstar_by_channel["community"]
+        if item["term"] not in selected_nstar_terms
+    ]
+    nstar_forum = _sort_candidates(nstar_forum_candidates)[:NSTAR_FORUM_TARGET]
+
+    result: list[dict] = [*nstar_news, *nstar_forum]
+    level_counts: dict[str, int] = {"N*": len(nstar_news) + len(nstar_forum)}
+    nstar_source_counts = {
+        "news": len(nstar_news),
+        "community": len(nstar_forum),
+    }
+
+    # N1-N5 vẫn chọn tối đa 15 từ/mức, không thay đổi thuật toán cũ.
+    for level in JLPT_LEVELS_HARD_TO_EASY:
+        selected = _sort_candidates(by_level[level])[:TARGET_PER_LEVEL]
         result.extend(selected)
         level_counts[level] = len(selected)
 
-    return result, level_counts
-
+    return result, level_counts, nstar_source_counts
 
 def main() -> None:
     jlpt_levels = fetch_jlpt_levels()
@@ -338,16 +408,21 @@ def main() -> None:
     if not articles:
         raise RuntimeError("Không tải được dữ liệu từ bất kỳ nguồn nào.")
 
-    items, level_counts = build_items(articles, jlpt_levels)
+    items, level_counts, nstar_source_counts = build_items(articles, jlpt_levels)
     now_japan = datetime.now(ZoneInfo("Asia/Tokyo"))
 
     payload = {
-        "schemaVersion": 3,
+        "schemaVersion": 4,
         "generatedAt": now_japan.isoformat(),
         "generatedAtDisplay": now_japan.strftime("%d/%m · %H:%M"),
         "timezone": "Asia/Tokyo",
         "articleCount": len(articles),
         "targetPerJlptLevel": TARGET_PER_LEVEL,
+        "nStarTargets": {
+            "news": NSTAR_NEWS_TARGET,
+            "community": NSTAR_FORUM_TARGET,
+        },
+        "nStarSourceCounts": nstar_source_counts,
         "levelCounts": level_counts,
         "items": items,
     }
@@ -359,7 +434,11 @@ def main() -> None:
     )
 
     summary = ", ".join(f"{level}={level_counts[level]}" for level in OUTPUT_LEVELS_HARD_TO_EASY)
-    print(f"Đã tạo {OUTPUT_FILE} ({summary}).")
+    print(
+        f"Đã tạo {OUTPUT_FILE} ({summary}; "
+        f"N* báo={nstar_source_counts['news']}, "
+        f"Forum={nstar_source_counts['community']})."
+    )
 
 
 if __name__ == "__main__":
