@@ -1,0 +1,275 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-28T15:27:59.884074+09:00",
+  "timezone": "Asia/Tokyo",
+  "articleCount": 130,
+  "items": [
+    {
+      "term": "新聞",
+      "articleCount": 18,
+      "channels": [
+        "news"
+      ],
+      "score": 59,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiS0FVX3lxTE92eGEzc1pJVTlWc2FaT0tvZFlRTDBfZ09wYUU1ZWE1c1BmcEFMNXQ1OFk1TW9pQ21ReWlIOW00YTA0X00xTE9RYV9BVQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9rdzg2RnFrdWJwbHhqc0ZuVlQtd1hxQUpBdWdfX2swdU8zV2FRZ2I5Wlh5RUZiaUREYTlTME9jYm1DQUhVaWhMZFRpcw?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAxT1Z1NzloaW5ENmxFVW53WFJ3YWNwSS0ySURRSl9OWktXWkZ4Uk5LUnpoS2UxSzBlVkpBNWtlRWcyQlM2SzNPcTBVUzRTTEotQkVr?oc=5"
+      ]
+    },
+    {
+      "term": "作る",
+      "articleCount": 14,
+      "channels": [
+        "community"
+      ],
+      "score": 47,
+      "sourceUrls": [
+        "https://qiita.com/SciCos/items/283bef6e149e442e48f8",
+        "https://qiita.com/SciCos/items/5e939ee843839b29afb6",
+        "https://qiita.com/dt39/items/221321d49b6f5cb03116"
+      ]
+    },
+    {
+      "term": "ない",
+      "articleCount": 11,
+      "channels": [
+        "community",
+        "news"
+      ],
+      "score": 43,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAxT1Z1NzloaW5ENmxFVW53WFJ3YWNwSS0ySURRSl9OWktXWkZ4Uk5LUnpoS2UxSzBlVkpBNWtlRWcyQlM2SzNPcTBVUzRTTEotQkVr?oc=5",
+        "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1MS3VzOF9WcThGTFJ2Rm5TZlVKbFBSWjMyeTdkNFZfbWJ1TE9TQ2tPaTlpZmxGMFdnZDhvaENCalRlWE51V0NrQWdmQmU0QkRfRVNqZ2VxZ2ZSZkdJMTVxMWpYcFJoMzQ?oc=5",
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTE1rTk85U1ZwQk5CNFdKZExVSG9LZXlIN2hMTXJJUk81SV91REdZMnN4NE83NjlYdFlkNnViYmNQREt1M2lDUjUyUERYSi0zZG5kSlNzV256YkVpbHV0bF9yMVdRUGwweDJXRnEtVA?oc=5"
+      ]
+    },
+    {
+      "term": "シリーズ",
+      "articleCount": 11,
+      "channels": [
+        "community"
+      ],
+      "score": 38,
+      "sourceUrls": [
+        "https://qiita.com/kyukyukyunoq/items/a5169c351d8cc0417211",
+        "https://qiita.com/kyukyukyunoq/items/da58a66a9ee9cba36b4f",
+        "https://qiita.com/kyukyukyunoq/items/fa08ab85adab46a4d397"
+      ]
+    },
+    {
+      "term": "経済",
+      "articleCount": 8,
+      "channels": [
+        "news"
+      ],
+      "score": 29,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiS0FVX3lxTE92eGEzc1pJVTlWc2FaT0tvZFlRTDBfZ09wYUU1ZWE1c1BmcEFMNXQ1OFk1TW9pQ21ReWlIOW00YTA0X00xTE9RYV9BVQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAxT1Z1NzloaW5ENmxFVW53WFJ3YWNwSS0ySURRSl9OWktXWkZ4Uk5LUnpoS2UxSzBlVkpBNWtlRWcyQlM2SzNPcTBVUzRTTEotQkVr?oc=5",
+        "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1DcGQ0VVNyaTR3YWw3cXpuMUNfbkJtLTdCZ0x4Y0tPQmpqTTZoTVFtbEYzUVl5TWpjdnlGcmxhckd6ejJBQVl3MFgxeEpVSEJZem1uWkNHSHE?oc=5"
+      ]
+    },
+    {
+      "term": "理解",
+      "articleCount": 8,
+      "channels": [
+        "community"
+      ],
+      "score": 29,
+      "sourceUrls": [
+        "https://qiita.com/etnk/items/24ddb20015426be2871f",
+        "https://qiita.com/kyukyukyunoq/items/a5169c351d8cc0417211",
+        "https://qiita.com/kyukyukyunoq/items/da58a66a9ee9cba36b4f"
+      ]
+    },
+    {
+      "term": "時事",
+      "articleCount": 8,
+      "channels": [
+        "news"
+      ],
+      "score": 29,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9rdzg2RnFrdWJwbHhqc0ZuVlQtd1hxQUpBdWdfX2swdU8zV2FRZ2I5Wlh5RUZiaUREYTlTME9jYm1DQUhVaWhMZFRpcw?oc=5",
+        "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBNLVVmVWctdWQzeUVkTGlhRG02V1Nfb3NOZGlIZ2o4WXZLbTQ5bGw0RUh5Q09HRWtGZXZUajNxX3EwNlI2TTAybDBoeXVValBLRDFad0RPeC1jRE14ajhV?oc=5",
+        "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5YcFpPcEZpRlQ3ZEJWc0JMXzNZa0NqUjR3LW8wYWVObWRGd2YyR3BFUXlhdGw2VFBPa21YLTdlMUQ4Y0VfdWphNUQxSWhKRDRvNEplaHpQV1M0QlJCSWc?oc=5"
+      ]
+    },
+    {
+      "term": "恐竜",
+      "articleCount": 8,
+      "channels": [
+        "community"
+      ],
+      "score": 29,
+      "sourceUrls": [
+        "https://qiita.com/rex0220/items/2971c02fb3dea85a4b8e",
+        "https://qiita.com/rex0220/items/3f6b7482d580b26d90a4",
+        "https://qiita.com/rex0220/items/60e6bca9f808b39f7def"
+      ]
+    },
+    {
+      "term": "使う",
+      "articleCount": 7,
+      "channels": [
+        "community"
+      ],
+      "score": 26,
+      "sourceUrls": [
+        "https://qiita.com/SciCos/items/283bef6e149e442e48f8",
+        "https://qiita.com/a_kawasaki/items/474cded190424629c982",
+        "https://qiita.com/kyukyukyunoq/items/a5169c351d8cc0417211"
+      ]
+    },
+    {
+      "term": "ドットコム",
+      "articleCount": 7,
+      "channels": [
+        "news"
+      ],
+      "score": 26,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9rdzg2RnFrdWJwbHhqc0ZuVlQtd1hxQUpBdWdfX2swdU8zV2FRZ2I5Wlh5RUZiaUREYTlTME9jYm1DQUhVaWhMZFRpcw?oc=5",
+        "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBNLVVmVWctdWQzeUVkTGlhRG02V1Nfb3NOZGlIZ2o4WXZLbTQ5bGw0RUh5Q09HRWtGZXZUajNxX3EwNlI2TTAybDBoeXVValBLRDFad0RPeC1jRE14ajhV?oc=5",
+        "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5YcFpPcEZpRlQ3ZEJWc0JMXzNZa0NqUjR3LW8wYWVObWRGd2YyR3BFUXlhdGw2VFBPa21YLTdlMUQ4Y0VfdWphNUQxSWhKRDRvNEplaHpQV1M0QlJCSWc?oc=5"
+      ]
+    },
+    {
+      "term": "オンライン",
+      "articleCount": 7,
+      "channels": [
+        "news"
+      ],
+      "score": 26,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1DcGQ0VVNyaTR3YWw3cXpuMUNfbkJtLTdCZ0x4Y0tPQmpqTTZoTVFtbEYzUVl5TWpjdnlGcmxhckd6ejJBQVl3MFgxeEpVSEJZem1uWkNHSHE?oc=5",
+        "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5SNVJ6RlpoSVVIUnk0bzM3alRXZnFtUFVQYUQwX3BRRHI0Z1djdXBfZktnU2VrT0l5WGE2UTUxQV9xXzNRZUhFel9YS0JhQ1d6YzhZMXFmR1lNQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5kNXNKTk9QUWJTU0NKUU1fX1pYcGhUckUzbjB3VWxCZkNuOXF6Yk1hTnAyX1dQQkFvMVlra1B4dkpUY2hRbHRFMUhIWTYzQm1WdnJyUG5ZOHFBZw?oc=5"
+      ]
+    },
+    {
+      "term": "エージェント",
+      "articleCount": 7,
+      "channels": [
+        "community"
+      ],
+      "score": 26,
+      "sourceUrls": [
+        "https://qiita.com/dt39/items/221321d49b6f5cb03116",
+        "https://qiita.com/engchina/items/22cd7fe3297fb4a9083f",
+        "https://qiita.com/engchina/items/d061e45127c7e297c47c"
+      ]
+    },
+    {
+      "term": "解説",
+      "articleCount": 5,
+      "channels": [
+        "community",
+        "news"
+      ],
+      "score": 25,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiVEFVX3lxTE93MWRZd003ZzlDbkw2bjlydzNlLS0zaDBqdERaUUp2RDJBUGthNXZaZ3ljbTdJWDRzMHNqUUROMDkxNEhFa1NFWFdrTER6S0VxOEVXMQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5SNVJ6RlpoSVVIUnk0bzM3alRXZnFtUFVQYUQwX3BRRHI0Z1djdXBfZktnU2VrT0l5WGE2UTUxQV9xXzNRZUhFel9YS0JhQ1d6YzhZMXFmR1lNQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1MS3VzOF9WcThGTFJ2Rm5TZlVKbFBSWjMyeTdkNFZfbWJ1TE9TQ2tPaTlpZmxGMFdnZDhvaENCalRlWE51V0NrQWdmQmU0QkRfRVNqZ2VxZ2ZSZkdJMTVxMWpYcFJoMzQ?oc=5"
+      ]
+    },
+    {
+      "term": "速報",
+      "articleCount": 6,
+      "channels": [
+        "news"
+      ],
+      "score": 23,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiS0FVX3lxTE92eGEzc1pJVTlWc2FaT0tvZFlRTDBfZ09wYUU1ZWE1c1BmcEFMNXQ1OFk1TW9pQ21ReWlIOW00YTA0X00xTE9RYV9BVQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9rdzg2RnFrdWJwbHhqc0ZuVlQtd1hxQUpBdWdfX2swdU8zV2FRZ2I5Wlh5RUZiaUREYTlTME9jYm1DQUhVaWhMZFRpcw?oc=5",
+        "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1DcGQ0VVNyaTR3YWw3cXpuMUNfbkJtLTdCZ0x4Y0tPQmpqTTZoTVFtbEYzUVl5TWpjdnlGcmxhckd6ejJBQVl3MFgxeEpVSEJZem1uWkNHSHE?oc=5"
+      ]
+    },
+    {
+      "term": "初心者",
+      "articleCount": 6,
+      "channels": [
+        "community"
+      ],
+      "score": 23,
+      "sourceUrls": [
+        "https://qiita.com/Shiro_Shihi/items/8bd60dc1cf42299fe59a",
+        "https://qiita.com/a_kawasaki/items/474cded190424629c982",
+        "https://qiita.com/masaki130/items/82884952a82eb3f8fee3"
+      ]
+    },
+    {
+      "term": "確認",
+      "articleCount": 4,
+      "channels": [
+        "community",
+        "news"
+      ],
+      "score": 22,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTE9JMVlUblBaTTdrUHlSS2RXaWN5NXlmdE4zbk1tTnVxWmYxNWt5QW9MYUZlN25KVHpsU2g5Rl8xYVFvYmRRQ09NbW1NbGt0bVA3N2liT1czclo1clFKZDNhZXhjZV9JeTFkbWE1bg?oc=5",
+        "https://qiita.com/Heizo_Hasegawa/items/92bbe6538dc43d13b429",
+        "https://qiita.com/SciCos/items/5e939ee843839b29afb6"
+      ]
+    },
+    {
+      "term": "政府",
+      "articleCount": 4,
+      "channels": [
+        "community",
+        "news"
+      ],
+      "score": 22,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9WaHFfeTExRzAzcW9kcVhqTTNBT0lKd0FIQWJic0tpc3p4TGQ3LWQ2SlE2OU1paW1DMFFsNFNjQ3BJUC1ybFk4N2RuWUM0c1BlYkpVSm5JajI4Qk1nbHhhdzZ6MA?oc=5",
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTE1rTk85U1ZwQk5CNFdKZExVSG9LZXlIN2hMTXJJUk81SV91REdZMnN4NE83NjlYdFlkNnViYmNQREt1M2lDUjUyUERYSi0zZG5kSlNzV256YkVpbHV0bF9yMVdRUGwweDJXRnEtVA?oc=5",
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTE9JMVlUblBaTTdrUHlSS2RXaWN5NXlmdE4zbk1tTnVxWmYxNWt5QW9MYUZlN25KVHpsU2g5Rl8xYVFvYmRRQ09NbW1NbGt0bVA3N2liT1czclo1clFKZDNhZXhjZV9JeTFkbWE1bg?oc=5"
+      ]
+    },
+    {
+      "term": "攻撃",
+      "articleCount": 4,
+      "channels": [
+        "community",
+        "news"
+      ],
+      "score": 22,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiS0FVX3lxTE92eGEzc1pJVTlWc2FaT0tvZFlRTDBfZ09wYUU1ZWE1c1BmcEFMNXQ1OFk1TW9pQ21ReWlIOW00YTA0X00xTE9RYV9BVQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAtUi12UldQcktjQ3BNWURFZlY4Tjh0S2ZtMTQ3Tm5GbFFVRzRwWksxaFdOLUR6Z0ozM1NoclJtRjVVb2NZWWNHU2RwY1BBeEViLTRFTEZlNXZ5QzM1NlpwVS13?oc=5",
+        "https://news.google.com/rss/articles/CBMidkFVX3lxTE1uZDZybDhvbGZGSFdBS1dwTzVYdXN3cXV1OXYzZ2hrdW1vdk1vVXdjUDdzLVd1NHJHMUZKcFRqbklpOGk4ajg1aU5oTHBxdWFnbS1QZWd4TmNIM3NGRXJKNWlaeHBEWFNvV1UtYVRJYkI1TUJpMkE?oc=5"
+      ]
+    },
+    {
+      "term": "公開",
+      "articleCount": 4,
+      "channels": [
+        "community",
+        "news"
+      ],
+      "score": 22,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5SNVJ6RlpoSVVIUnk0bzM3alRXZnFtUFVQYUQwX3BRRHI0Z1djdXBfZktnU2VrT0l5WGE2UTUxQV9xXzNRZUhFel9YS0JhQ1d6YzhZMXFmR1lNQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTE9JMVlUblBaTTdrUHlSS2RXaWN5NXlmdE4zbk1tTnVxWmYxNWt5QW9MYUZlN25KVHpsU2g5Rl8xYVFvYmRRQ09NbW1NbGt0bVA3N2liT1czclo1clFKZDNhZXhjZV9JeTFkbWE1bg?oc=5",
+        "https://qiita.com/ausssxi0/items/bc1212416bec7ef27f73"
+      ]
+    },
+    {
+      "term": "よる",
+      "articleCount": 4,
+      "channels": [
+        "community",
+        "news"
+      ],
+      "score": 22,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiS0FVX3lxTE92eGEzc1pJVTlWc2FaT0tvZFlRTDBfZ09wYUU1ZWE1c1BmcEFMNXQ1OFk1TW9pQ21ReWlIOW00YTA0X00xTE9RYV9BVQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1DcGQ0VVNyaTR3YWw3cXpuMUNfbkJtLTdCZ0x4Y0tPQmpqTTZoTVFtbEYzUVl5TWpjdnlGcmxhckd6ejJBQVl3MFgxeEpVSEJZem1uWkNHSHE?oc=5",
+        "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1MS3VzOF9WcThGTFJ2Rm5TZlVKbFBSWjMyeTdkNFZfbWJ1TE9TQ2tPaTlpZmxGMFdnZDhvaENCalRlWE51V0NrQWdmQmU0QkRfRVNqZ2VxZ2ZSZkdJMTVxMWpYcFJoMzQ?oc=5"
+      ]
+    }
+  ]
+}
