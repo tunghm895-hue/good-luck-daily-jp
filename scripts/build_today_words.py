@@ -68,8 +68,34 @@ STOP_WORDS = {
 }
 
 JAPANESE_WORD = re.compile(r"^[ぁ-んァ-ヶ一-龯々ー]+$")
+# Chính xác một chữ Kanji. Dùng để giữ các từ một ký tự như 米, 月, 局.
+SINGLE_KANJI = re.compile(r"^[一-龯]$")
 HTML_TAG = re.compile(r"<[^>]+>")
 PARENTHETICAL_SUFFIX = re.compile(r"\s*[（(].*?[）)]\s*$")
+
+# Trợ từ, trợ động từ, liên từ và phó từ chỉ được đưa vào danh sách
+# khi cách đọc có từ 3 mora (âm tiết Nhật) trở lên. Ví dụ: しかし (3),
+# かなり (3), ながら (3), らしい (3). Các token ngắn như が, を, に,
+# は, だ, ない (2 mora), また (2 mora) sẽ bị bỏ qua để danh sách không
+# bị ngập từ chức năng quá ngắn.
+FUNCTION_POS = {"助詞", "助動詞", "接続詞", "副詞"}
+FUNCTION_POS_MIN_MORA = 3
+
+# Ký tự nhỏ ghép với mora ngay trước đó, nên không được tính thành một
+# mora riêng. Dấu trường âm ー, っ và ん vẫn là mora riêng và được tính.
+SMALL_KANA = frozenset(
+    "ァィゥェォャュョヮヵヶ"
+    "ぁぃぅぇぉゃゅょゎゕゖ"
+    "ㇰㇱㇲㇳㇴㇵㇶㇷㇸㇹㇺㇻㇼㇽㇾㇿ"
+)
+
+# Nhóm nội dung đang được xử lý bình thường. Từ một ký tự chỉ được giữ
+# khi đó là Kanji, để tránh danh sách tràn các token kana đơn lẻ.
+CONTENT_POS = {"名詞", "動詞", "形容詞", "形状詞"}
+
+# Với token một Kanji thuộc POS khác, vẫn giữ nếu không phải các nhóm
+# từ chức năng/cảm thán bên dưới. Ví dụ: 各 (接頭辞), 氏 (接尾辞).
+SINGLE_KANJI_EXCLUDED_POS = FUNCTION_POS | {"感動詞"}
 
 
 @dataclass(frozen=True)
@@ -166,6 +192,47 @@ _TOKENIZER = dictionary.Dictionary().create()
 _TOKENIZER_MODE = tokenizer.Tokenizer.SplitMode.C
 
 
+def mora_count(reading: str) -> int:
+    """Đếm mora từ cách đọc kana của Sudachi.
+
+    Ví dụ: かなり → 3, でしょう → 3, いっそう → 4.
+    Ký tự nhỏ như ャ/ュ/ョ không tăng mora; ー/ッ/ン vẫn được tính.
+    """
+    reading = unicodedata.normalize("NFKC", reading or "").strip()
+    if not reading or reading == "*":
+        return 0
+    return sum(1 for char in reading if char not in SMALL_KANA)
+
+
+def should_keep_term(
+    word: str,
+    reading: str,
+    pos_main: str,
+    pos_sub: str,
+) -> bool:
+    """Quy tắc giữ token cho danh sách từ nổi bật.
+
+    - Giữ trợ từ, trợ động từ, liên từ và phó từ khi cách đọc có từ 3
+      mora trở lên, không dựa trên số ký tự viết.
+    - Giữ danh từ/động từ/tính từ/tính từ-na như trước; token một ký tự
+      chỉ được giữ khi là đúng một Kanji.
+    - Giữ thêm token đúng một Kanji thuộc POS khác, miễn không phải trợ từ,
+      trợ động từ, liên từ, phó từ hoặc cảm thán.
+    - Vẫn loại tên riêng, số từ, đại từ và danh từ phụ thuộc để không làm
+      danh sách bị chi phối bởi tên người, số liệu hay token ngữ pháp vụn.
+    """
+    if pos_main == "名詞" and pos_sub in {"固有名詞", "数詞", "代名詞", "非自立可能"}:
+        return False
+
+    if pos_main in FUNCTION_POS:
+        return mora_count(reading) >= FUNCTION_POS_MIN_MORA
+
+    if pos_main in CONTENT_POS:
+        return len(word) >= 2 or bool(SINGLE_KANJI.fullmatch(word))
+
+    return bool(SINGLE_KANJI.fullmatch(word)) and pos_main not in SINGLE_KANJI_EXCLUDED_POS
+
+
 def extract_terms(text: str) -> list[str]:
     terms: list[str] = []
 
@@ -173,20 +240,17 @@ def extract_terms(text: str) -> list[str]:
         pos = token.part_of_speech()
         pos_main = pos[0]
         pos_sub = pos[1]
-
-        if pos_main not in {"名詞", "動詞", "形容詞", "形状詞"}:
-            continue
-        if pos_main == "名詞" and pos_sub in {"固有名詞", "数詞", "代名詞", "非自立可能"}:
-            continue
-
         word = token.dictionary_form()
+        reading = token.reading_form()
+
         if (
             word == "*"
-            or len(word) < 2
             or word in STOP_WORDS
             or not JAPANESE_WORD.fullmatch(word)
+            or not should_keep_term(word, reading, pos_main, pos_sub)
         ):
             continue
+
         terms.append(word)
 
     return terms
