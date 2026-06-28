@@ -40,7 +40,7 @@ jobs:
 
       - name: Luu today_words.json vao repository
         run: |
-          if [ -z "$(git status --porcelain -- public/today_words.json)" ]; then
+          if [ -z "$(git status --porcelain -- public/today_words.json data/recent_suggested_terms.json)" ]; then
             echo "Khong co thay doi."
             exit 0
           fi
@@ -48,15 +48,15 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add public/today_words.json
-          git commit -m "chore: update daily Japanese terms"
+          git add public/today_words.json data/recent_suggested_terms.json
+          git commit -m "chore: update daily Japanese terms and 48h history"
 
           # Nếu main có commit mới trong lúc workflow đang chạy, rebase commit
           # JSON lên main mới nhất rồi thử push lại. "theirs" ưu tiên file JSON
           # vừa do workflow tạo khi chính file đó bị thay đổi đồng thời.
           for attempt in 1 2 3; do
             if git pull --rebase -X theirs origin main && git push origin HEAD:main; then
-              echo "Da luu today_words.json vao main."
+              echo "Da luu today_words.json va lich su 48h vao main."
               exit 0
             fi
 
