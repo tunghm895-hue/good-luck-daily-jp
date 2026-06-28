@@ -274,6 +274,14 @@ def build_items(articles: list[Article], jlpt_levels: dict[str, str]) -> tuple[l
 
             # Không tìm thấy trong toàn bộ N1-N5 thì gắn N* thay vì loại bỏ.
             level = jlpt_levels.get(term, "N*")
+
+            # Từ đúng một Kanji ở N4/N5 thường là từ quá cơ bản đối với
+            # danh sách gợi ý của sheet Cộng đồng (ví dụ các chữ Kanji đơn
+            # giản). Các từ một Kanji ở N*, N1, N2 hoặc N3 vẫn được giữ.
+            # Nhóm từ chức năng/cảm thán đã được lọc trước ở should_keep_term.
+            if SINGLE_KANJI.fullmatch(term) and level in {"N4", "N5"}:
+                continue
+
             seen_in_article.add(term)
             stat = stats[term]
             stat["article_ids"].add(index)
