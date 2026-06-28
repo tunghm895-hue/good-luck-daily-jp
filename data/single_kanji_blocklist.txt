@@ -1,1 +1,18 @@
+# Các Kanji một ký tự dễ bị Sudachi tách ra như một token,
+# nhưng thường đóng vai trò tiền tố/hậu tố/thành tố ngữ pháp hơn là
+# một từ độc lập hữu ích để học trong sheet Cộng đồng.
+#
+# Mỗi dòng một Kanji. Có thể thêm hoặc xóa thủ công sau này.
+化
+性
+的
+者
+中
+前
+後
+最
+不
+非
+再
+未
 
