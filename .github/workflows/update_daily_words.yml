@@ -2,9 +2,9 @@ name: Tao tu tieng Nhat moi moi ngay
 
 on:
   workflow_dispatch:
-
   schedule:
-    - cron: "17 5 * * *"
+    # 05:17, 13:17, 21:17 theo giờ Nhật.
+    - cron: "17 5,13,21 * * *"
       timezone: "Asia/Tokyo"
 
 permissions:
