@@ -19,8 +19,12 @@ from sudachipy import dictionary, tokenizer
 
 OUTPUT_FILE = Path("public/today_words.json")
 TARGET_PER_LEVEL = 15
-LEVELS_HARD_TO_EASY = ("N1", "N2", "N3", "N4", "N5")
-LEVELS_EASY_TO_HARD = tuple(reversed(LEVELS_HARD_TO_EASY))
+
+# N* = từ được Sudachi tách ra nhưng không nằm trong bất kỳ danh sách N1–N5
+# tham chiếu nào. Trong app, N* được coi là bậc cao nhất.
+JLPT_LEVELS_HARD_TO_EASY = ("N1", "N2", "N3", "N4", "N5")
+JLPT_LEVELS_EASY_TO_HARD = tuple(reversed(JLPT_LEVELS_HARD_TO_EASY))
+OUTPUT_LEVELS_HARD_TO_EASY = ("N*",) + JLPT_LEVELS_HARD_TO_EASY
 
 GOOGLE_NEWS_RSS = "https://news.google.com/rss?hl=ja&gl=JP&ceid=JP:ja"
 QIITA_API = "https://qiita.com/api/v2/items?page=1&per_page=100"
@@ -100,7 +104,7 @@ def fetch_jlpt_levels() -> dict[str, str]:
     """Trả về term -> mức. Ưu tiên mức dễ hơn nếu term bị lặp giữa các list."""
     per_level: dict[str, set[str]] = {}
 
-    for level in LEVELS_HARD_TO_EASY:
+    for level in JLPT_LEVELS_HARD_TO_EASY:
         response = requests.get(JLPT_CSV_URLS[level], headers=HEADERS, timeout=60)
         response.raise_for_status()
         text = response.content.decode("utf-8-sig")
@@ -115,7 +119,7 @@ def fetch_jlpt_levels() -> dict[str, str]:
         per_level[level] = words
 
     levels: dict[str, str] = {}
-    for level in LEVELS_EASY_TO_HARD:
+    for level in JLPT_LEVELS_EASY_TO_HARD:
         for word in per_level.get(level, set()):
             levels.setdefault(word, level)
     return levels
@@ -201,10 +205,11 @@ def build_items(articles: list[Article], jlpt_levels: dict[str, str]) -> tuple[l
     for index, article in enumerate(articles):
         seen_in_article: set[str] = set()
         for term in extract_terms(article.text):
-            level = jlpt_levels.get(term)
-            if level is None or term in seen_in_article:
+            if term in seen_in_article:
                 continue
 
+            # Không tìm thấy trong toàn bộ N1-N5 thì gắn N* thay vì loại bỏ.
+            level = jlpt_levels.get(term, "N*")
             seen_in_article.add(term)
             stat = stats[term]
             stat["article_ids"].add(index)
@@ -213,7 +218,7 @@ def build_items(articles: list[Article], jlpt_levels: dict[str, str]) -> tuple[l
             if article.link:
                 stat["links"].add(article.link)
 
-    by_level: dict[str, list[dict]] = {level: [] for level in LEVELS_HARD_TO_EASY}
+    by_level: dict[str, list[dict]] = {level: [] for level in OUTPUT_LEVELS_HARD_TO_EASY}
     for term, info in stats.items():
         article_count = len(info["article_ids"])
         channel_count = len(info["channels"])
@@ -235,7 +240,7 @@ def build_items(articles: list[Article], jlpt_levels: dict[str, str]) -> tuple[l
 
     result: list[dict] = []
     level_counts: dict[str, int] = {}
-    for level in LEVELS_HARD_TO_EASY:
+    for level in OUTPUT_LEVELS_HARD_TO_EASY:
         candidates = by_level[level]
         # Ưu tiên từ có nhiều bài nguồn; nếu chưa đủ 15 thì từ 1 bài cũng được
         # giữ để cố gắng luôn cung cấp đủ danh sách trong từng mức.
@@ -265,7 +270,7 @@ def main() -> None:
     now_japan = datetime.now(ZoneInfo("Asia/Tokyo"))
 
     payload = {
-        "schemaVersion": 2,
+        "schemaVersion": 3,
         "generatedAt": now_japan.isoformat(),
         "generatedAtDisplay": now_japan.strftime("%d/%m · %H:%M"),
         "timezone": "Asia/Tokyo",
@@ -281,7 +286,7 @@ def main() -> None:
         encoding="utf-8",
     )
 
-    summary = ", ".join(f"{level}={level_counts[level]}" for level in LEVELS_HARD_TO_EASY)
+    summary = ", ".join(f"{level}={level_counts[level]}" for level in OUTPUT_LEVELS_HARD_TO_EASY)
     print(f"Đã tạo {OUTPUT_FILE} ({summary}).")
 
 
