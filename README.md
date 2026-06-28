@@ -1,0 +1,1 @@
+# good-luck-daily-jp
