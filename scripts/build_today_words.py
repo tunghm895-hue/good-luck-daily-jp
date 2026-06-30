@@ -5,6 +5,7 @@ import html
 import io
 import json
 import re
+import subprocess
 import unicodedata
 from urllib.parse import urlencode
 from collections import defaultdict
@@ -29,8 +30,10 @@ TARGET_PER_LEVEL = 15
 NSTAR_NEWS_TARGET = 20
 NSTAR_FORUM_TARGET = 10
 
-# Không lặp lại các term đã từng được đưa vào JSON trong 48 giờ gần nhất.
-RECENT_DEDUPE_HOURS = 48
+# Không lặp lại các term đã từng được đưa vào JSON trong 14 ngày gần nhất.
+# Giữ cả đơn vị ngày để các phần metadata/README không bị nhầm 336 giờ là 14 ngày.
+RECENT_DEDUPE_DAYS = 14
+RECENT_DEDUPE_HOURS = RECENT_DEDUPE_DAYS * 24
 
 # N* = từ được Sudachi tách ra nhưng không nằm trong bất kỳ danh sách N1–N5
 # tham chiếu nào. Trong app, N* được coi là bậc cao nhất.
@@ -39,7 +42,7 @@ JLPT_LEVELS_EASY_TO_HARD = tuple(reversed(JLPT_LEVELS_HARD_TO_EASY))
 OUTPUT_LEVELS_HARD_TO_EASY = ("N*",) + JLPT_LEVELS_HARD_TO_EASY
 
 GOOGLE_NEWS_RSS = "https://news.google.com/rss?hl=ja&gl=JP&ceid=JP:ja"
-# Đọc thêm nhiều luồng Google News để sau khi loại từ trùng 48 giờ,
+# Đọc thêm nhiều luồng Google News để sau khi loại từ trùng 14 ngày,
 # script vẫn có đủ ứng viên thay thế cho từng quota.
 GOOGLE_NEWS_SEARCH_QUERIES = (
     "経済",
@@ -208,7 +211,7 @@ def _google_news_search_rss_url(query: str) -> str:
 
 
 def fetch_google_news() -> list[Article]:
-    """Lấy nhiều luồng tin để tạo đủ ứng viên thay thế không trùng 48 giờ."""
+    """Lấy nhiều luồng tin để tạo đủ ứng viên thay thế không trùng 14 ngày."""
     feed_urls = [GOOGLE_NEWS_RSS]
     feed_urls.extend(_google_news_search_rss_url(query) for query in GOOGLE_NEWS_SEARCH_QUERIES)
 
@@ -405,8 +408,84 @@ def _merge_recent_term(
         target[normalized] = suggested_at
 
 
+def _load_recent_terms_from_git_history(
+    now_japan: datetime,
+    cutoff: datetime,
+) -> dict[str, datetime]:
+    """Đọc các bản `today_words.json` đã commit trong cửa sổ chống lặp.
+
+    Việc này giúp lần đầu bật cửa sổ 14 ngày vẫn tránh được term đã
+    xuất hiện trước khi file `recent_suggested_terms.json` kịp tích lũy đủ
+    14 ngày. GitHub Actions checkout toàn bộ lịch sử (fetch-depth: 0), nên
+    có thể lấy các JSON cũ trực tiếp từ các commit của repository.
+
+    Nếu script chạy ngoài Git hoặc lịch sử không khả dụng, hàm chỉ cảnh báo
+    rồi trả về rỗng. Lịch sử JSON cục bộ vẫn tiếp tục là nguồn dự phòng.
+    """
+    relative_output = OUTPUT_FILE.relative_to(REPO_ROOT).as_posix()
+    git_prefix = ["git", "-C", str(REPO_ROOT)]
+
+    try:
+        log_result = subprocess.run(
+            [
+                *git_prefix,
+                "log",
+                f"--since={cutoff.isoformat()}",
+                "--format=%H",
+                "--",
+                relative_output,
+            ],
+            capture_output=True,
+            text=True,
+            check=True,
+            timeout=30,
+        )
+    except (OSError, subprocess.SubprocessError) as error:
+        print(f"[WARN] Không đọc được Git history 14 ngày: {error}")
+        return {}
+
+    recent: dict[str, datetime] = {}
+    commits = [line.strip() for line in log_result.stdout.splitlines() if line.strip()]
+
+    for commit in commits:
+        try:
+            show_result = subprocess.run(
+                [*git_prefix, "show", f"{commit}:{relative_output}"],
+                capture_output=True,
+                text=True,
+                check=True,
+                timeout=20,
+            )
+            payload = json.loads(show_result.stdout)
+        except (OSError, subprocess.SubprocessError, json.JSONDecodeError) as error:
+            print(f"[WARN] Không đọc được {relative_output} tại commit {commit[:12]}: {error}")
+            continue
+
+        if not isinstance(payload, dict):
+            continue
+
+        generated_at = _parse_iso_datetime(payload.get("generatedAt"))
+        if generated_at is None:
+            continue
+
+        items = payload.get("items", [])
+        if not isinstance(items, list):
+            continue
+
+        for item in items:
+            if isinstance(item, dict):
+                _merge_recent_term(
+                    recent,
+                    item.get("term"),
+                    generated_at,
+                    cutoff,
+                )
+
+    return recent
+
+
 def load_recent_suggested_terms(now_japan: datetime) -> dict[str, datetime]:
-    """Đọc các term đã thực sự xuất hiện trong JSON 48 giờ gần nhất.
+    """Đọc các term đã thực sự xuất hiện trong JSON 14 ngày gần nhất.
 
     `recent_suggested_terms.json` là nguồn chính. Ở lần nâng cấp đầu tiên,
     script cũng đọc `today_words.json` hiện có để tránh lặp ngay danh sách
@@ -429,7 +508,7 @@ def load_recent_suggested_terms(now_japan: datetime) -> dict[str, datetime]:
             )
 
     # Bootstrap: lịch sử có thể trống ngay sau khi cập nhật script. Lấy danh
-    # sách hiện hành làm một lần đề xuất nếu JSON đó còn trong cửa sổ 48 giờ.
+    # sách hiện hành làm một lần đề xuất nếu JSON đó còn trong cửa sổ 14 ngày.
     current_payload = _read_json_file(OUTPUT_FILE)
     current_generated_at = _parse_iso_datetime(current_payload.get("generatedAt"))
     if current_generated_at is not None:
@@ -443,6 +522,16 @@ def load_recent_suggested_terms(now_japan: datetime) -> dict[str, datetime]:
                         current_generated_at,
                         cutoff,
                     )
+
+    # Đọc thêm các JSON đã được commit trong 14 ngày qua. Điều này giúp ngay
+    # lần chạy đầu sau khi bật cửa sổ 14 ngày cũng loại được các
+    # term từng xuất hiện trong lịch sử repository, thay vì phải chờ 14 ngày
+    # để cache cục bộ tự tích lũy.
+    for term, suggested_at in _load_recent_terms_from_git_history(
+        now_japan,
+        cutoff,
+    ).items():
+        _merge_recent_term(recent, term, suggested_at, cutoff)
 
     return recent
 
@@ -483,6 +572,7 @@ def write_recent_suggested_terms(
             {
                 "schemaVersion": 1,
                 "updatedAt": now_japan.isoformat(),
+                "windowDays": RECENT_DEDUPE_DAYS,
                 "windowHours": RECENT_DEDUPE_HOURS,
                 "entries": entries,
             },
@@ -515,7 +605,7 @@ def _select_unique_candidates(
 ) -> list[dict]:
     """Chọn đủ quota bằng cách bỏ term trùng và tiếp tục lấy ứng viên kế tiếp.
 
-    Đây là phần thay thế chính: một term đã xuất hiện trong 48 giờ bị bỏ qua,
+    Đây là phần thay thế chính: một term đã xuất hiện trong 14 ngày bị bỏ qua,
     sau đó script tiếp tục duyệt toàn bộ danh sách xếp hạng để lấy term khác,
     thay vì chỉ xóa term trùng rồi để quota bị thiếu.
     """
@@ -563,7 +653,7 @@ def _require_full_quotas(
 
     if shortages:
         raise RuntimeError(
-            "Không đủ ứng viên chưa xuất hiện trong 48 giờ để thay thế toàn bộ "
+            "Không đủ ứng viên chưa xuất hiện trong 14 ngày để thay thế toàn bộ "
             "từ trùng: "
             + ", ".join(shortages)
             + ". Không ghi JSON mới; file đầy đủ của lần trước được giữ nguyên."
@@ -580,7 +670,7 @@ def build_items(
 
     - N*: đúng 20 Báo chí + 10 Forum.
     - N1 đến N5: đúng 15 từ mỗi mức.
-    - Mọi term đã đề xuất trong 48 giờ bị bỏ qua khi chọn; selector tiếp tục
+    - Mọi term đã đề xuất trong 14 ngày bị bỏ qua khi chọn; selector tiếp tục
       duyệt ứng viên thấp hơn cho đến khi đủ quota.
     """
     stats = defaultdict(
@@ -617,7 +707,7 @@ def build_items(
                 stat["links"].add(article.link)
                 stat["links_by_channel"][article.channel].add(article.link)
 
-    # Đếm đúng số term bị lịch sử 48h loại ở giai đoạn chọn, không đếm lặp
+    # Đếm đúng số term bị lịch sử 14 ngày loại ở giai đoạn chọn, không đếm lặp
     # nhiều lần theo số bài/tần suất.
     excluded_by_recent_count = len(set(stats).intersection(recent_terms))
 
@@ -672,7 +762,7 @@ def build_items(
         )
 
     # Duy trì uniqueness toàn bộ danh sách lần này. N* Báo chí ưu tiên trước,
-    # Forum chỉ lấy term chưa dùng ở Báo chí và chưa tồn tại lịch sử 48 giờ.
+    # Forum chỉ lấy term chưa dùng ở Báo chí và chưa tồn tại lịch sử 14 ngày.
     selected_terms: set[str] = set()
     nstar_news = _select_unique_candidates(
         nstar_by_channel["news"],
@@ -727,13 +817,13 @@ def main() -> None:
     )
 
     payload = {
-        "schemaVersion": 6,
+        "schemaVersion": 7,
         "generatedAt": now_japan.isoformat(),
         "generatedAtDisplay": now_japan.strftime("%d/%m · %H:%M"),
         "timezone": "Asia/Tokyo",
         "articleCount": len(articles),
         "quotaComplete": True,
-        "selectionRule": "replace-48h-duplicates-with-next-ranked-candidate",
+        "selectionRule": "replace-14-day-duplicates-with-next-ranked-candidate",
         "targetPerJlptLevel": TARGET_PER_LEVEL,
         "nStarTargets": {
             "news": NSTAR_NEWS_TARGET,
@@ -741,6 +831,7 @@ def main() -> None:
         },
         "nStarSourceCounts": nstar_source_counts,
         "levelCounts": level_counts,
+        "dedupeWindowDays": RECENT_DEDUPE_DAYS,
         "dedupeWindowHours": RECENT_DEDUPE_HOURS,
         "recentExcludedTermsCount": excluded_by_recent_count,
         "items": items,
@@ -760,7 +851,7 @@ def main() -> None:
         f"Đã tạo {OUTPUT_FILE} ({summary}; "
         f"N* báo={nstar_source_counts['news']}, "
         f"Forum={nstar_source_counts['community']}; "
-        f"loại do trùng 48h={excluded_by_recent_count}; "
+        f"loại do trùng 14 ngày={excluded_by_recent_count}; "
         f"blocklist Kanji={len(single_kanji_blocklist)})."
     )
 
