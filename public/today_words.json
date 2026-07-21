@@ -1,9 +1,9 @@
 {
   "schemaVersion": 7,
-  "generatedAt": "2026-07-20T16:32:59.294961+09:00",
-  "generatedAtDisplay": "20/07 · 16:32",
+  "generatedAt": "2026-07-21T23:26:14.670391+09:00",
+  "generatedAtDisplay": "21/07 · 23:26",
   "timezone": "Asia/Tokyo",
-  "articleCount": 928,
+  "articleCount": 924,
   "quotaComplete": true,
   "selectionRule": "replace-14-day-duplicates-with-next-ranked-candidate",
   "targetPerJlptLevel": 15,
@@ -25,38 +25,10 @@
   },
   "dedupeWindowDays": 14,
   "dedupeWindowHours": 336,
-  "recentExcludedTermsCount": 1307,
+  "recentExcludedTermsCount": 1345,
   "items": [
     {
-      "term": "準々決勝",
-      "jlptLevel": "N*",
-      "articleCount": 12,
-      "channels": [
-        "news"
-      ],
-      "score": 41,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBBdnZJNXpJNE9Kbnk2eU9kSjFGdzMyOFN3NFRGYWF2T0ZoZDk2SVdIV0ZyTl9QeldJMmlodTdMTDdhSEQ1NHl3?oc=5",
-        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1oQk5XQjJhdlVza19VQ0FzVjRQWlJoTXQ2NXZ3ejI1NkFVUl9qRGVJM19STlRzTkl3TG9ZOGZBRzhUOFUtUWNOSTdmZ3V1RVMxVVE?oc=5",
-        "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9Ja291dWdkS21sNFpyR2xNZkNsUlZWLWxBbTJwLUdCQmpyN3FpZmlIa0hGMnl2ZlhQdy1ZZ1YwLWhJRkpUMXZHSUJsek5NQWo4WlBFcnFBc1M?oc=5"
-      ]
-    },
-    {
-      "term": "スポーツナビ",
-      "jlptLevel": "N*",
-      "articleCount": 11,
-      "channels": [
-        "news"
-      ],
-      "score": 38,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1aMjlTSXdIb0pYNjlvMXRtdnZYUXNRbTV4MUJRWm42SE5EVE11cWZXcjEwT3pFUHkyOG1RcGxTNXZIU0p6TGZjTVJMa2hNMGJTeW4zbFdndkZ2UUpU?oc=5",
-        "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4yZld2TXZ5Y0NEdFNYaTVtZXA5ZTFQYlVtdThDN2gzUW1oRkxYSGhIVjBuS1Q2akZTQTV1RmpyazNxUjZVekhmeHcwQkd6azU2c0hJYm1hdTRmZVRy?oc=5",
-        "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBLYm9lcFVjMXhRVWxhTlhXMzNfMFlIelVFSGIza0I5MnJEaGQzc01nNnhpUldiUkd1UTg5bk5vRURCMzRaSHdvRHNUaXE4RDlHTlE4TW5mWFplQXRZ?oc=5"
-      ]
-    },
-    {
-      "term": "日傘",
+      "term": "キャンペーン",
       "jlptLevel": "N*",
       "articleCount": 10,
       "channels": [
@@ -64,27 +36,13 @@
       ],
       "score": 35,
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1XSF9leEgzeG1IczRGcDZFRFFGVElma3k4T29DMjhrd080b20zUUtSWkdxaXVrYk45VDA4VnFPaUJ0aXY1dEczVEQwOUlJWGs?oc=5",
-        "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBKOGhfMHhUcUt0TkhrUUhNcmplZElUZEZuSzBTSDN4WFQ3NjN0Rk9SN1c5cXBMdVVKSjZzTW0xY2t0ZWpBZ2d1Vk5NZFRBb3c?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBlNGpNVGRrLWdkcUdGcF9jelZMUmM5OTRqN0tjXzFLM1RHek5UMTlpR21fckp2T0RRMFRib1Vvb0RkZHdlaTMyYk1IdUd0V3Y0M2tj?oc=5"
+        "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1OZE02MWdEMmNBTktlQ3lpT2tLWFNSRGVELWR1OUlHN19tUGZZYWFscTgxVS1MaENqMnZRM1hCblNldUhPUDNFMmRqXzJ3b1RNWWl1OWd1TQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1EZGwza01ONGJXam9kWnkzWFAyR2NHVnB2NVk4SHU3dWtyTVBNVzd2SFB4QUxKUEVreEJJU1BRRUpNTGo3TnhFcmM0MThfd0FPbEluMl93?oc=5",
+        "https://news.google.com/rss/articles/CBMiWkFVX3lxTE13YjhUWjNYQm5OU3BCeWFNc01lV0FoRFMyYTJySE1aLWpJdWpqLWxkR0pCVlRZR0xaWkhkbVZOZERna3ZjbE4zazI4MkV6Vi1SQVI3QTFRZHNhQQ?oc=5"
       ]
     },
     {
-      "term": "バーチャル",
-      "jlptLevel": "N*",
-      "articleCount": 10,
-      "channels": [
-        "news"
-      ],
-      "score": 35,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1aMjlTSXdIb0pYNjlvMXRtdnZYUXNRbTV4MUJRWm42SE5EVE11cWZXcjEwT3pFUHkyOG1RcGxTNXZIU0p6TGZjTVJMa2hNMGJTeW4zbFdndkZ2UUpU?oc=5",
-        "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4yZld2TXZ5Y0NEdFNYaTVtZXA5ZTFQYlVtdThDN2gzUW1oRkxYSGhIVjBuS1Q2akZTQTV1RmpyazNxUjZVekhmeHcwQkd6azU2c0hJYm1hdTRmZVRy?oc=5",
-        "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBLYm9lcFVjMXhRVWxhTlhXMzNfMFlIelVFSGIza0I5MnJEaGQzc01nNnhpUldiUkd1UTg5bk5vRURCMzRaSHdvRHNUaXE4RDlHTlE4TW5mWFplQXRZ?oc=5"
-      ]
-    },
-    {
-      "term": "制覇",
+      "term": "リセマム",
       "jlptLevel": "N*",
       "articleCount": 9,
       "channels": [
@@ -92,27 +50,69 @@
       ],
       "score": 32,
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiT0FVX3lxTE14VTh6NnJXLXhKVmlvYkFkNFFobmVQNzFJaWJYWlFiUW9QdmtVTkFPaXhQeFZiNHFCOHVYb0xKWjdKQmZJYlVodjRsanZQa2c?oc=5",
-        "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1fdV9MU1ZCSnc4UDJLeUFxeXdrbGFzUi1MbFBwU2pERUJKVkJPbkMyWlBRSEt1ZHpsQlFGZG1RSmNIaHZsVHNyT3RMTFgxb1Jy?oc=5",
-        "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBvTGlIM0xocWFMZWRhQXhCcDZBbFAyd1Nicm91UVAyQTctV1lpaWdyMTZsTHpaUGZEa3p6V0F0WmZKdkFmUXNLZE1uckRQbmRWTDhhQS1Zcw?oc=5"
+        "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1yQmZ3Nk9HN2MyR0EyNjl0dU9TY29YRXA0SFBXQ18yOHhib19vbEpocFZ2ajRPS1RJeGFsRWVnTUdwTmxIVWFSQ3VtYnZEbDlUY0RlRVd0RDYtcEZl?oc=5",
+        "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA1Ri1IQXlabnVMOEFUMldFRXVVZUVRMzd4RVFlYTFpbVhqQVVTNElBa3lxSmk2QVZ4TFZMUTZmYmJyNWc1cGJuUlcwQTlNaW9FblFscG1jQ01YTlMx?oc=5",
+        "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB3VUNJY3hQbXFlUmVmTjJSUEZtaGY5LWR6TGFUU0l6d1JqdVd6Z1BxU3VmTXlIRjJNQ0o2LWllTWJJdDBSUURvYlBob1hCWk1UYlozUmNkcW9FbDZp?oc=5"
       ]
     },
     {
-      "term": "ライブ",
+      "term": "連合会",
       "jlptLevel": "N*",
-      "articleCount": 8,
+      "articleCount": 7,
       "channels": [
         "news"
       ],
-      "score": 29,
+      "score": 26,
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yTjJwN3dBUEZtQ0Y0U0ZQc1JqZTc3Q0ZjMlFjbW5ZLV81R0dUcTNvMWtrelVocTVnWlp5NnNkY25udm1IaUk4bW5WYUZZa2RNaEtMYk53WnV4S1Faci1zRVMtRVJBMEs1?oc=5",
-        "https://news.google.com/rss/articles/CBMiaEFVX3lxTE16LTNMVWVLLUxiSmlKTmNpSk84ZzZGd1JmcjlaYU1qcU42b3BZVDlpbUxSSTZRVUtWdlBzRHp3eEVwQXpEckxYUW1jd005eFpjT1RzbUxyVGxKOXpBSGdoVmFqQUlfcjVi?oc=5",
-        "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4yLUxNSFl1bkRBcUp0bEdGTkVjaVg3S0RNaDVOZ3RBUmJPM0pfUXlmS3pNbnlvMm1KbGpXTmtNSmF4bEt5eTlpS3E0UXE5LXlrRWlWQjU3Y3puLW85Zmw4VGlSREc4aW00?oc=5"
+        "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5UemZGWlEzRml3MGt1TWM2aXdHTzhncnZ0SG5aanE5RDNhSU9JaTN6VlBQNmptVkd1WjNWRlh4dHNrbHZtUlpackRZOA?oc=5",
+        "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5XbzZHVUVYdlBhX2RRVnBCbVBvSllyWUNuSEJ1c3RlS3VsTkt0ME5MT1Rxdmx1RjNfcmRHZy1TRTZCNDRHRUQtRWFuSTkzdGtYUzd0SUNycVNhRzZXOWc?oc=5",
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QekFFaUQ2UFphM1dZM3ozWWs4Z3ZhRjdFQ0RxZjVjUE1aWWFxS3hlQ3pTR0p4cTVWUTNwVnEyamZaRWJMaWJRdDM3eU1OZHBIZGhXVWUtYTF5aW1sZjVza0hLc0s0bFRtMWZmMg?oc=5"
       ]
     },
     {
-      "term": "技術革新",
+      "term": "源泉",
+      "jlptLevel": "N*",
+      "articleCount": 7,
+      "channels": [
+        "news"
+      ],
+      "score": 26,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiUEFVX3lxTE94UEVvdmNCZVJGMDNodk5uZzR6V2ZZNkxpUldWSXpucnFiOUVXbGF0MzB1eG5UT1FSUnIyRVpjb1RSQXJsZkkwLTdiQmV5dElh?oc=5",
+        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE96aEcyTWtCbVdjMkJCRTBiNjdRUVIxNy0xczRmNXpqTHFlT2xwLTRLOUpjX3pNWkJUd0UwR1ROVGxBb1U3cUVTTW1DVjdmMTNZcDZNWDBn?oc=5",
+        "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA2Qng0Tjd1dlJOMVFZTzBqXzJaM2JtN3dQOWNIV2dUWS1NVVo0b0Y2MkNhUTJqYzNibllyTTZabk5kT1FHMlF0QkZwOVdoWVVsZDc2endn?oc=5"
+      ]
+    },
+    {
+      "term": "排他的",
+      "jlptLevel": "N*",
+      "articleCount": 7,
+      "channels": [
+        "news"
+      ],
+      "score": 26,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiUEFVX3lxTE94UEVvdmNCZVJGMDNodk5uZzR6V2ZZNkxpUldWSXpucnFiOUVXbGF0MzB1eG5UT1FSUnIyRVpjb1RSQXJsZkkwLTdiQmV5dElh?oc=5",
+        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE96aEcyTWtCbVdjMkJCRTBiNjdRUVIxNy0xczRmNXpqTHFlT2xwLTRLOUpjX3pNWkJUd0UwR1ROVGxBb1U3cUVTTW1DVjdmMTNZcDZNWDBn?oc=5",
+        "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA2Qng0Tjd1dlJOMVFZTzBqXzJaM2JtN3dQOWNIV2dUWS1NVVo0b0Y2MkNhUTJqYzNibllyTTZabk5kT1FHMlF0QkZwOVdoWVVsZDc2endn?oc=5"
+      ]
+    },
+    {
+      "term": "ソング",
+      "jlptLevel": "N*",
+      "articleCount": 7,
+      "channels": [
+        "news"
+      ],
+      "score": 26,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1OZE02MWdEMmNBTktlQ3lpT2tLWFNSRGVELWR1OUlHN19tUGZZYWFscTgxVS1MaENqMnZRM1hCblNldUhPUDNFMmRqXzJ3b1RNWWl1OWd1TQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1EZGwza01ONGJXam9kWnkzWFAyR2NHVnB2NVk4SHU3dWtyTVBNVzd2SFB4QUxKUEVreEJJU1BRRUpNTGo3TnhFcmM0MThfd0FPbEluMl93?oc=5",
+        "https://news.google.com/rss/articles/CBMiWkFVX3lxTE13YjhUWjNYQm5OU3BCeWFNc01lV0FoRFMyYTJySE1aLWpJdWpqLWxkR0pCVlRZR0xaWkhkbVZOZERna3ZjbE4zazI4MkV6Vi1SQVI3QTFRZHNhQQ?oc=5"
+      ]
+    },
+    {
+      "term": "ハラスメント",
       "jlptLevel": "N*",
       "articleCount": 6,
       "channels": [
@@ -120,27 +120,13 @@
       ],
       "score": 23,
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOV01IUmtHdmFzOGtLeC13OE5yWlZMTVZpbFpnR2U3NGVYeTd6TE1wdjdVaHFRRmZRVTdId2huR0V6U2tJYTF1U1BfeTczdjJ3X3U2NVZ2ZWE0STZmSEVueERwclFTN2hnNmhXSmtJNjhOMG1FcjJWTmZTMDZWcnpnTERjWHdja3Y3MXEzZV9yNWcwM2N5TlpjXzV4bmY3YjBnS1VIWEVWcEtRS0NSYUVReTdWa1h0THNzUVRBbFp3NlN4Z1p4SklodzR0aW5aT0RNM0V6b1N3?oc=5",
-        "https://news.google.com/rss/articles/CBMid0FVX3lxTE9yeWZ3LThwaVZPZlJpVnRWdVVPNjVRMmtLazhzaHdZNk5wT1BSQ1dyNFJQNXdVR3lBbHFWRnNRdFJMMjRtaHlpVklBVU5VME56UGVRcXBWeDRLQVhqdUlDc05VRkQ1UnU4bDB6bXAzS0NtaVZSWjhN?oc=5",
-        "https://news.google.com/rss/articles/CBMif0FVX3lxTE9uSElLek51bEtabVJWcllnSHlUQkxNU2VqSzlKczRWbzR2dzN2Y2JyS19wQ0tzd25TRXVrTnJ5VXVCUUtPempDWXRUY1BQNGdTV1UxaUxScnpiRlFWMHk0Q0s3NEZ6NUp6dlhSZEE1Nk5LdTkxRzIteWtEMndkZVE?oc=5"
+        "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5lYWY2NHFkTmxIeF9JdE5lYUJ6LWx3azlKUTcyUEtPSklnSFhmUms3TTNVbHRpa1M1QW52MHlrODlnRE1HZ3RJdmQxYzFNelRoYlpkYzZnNjgxS1RTaTRmcGdhOVg?oc=5",
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QekFFaUQ2UFphM1dZM3ozWWs4Z3ZhRjdFQ0RxZjVjUE1aWWFxS3hlQ3pTR0p4cTVWUTNwVnEyamZaRWJMaWJRdDM3eU1OZHBIZGhXVWUtYTF5aW1sZjVza0hLc0s0bFRtMWZmMg?oc=5",
+        "https://news.google.com/rss/articles/CBMidkFVX3lxTFBoaUhTWGY4NC1kVEZmQkJ6Z2gzYmFIMWJQVVVSRENIMFJrUk5Hd1VrTjBLLVZYUXZrRGdQNjdiLU1NazhDTVNTdzZYSmJITG5HZmRveUFWbTVsRldZZWoycXgwSElHcXI3Ql9xNXVMOU5TaHppaVE?oc=5"
       ]
     },
     {
-      "term": "バレー",
-      "jlptLevel": "N*",
-      "articleCount": 6,
-      "channels": [
-        "news"
-      ],
-      "score": 23,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9tSjlPVFI0TUNKbmx6UUVKUE1JRWtoMzFYSlJ4RlV6Skd5MS1kZWtCdTdTRkZuVGpadDJzQXJ3ZFJjaUdpcDlBMGowUQ?oc=5",
-        "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBJQ3BXS05pMlBFNC1FcVdjMGtpUWUwV19iMUR2R042am80TzYwVEVfWjA5b0tJOTY2bmNPa09ZN0c0dVJmX1ZaMA?oc=5",
-        "https://news.google.com/rss/articles/CBMid0FVX3lxTE1mTk1ucXk5a0RUaFU2QWtRWU9KQnFwMmxyNURyLVpzaHJXeVFybU8zRUdRWEh5UnlPUXhKaTlEbl9yTWEyQV94RHY0U2ZyZmhqdl9ZbXNTbVJTTDNNektaTVNVREhDMmY3bEZ2UEF0eWNrMTNQYU1j0gFzQVVfeXFMUEE4LTdlUTJuTU9VdVBJMTBGeVNNQlNqcmtfcnBrZ0pKNWxTNGdVaHpLbklkSi1vY1ptakYyYUFDc1EwWXFlczVDbGUxaDlnTlRQX0VGanVuU1pzbzZXVG9vSWZnZkNRcVdrYllwNTh3Z2VwNA?oc=5"
-      ]
-    },
-    {
-      "term": "訪れ",
+      "term": "絆",
       "jlptLevel": "N*",
       "articleCount": 5,
       "channels": [
@@ -148,13 +134,13 @@
       ],
       "score": 20,
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBQM1Y0ZEQ3Q3F5T2JQRzA5WXRBcW9vMGd3UHNTVDkzNXJvMG5KY1Z2SkhiaFIxUmZMZE1HWllHU1ZmTDRkZGdJOXhxdjltc0lu?oc=5",
-        "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0wTU1MWEF5c09XMjg0RWdTRGdKZGR5Sm5hLW5WSV9vUFpKXy1OU3lSZXZmUEFid0x5TjRuNDBDX1lFTGwzMHJMeS1MbTdqU0dZUFo2UQ?oc=5",
-        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5taVhEdWVXa096OWFDS0gzaDBWeFlHM0tCUnVTQ0JEUDA4U0pTNGNyeElYUWhJaGZSNnEtSTFkY0YyX0dhYmVJb051T1FkbklIbUF5UHBB?oc=5"
+        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1EZGwza01ONGJXam9kWnkzWFAyR2NHVnB2NVk4SHU3dWtyTVBNVzd2SFB4QUxKUEVreEJJU1BRRUpNTGo3TnhFcmM0MThfd0FPbEluMl93?oc=5",
+        "https://news.google.com/rss/articles/CBMiWkFVX3lxTE13YjhUWjNYQm5OU3BCeWFNc01lV0FoRFMyYTJySE1aLWpJdWpqLWxkR0pCVlRZR0xaWkhkbVZOZERna3ZjbE4zazI4MkV6Vi1SQVI3QTFRZHNhQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1EVXRtV0VXbXBjUFhuaUNuV3hkclVTR1c0dWxib0tEVENqWS11MjY2T3lPNUV3WnRtbnNGX0toTlZIUW5qWjhVY0RjRkc2THRHNFdlUG1wZkJOQQ?oc=5"
       ]
     },
     {
-      "term": "歓喜",
+      "term": "歩道橋",
       "jlptLevel": "N*",
       "articleCount": 5,
       "channels": [
@@ -162,13 +148,13 @@
       ],
       "score": 20,
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1xNE9TXzdrNHJIR0dITS1jaFRaTHd6ZW5hMjZYSmVkZWd1Y0t6emJDc3dqSS11MGI5a3ZITXJRcm91eHJsdVFBeXlHLWctaDRlVG9j?oc=5",
-        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1BdlZqcFFCT1VxN3JsQUxGdjhDR19WU3ZORThoU09IQks1SjdhSWZrQVhPS2w1RmpsWVVTWl9idUhyZEdqcERjNTZUUkZzaEQ2UkE?oc=5",
-        "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBNTktVbzdjaGc4czR5NWM1a2tnU190OXhKQXM5ejRWUHlmaGdOaG5IR0RTalc2a091Tl92dVAwUDFVMlVLdEpsa1FMRkxIbF9QR0dYay0zZw?oc=5"
+        "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tLUtONWhNS2xVOXZwNlRYU0xDQW5xZmd1SjNiWkg1bFl0MnlydE85a0ZRb0NaaHJfVzVBUF9sOHQ0YUhBLUwxLUNZbDc1X3A2Mm1zOGdneUROUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMibkFVX3lxTE85Y0xleW5SQlRPMkVKOGloNmpVRlAyOHRLcDZKMk1aQ1IyRjBwRmpWYXVkMF96OGUzemZ4YnlEWHlUa2kySzBUblN1ZFhyWHltRk15VDR2QkphRlUwNjVtQ2dfLVVZdmlFZ2NRWXdB?oc=5",
+        "https://news.google.com/rss/articles/CBMickFVX3lxTE5HVDMxcXlzNWMydlNWSmY5MTlqbzVXTzBGMEtyRnAtelBUTFFZdkgwNFFRVXR3SWpyQWFfekIzV3ZOZzREUUt4dUFab0RRQ0g2SnlTU0hyaHBJRzExM0xQc1ZRRjJMakVJNUticlRxMTNYQQ?oc=5"
       ]
     },
     {
-      "term": "安打",
+      "term": "事務局",
       "jlptLevel": "N*",
       "articleCount": 5,
       "channels": [
@@ -176,41 +162,13 @@
       ],
       "score": 20,
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBBdnZJNXpJNE9Kbnk2eU9kSjFGdzMyOFN3NFRGYWF2T0ZoZDk2SVdIV0ZyTl9QeldJMmlodTdMTDdhSEQ1NHl3?oc=5",
-        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1oQk5XQjJhdlVza19VQ0FzVjRQWlJoTXQ2NXZ3ejI1NkFVUl9qRGVJM19STlRzTkl3TG9ZOGZBRzhUOFUtUWNOSTdmZ3V1RVMxVVE?oc=5",
-        "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5kel9FaHl2blNpNV9yT0s3R0h6c2c4eTV5RlQxdEJHZENNb0NkWFNhQjZWQ1I0U3lYX3dSYV9tQkx1bXRlczV1SEJSdG43MGgwZlBSS2tIVFBNMFEwXy1zMDNB?oc=5"
+        "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5UemZGWlEzRml3MGt1TWM2aXdHTzhncnZ0SG5aanE5RDNhSU9JaTN6VlBQNmptVkd1WjNWRlh4dHNrbHZtUlpackRZOA?oc=5",
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QekFFaUQ2UFphM1dZM3ozWWs4Z3ZhRjdFQ0RxZjVjUE1aWWFxS3hlQ3pTR0p4cTVWUTNwVnEyamZaRWJMaWJRdDM3eU1OZHBIZGhXVWUtYTF5aW1sZjVza0hLc0s0bFRtMWZmMg?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE5BQUNHZ0JndHNrRzVjS1VMVXFEREdHVmFGdHVOTDBHSXV0NjU4Unc3NVlzYVJKX2QzMVZGNUhUQkVaMC1aelc4ZGlTT19sTjBmbDRJQUVhMTdQZnN0cVpXdnNTdTh2V0dRVnk2djZUSkRVRzRqSlpWUDFvX1pnZUU?oc=5"
       ]
     },
     {
-      "term": "スポーツブル",
-      "jlptLevel": "N*",
-      "articleCount": 5,
-      "channels": [
-        "news"
-      ],
-      "score": 20,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1QNTcza1ItTmlmN0pldnEyTmNWTXdBYURjSlVEcWtMdGIzYUhlZ0lwUnFtT1VMSGRpWU5LLTBqR3dtOU1SNHB3?oc=5",
-        "https://news.google.com/rss/articles/CBMiR0FVX3lxTE8xSUU3cHh6TWtXaGRkanRsWmZxT2VpcDlNdktyYllzRmJEanp5YjNkNE1YTkh4NmZWYVFxNFZFUnp5YnFDbjdF?oc=5",
-        "https://news.google.com/rss/articles/CBMiR0FVX3lxTFA1ZEszNmUxWU9CU2liZ1pFMVMzQWhseFFWODdnUzhQQTd1alE2bmQwRmtDbHhpR1EzbE9zNXVicFQ0aTM3RFhv?oc=5"
-      ]
-    },
-    {
-      "term": "コラム",
-      "jlptLevel": "N*",
-      "articleCount": 5,
-      "channels": [
-        "news"
-      ],
-      "score": 20,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1pNGx1eXhkNDQ3eTRzMFVEOHNzc0x5ZUJZa0dEcHJIS1RHTkoxY25hVDduMmRxU2VyeXhKYll2UEt0RFRyb01QdDVWcVU2VVV2UXNHVHZn?oc=5",
-        "https://news.google.com/rss/articles/CBMiYkFVX3lxTE02OWJvVkkwR1ZlRlNwZXh3VXRMNk0wWGJkeGlEbjZ0eE9RWVJNNWs2cmtWUE1TWmFBaXBJS1Jwa2dRU1ltLXpBZGdWNUdvMERxemozZlU0djVqWDFrT3JZSjZB?oc=5",
-        "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1OOXFCMXBfY0FFY1BKbGFiNnlDU0hPeEJsaDJxNDdtclZVSFNWai1kQmd1MURJYTEyOU1DaE1yZ0xEcDlWQ0NvVjhQYnFNQjdlMGhRU1E1VnFMUXhnMDFqb19JZU9PWnp0?oc=5"
-      ]
-    },
-    {
-      "term": "適時",
+      "term": "遺族",
       "jlptLevel": "N*",
       "articleCount": 4,
       "channels": [
@@ -218,13 +176,13 @@
       ],
       "score": 17,
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1uVGZfRWEtWW8wMHBGblp5dVpyeGdMYTkzVFJrUDdDeEtpV3JlakVOczNhTVg2OVpNLW8yNmh4S1J3YmJLRGlsUXBVRUtrWGxE?oc=5",
-        "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB0ODZsZ2pOY0U3MHhPS1dGeG1ueVk3dHM2VnZUVmc4UkI3X1hMRFVQbVJ5TzViUHljeGZ0OV8xckxSN1MwUGV2dE5ZQ2VYY0JHNFpuaE1wcw?oc=5",
-        "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBRTk5MUUhPUnZjeEN5SVBZWEdfUzVZcWV3czBJRElTTTU0MVVETElPVkppNFpEREFYM0M4blFScFN6dU4yUmN2UTJBWGdYX2U1RGc1Vw?oc=5"
+        "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tLUtONWhNS2xVOXZwNlRYU0xDQW5xZmd1SjNiWkg1bFl0MnlydE85a0ZRb0NaaHJfVzVBUF9sOHQ0YUhBLUwxLUNZbDc1X3A2Mm1zOGdneUROUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMibkFVX3lxTE85Y0xleW5SQlRPMkVKOGloNmpVRlAyOHRLcDZKMk1aQ1IyRjBwRmpWYXVkMF96OGUzemZ4YnlEWHlUa2kySzBUblN1ZFhyWHltRk15VDR2QkphRlUwNjVtQ2dfLVVZdmlFZ2NRWXdB?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE43eC1TcjJLR0E0Vk8xcjA2em5hcnNtZWZsbTBBQjVST3lyRkF4OGVLQ1ZQc0tnN3AxQ0x2a24ya09pZE1wWE82bXIyd0V0VVQ2WXFkakxmRXBLYlNxX2hHT3NTTHdmLXpNeTlGNWtjM0RiQ05pWS13VnF5VXNHbXM?oc=5"
       ]
     },
     {
-      "term": "言える",
+      "term": "親子",
       "jlptLevel": "N*",
       "articleCount": 4,
       "channels": [
@@ -232,13 +190,13 @@
       ],
       "score": 17,
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5DSndTTDBJc2FTdlJzcXZ6SmxoQTFmZnByYzIwcTQyZi1aaEp5cUZVbDRWWklCeDN4U2E1TWNDZngyTW0tNmNfY0ZIMlJOeFJmQ0E?oc=5",
-        "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5JRkM2VkNKTU5majhIbnd0blNFNkFCRVpxNnBmbkJVYnFWZ01YZHd2emIzRDdvdzcydHYxeHd1cTdXdHpteGpGUzFZWmJkcGJvcjZveFUwS2FCYVE?oc=5",
-        "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWnltTFVBajViMmxDb3lQcThOWlZFbENsMVlVNjNfUGJLdXVBaE1DVTFwOENmRkowQWUtZkxzcUk2OTZ0dUZpUE1WenZaNkZ4TmZWVXlCdmg5LUVvY3ZiTDJvUkNIeFhkWGtuaVFVWEpiWHFKNThTTkppcGlKcjZiZTBTU0ZneDhX?oc=5"
+        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50QVBZNEdSTmFNN3FkQ0RmTHJiUlhiT2NaR3BJbHV6NDlINXhkZHR5c01VVmJ2WjBfREZBdmRwNWNxekEzWE5yM1JQTXlvVmRyRnc?oc=5",
+        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9MY2wtM0pVRUFVeTI1SmloNWJ2dEUtNXNBTnJtNlNTemEwWmFfNXdkMjQzWkI4Y01MNnF2emY3T1Y0NkZUb2pSNVgwd0p2RFZkcnc?oc=5",
+        "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5FV2gtd2hxbVo3aENIcHdkalg2cERPRWpTWUpvaTl6RkNNR2doZGlZRFpjVm1qeWJyZ2pqcGFIWGlOdzdfNFFhRFEycjEzdzlLYm1mNzdwZVpEQ1diWWJ4Q3hxMzA?oc=5"
       ]
     },
     {
-      "term": "称賛",
+      "term": "競う",
       "jlptLevel": "N*",
       "articleCount": 4,
       "channels": [
@@ -246,13 +204,13 @@
       ],
       "score": 17,
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBJQ3BXS05pMlBFNC1FcVdjMGtpUWUwV19iMUR2R042am80TzYwVEVfWjA5b0tJOTY2bmNPa09ZN0c0dVJmX1ZaMA?oc=5",
-        "https://news.google.com/rss/articles/CBMid0FVX3lxTE1mTk1ucXk5a0RUaFU2QWtRWU9KQnFwMmxyNURyLVpzaHJXeVFybU8zRUdRWEh5UnlPUXhKaTlEbl9yTWEyQV94RHY0U2ZyZmhqdl9ZbXNTbVJTTDNNektaTVNVREhDMmY3bEZ2UEF0eWNrMTNQYU1j0gFzQVVfeXFMUEE4LTdlUTJuTU9VdVBJMTBGeVNNQlNqcmtfcnBrZ0pKNWxTNGdVaHpLbklkSi1vY1ptakYyYUFDc1EwWXFlczVDbGUxaDlnTlRQX0VGanVuU1pzbzZXVG9vSWZnZkNRcVdrYllwNTh3Z2VwNA?oc=5",
-        "https://news.google.com/rss/articles/CBMif0FVX3lxTFAwbTdEdjN6czVJMUtUQTR2V3N2ZEZCWVZwb3h6N1hKbHlZcjdrbC04OHN4RUlOdE1RaEhaZHZMbk1YRWFLb2t0NWhKRDB1VXlSdXltaHdDTHJRcVMxTmgzaTJfMmdvcWJqaGo4QnJnTkhCMV9hSGoyUzNjRUtveUk?oc=5"
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5aZmdhcTM1LXJ1eEI0dzFWdVVEYnpVbjl0bHd6ZzJJQm1BQkh5c05SR1RMM2RUdHgybGhKTDBOWE53dEkzNG50SUJiMjRLcWtEOVJV?oc=5",
+        "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9iYnhIdHN4N0JXYXVVSDVUeUpPa3kxS05vWndWdmFmSmdXSjJWSFBSY1pydUZoUi1qWWdEWWlsUmlick5LbFVsNmFzamNqaGJ3OVRNdjhRZ20?oc=5",
+        "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Mdldja1FkNEpuS0tiT1RMOVZHREtPMjRDd2RNeGhTcEVKT29CbmppUDBJdUdkbGhVaHlPUXVWalpqN0Q4cXBuYjRtcV9xRXktUklkZDZNOVlKSXpkSEdMazFXQnc?oc=5"
       ]
     },
     {
-      "term": "激減",
+      "term": "異文化",
       "jlptLevel": "N*",
       "articleCount": 4,
       "channels": [
@@ -260,13 +218,13 @@
       ],
       "score": 17,
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5DSndTTDBJc2FTdlJzcXZ6SmxoQTFmZnByYzIwcTQyZi1aaEp5cUZVbDRWWklCeDN4U2E1TWNDZngyTW0tNmNfY0ZIMlJOeFJmQ0E?oc=5",
-        "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5JRkM2VkNKTU5majhIbnd0blNFNkFCRVpxNnBmbkJVYnFWZ01YZHd2emIzRDdvdzcydHYxeHd1cTdXdHpteGpGUzFZWmJkcGJvcjZveFUwS2FCYVE?oc=5",
-        "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWnltTFVBajViMmxDb3lQcThOWlZFbENsMVlVNjNfUGJLdXVBaE1DVTFwOENmRkowQWUtZkxzcUk2OTZ0dUZpUE1WenZaNkZ4TmZWVXlCdmg5LUVvY3ZiTDJvUkNIeFhkWGtuaVFVWEpiWHFKNThTTkppcGlKcjZiZTBTU0ZneDhX?oc=5"
+        "https://news.google.com/rss/articles/CBMiS0FVX3lxTE00VFhqemhFME8tUkZfVUc3Z1dvRm1BZTU2b0dQX3VYQXA2YURpRExBRDdwNi1YQ1NNWFM0bjZCTU5uS2NvbVZvNk9pdw?oc=5",
+        "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBDYlZLSmVxVUYtV3EtMnlSQ1BWVmppWUVSZUVZLUZZRUJYYTJFX21VaGk2N0t1WEJCWHN0bUx6bHdzWXdtMEpuV2N6bEdjWFNwOHk3NjkyX2hyNTQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE94dzhwemhpb1JDN1JnM3ZDVGdrMXNMUDBHTG1nX0NyeHZ5WHVWcnhSVkphZ0RvbGtfNC1Rd3V1eXR1TWxFTWQ1eHRXcjlDclNGUW83NkRsa2g3bGN2SHlqemJjRmpzMG8?oc=5"
       ]
     },
     {
-      "term": "激化",
+      "term": "方向性",
       "jlptLevel": "N*",
       "articleCount": 4,
       "channels": [
@@ -274,13 +232,13 @@
       ],
       "score": 17,
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5XcFRMOXNlZ0ZoNW1uRUh3WXNLWURnaUE3dFozWm5VTC1wNHpYN0RVLS1aQ0Z4b3huYWdBTkZiRmszNFotdlJWamtRSQ?oc=5",
-        "https://news.google.com/rss/articles/CBMiYkFVX3lxTE93N0M5c04xb1NUUmtIVjI1NnBoUmY3NGFPZGE5cExTSXBqSmtzNHFDRnN6NTc5NmlTcXJXLWlNcFRLTVliWVNvWlNwZUdub1ZtX0Z2N3Ftd0dBWnJZUVNuQ193?oc=5",
-        "https://news.google.com/rss/articles/CBMidkFVX3lxTE51TkZab3MtZnVpMzVzbXg1dWxTdHI3S2k2Wm9ZWGtPOXBvc2Nuc2dyMlNOSlVoVGkydzBPUklJM3dWajBrMDJvMVNpVERoYmxVSG4tNndJQVlUZFZjVmZOc2ZoWWtTUUNnLXNtME1lOEtPOXJnMVE?oc=5"
+        "https://news.google.com/rss/articles/CBMiS0FVX3lxTE41MzRjVVA2R1JLRUFrY3p4UTJFOWNXaE9kYWl6YlF3amVEbTJxVDZCNDNGbzA5NFJKWkNBTlZnc2hrR3U3VUpjNXBWUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1abmpXQWJSZHNNUV9raXFQZTV0OXNfR3cwNDF5dC1hZmY5dGhsYzNfdnpTYUxTMkRndlVfZDhPV0k5VS1fSURrTWpXcl9jWXR5Ymx1WlVsUnFxdw?oc=5",
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTE9MOWZhUFNaakJ1TkJJYnA0NU54dVY1WVdsX2g0M0F1QnRWbDF5WUVabnl6WEpyVENYUEdsVm1xQTdNOWNBYV8wMWo3SzdwZ01xRG44dDhFQ3c5eXN1RHhvUVFRWDU5aXVTa3dlNw?oc=5"
       ]
     },
     {
-      "term": "最終日",
+      "term": "搬送",
       "jlptLevel": "N*",
       "articleCount": 4,
       "channels": [
@@ -288,13 +246,13 @@
       ],
       "score": 17,
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBEdllaRHN1YjlEdkxoMmlJTE9NeW9ya1JhV2RqeVR3U0V4QVFLY0FieF9YTXZfOU14WTdqQlljQV9pUkNwRnJn?oc=5",
-        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pcFpNVXFhUVlWMWQ4ZVlnTkR4Q09HZWs2S1lQcnVuQUZDci16eXJpUmV3V1J1RnZPX28wYmc0a1VoV1FhVm5nUzBsc0dOYWlGam1FLWJn?oc=5",
-        "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5mS2d1Xy1IeHkwYW84SXppUEZfOXFTcmNBcU5JdXVsdmtQemZHdl9VbVU0WEtSQ0tVV1Rwc052ZGRJYlVoMXEtTGdSRUhsbWU0eHBMZjQ3S0lLNU5O?oc=5"
+        "https://news.google.com/rss/articles/CBMiVEFVX3lxTE85YUFHdi1Md2tEemdQY1N5Q2tBdkFNM09qclBkTl9rdlY0TUpVMlBKSjdKNmloR0JXMFJLOFdLNW5Ud1RhT2dSdHpSSFpaZllaS0phUg?oc=5",
+        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE96TGwyLWtfSDJPTEZKQWU1OW5vSWVwS1FDWGF3aGJKc3dRZllWWGV1OEtlYzFUbGIyR19SSVJvcTU4RGVSZnF6UWVrbUlQSmNYQWRGZDln?oc=5",
+        "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4wbzc1eE5sSldaTzhHLW5kRTIyWkR1RXNKbkFJcTREZnBlOGpLUWxxc05TVEFIWVJHeksxQ2todHZLS19IZ0Y1TkJDcXV6ekxlZTBfU3R6aGxYelVH?oc=5"
       ]
     },
     {
-      "term": "愛す",
+      "term": "岩礁",
       "jlptLevel": "N*",
       "articleCount": 4,
       "channels": [
@@ -302,365 +260,429 @@
       ],
       "score": 17,
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9tSjlPVFI0TUNKbmx6UUVKUE1JRWtoMzFYSlJ4RlV6Skd5MS1kZWtCdTdTRkZuVGpadDJzQXJ3ZFJjaUdpcDlBMGowUQ?oc=5",
-        "https://news.google.com/rss/articles/CBMibkFVX3lxTE9XaUZVZ042RV9ZX1JFanZMVU5QVEJJajh1NzhZU0ZnZGMzZElCSC05TURZb0pqZGxJX3RNckxNZTNlVXVaeGc4U0RfVkhKbWh4ZnhUTTFnLVU0U0h3b01hdGtLTkdQc1czN3B6ZGJn?oc=5",
-        "https://news.google.com/rss/articles/CBMid0FVX3lxTE4zZF8zendMWllISlUtd05lU01oYS1JRTlKMTk4Y0hMMHlzMk1zUXZNVHFTMlY1NnBGNUwtbU9oMU4yZXh6ZGxFalVLWl9Nd0UtQ0EzMDF3NmZBUnFuRUI0b2lLUmVEbXl2ZkpwWC15NllfUGtqNmE00gFzQVVfeXFMT0RkbzN6NTI4TVBIZVNiVnNrQ3M3T2lKNU5mTlNvOEh6ZjJOUW10dW5HbnR1X3dDc2V3S0VGanZ5TkFYd01EcGxyU0t0eHl4OHdPdmljZFQ3dGNlZXUtZm1hdDRtR09sdWdYTTN4SmtDQm9tZw?oc=5"
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTE5LaE1Ib2luSzZBc3dLcWoxellqLUlFc2k2b3loQmwtWGpDaC03YzJRM0lqOWJHbHYwWUdxZC03dHNjRU5JR01NeDFMT2NTejFZLUVkWThnVjJSVDlKNTFSeGpLNXVyVy1IbU5GNQ?oc=5",
+        "https://news.google.com/rss/articles/CBMidkFVX3lxTFBZZTh6VFBPLVNmdlhkWnp5WGdNVG9CWVVYRlNJTGkwWXQ4N1VzdTVZTnFwWGlERkRVR3djNmlrYmo0X2xzS3ZPaERDY1RLdmozNU9EV0ZpS3ZoQ291bTJ0NG1Zd1JVVk9CODdSVzdyQjZiaW5fWVE?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTFA2RDQ4ZG5FM2FEX1lERk5RY3ljZENyR3hOczJsazBCcDVIOWpCS2Zkc2xsdzQwOVEySlo4a084czc5a1JvNFdBY19SWVc2elh1dXpKdlZDejM0bVBFMjdxQmJ1aFlUVjF3aFJTWmJMSGY4dDhlanh5NjJ4X004MVE?oc=5"
       ]
     },
     {
-      "term": "正規化",
+      "term": "射撃",
       "jlptLevel": "N*",
-      "articleCount": 3,
-      "channels": [
-        "community"
-      ],
-      "score": 14,
-      "sourceUrls": [
-        "https://qiita.com/atsushi11o7/items/1a66b10c02d825363b29",
-        "https://qiita.com/sakutto-panda/items/91fb2eb1a2f2338efcd9",
-        "https://qiita.com/taitech_dev/items/13280e4bcc8c4bd0d914"
-      ]
-    },
-    {
-      "term": "検定",
-      "jlptLevel": "N*",
-      "articleCount": 3,
-      "channels": [
-        "community"
-      ],
-      "score": 14,
-      "sourceUrls": [
-        "https://qiita.com/issy929/items/5827cd672ad5582bacb2",
-        "https://qiita.com/kaiju_t_e_k_04/items/919791997e2c5cc5b18f",
-        "https://qiita.com/mrmrmr/items/c5917c24fd34d53bded1"
-      ]
-    },
-    {
-      "term": "実践的",
-      "jlptLevel": "N*",
-      "articleCount": 3,
-      "channels": [
-        "community"
-      ],
-      "score": 14,
-      "sourceUrls": [
-        "https://qiita.com/Maku-Inc/items/5f2faecde1344258e5e8",
-        "https://qiita.com/Sakaaaaai/items/fe205ab038993feacf77",
-        "https://qiita.com/locallab/items/89abb61b0b4f2a95b2d1"
-      ]
-    },
-    {
-      "term": "女神",
-      "jlptLevel": "N*",
-      "articleCount": 3,
-      "channels": [
-        "community"
-      ],
-      "score": 14,
-      "sourceUrls": [
-        "https://qiita.com/bug-mi-dev/items/8d1ba6b124aa7e648b3e",
-        "https://qiita.com/bug-mi-dev/items/91ce5281536ca05b2506",
-        "https://qiita.com/bug-mi-dev/items/df5e5d8359679f23809d"
-      ]
-    },
-    {
-      "term": "使い分ける",
-      "jlptLevel": "N*",
-      "articleCount": 3,
-      "channels": [
-        "community"
-      ],
-      "score": 14,
-      "sourceUrls": [
-        "https://qiita.com/hikariclaude01/items/e54c70c90c6aa84d0f66",
-        "https://qiita.com/kotajobs0/items/93a1468e0bd2ee7b82c3",
-        "https://qiita.com/skrtk98/items/3cbb4eae1a8e00ef8e3a"
-      ]
-    },
-    {
-      "term": "ライブラリ",
-      "jlptLevel": "N*",
-      "articleCount": 3,
-      "channels": [
-        "community"
-      ],
-      "score": 14,
-      "sourceUrls": [
-        "https://qiita.com/masayasu_t/items/807dc40e4a37aa9124d1",
-        "https://qiita.com/mi8bi/items/b7580da48171c9ea0c4c",
-        "https://qiita.com/sugarfree/items/fb0ca554751dd2cb509e"
-      ]
-    },
-    {
-      "term": "メール",
-      "jlptLevel": "N*",
-      "articleCount": 3,
-      "channels": [
-        "community"
-      ],
-      "score": 14,
-      "sourceUrls": [
-        "https://qiita.com/itbibouroku/items/6fda11c0b1bd3ddde684",
-        "https://qiita.com/jasonbrrand62/items/e7549fc5319df94838e6",
-        "https://qiita.com/kto/items/92d1e1647e5f8eb88b54"
-      ]
-    },
-    {
-      "term": "パフォーマンス",
-      "jlptLevel": "N*",
-      "articleCount": 3,
-      "channels": [
-        "community"
-      ],
-      "score": 14,
-      "sourceUrls": [
-        "https://qiita.com/Karentia/items/78294e97ce53bd60eb8f",
-        "https://qiita.com/Karentia/items/afde9e96b45ffe611cd8",
-        "https://qiita.com/gts/items/7abbf4dd9d6a9a81ba2c"
-      ]
-    },
-    {
-      "term": "バージョン",
-      "jlptLevel": "N*",
-      "articleCount": 3,
-      "channels": [
-        "community"
-      ],
-      "score": 14,
-      "sourceUrls": [
-        "https://qiita.com/htnk/items/cb165d4ea7508faadf96",
-        "https://qiita.com/jiis-sasaki/items/178a8b20280df919d6a0",
-        "https://qiita.com/sasukkun/items/70ad98ebfed8129c7dd3"
-      ]
-    },
-    {
-      "term": "シミュレーター",
-      "jlptLevel": "N*",
-      "articleCount": 3,
-      "channels": [
-        "community"
-      ],
-      "score": 14,
-      "sourceUrls": [
-        "https://qiita.com/NovaSolver/items/332396dd2cbac3a856dd",
-        "https://qiita.com/NovaSolver/items/787d0665f9d92b05b2c5",
-        "https://qiita.com/sagochiko/items/77ba979b5cf15d28a8c7"
-      ]
-    },
-    {
-      "term": "浜",
-      "jlptLevel": "N1",
       "articleCount": 4,
       "channels": [
         "news"
       ],
       "score": 17,
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0wTU1MWEF5c09XMjg0RWdTRGdKZGR5Sm5hLW5WSV9vUFpKXy1OU3lSZXZmUEFid0x5TjRuNDBDX1lFTGwzMHJMeS1MbTdqU0dZUFo2UQ?oc=5",
-        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5taVhEdWVXa096OWFDS0gzaDBWeFlHM0tCUnVTQ0JEUDA4U0pTNGNyeElYUWhJaGZSNnEtSTFkY0YyX0dhYmVJb051T1FkbklIbUF5UHBB?oc=5",
-        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9uTnQ2QVcxaWo1M3hxRUt2dU5kS3Z5Z3oxV1VLbUE1SG1raHh6M3BVRTlFZE5mT1F1SzdMNGp0aGdnYUJFTDBRRlVGT3hBQ2xQejB6SWhB?oc=5"
+        "https://news.google.com/rss/articles/CBMiZkFVX3lxTE96WllvdDZTZ2ZqM3NJNUlWVDVuWXdIOHFiN1RqVzJUaGZwckdLRHNXUmhZVWtlWUdQelJhUGlIVlhqT3FDN2EwVndaZUlqT3I3b054bFkzTnZhRm0wdWFZWnI5ZXhvUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMidkFVX3lxTFBZZTh6VFBPLVNmdlhkWnp5WGdNVG9CWVVYRlNJTGkwWXQ4N1VzdTVZTnFwWGlERkRVR3djNmlrYmo0X2xzS3ZPaERDY1RLdmozNU9EV0ZpS3ZoQ291bTJ0NG1Zd1JVVk9CODdSVzdyQjZiaW5fWVE?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTFA2RDQ4ZG5FM2FEX1lERk5RY3ljZENyR3hOczJsazBCcDVIOWpCS2Zkc2xsdzQwOVEySlo4a084czc5a1JvNFdBY19SWVc2elh1dXpKdlZDejM0bVBFMjdxQmJ1aFlUVjF3aFJTWmJMSGY4dDhlanh5NjJ4X004MVE?oc=5"
       ]
     },
     {
-      "term": "告げる",
-      "jlptLevel": "N1",
+      "term": "宝くじ",
+      "jlptLevel": "N*",
       "articleCount": 4,
       "channels": [
         "news"
       ],
       "score": 17,
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0wTU1MWEF5c09XMjg0RWdTRGdKZGR5Sm5hLW5WSV9vUFpKXy1OU3lSZXZmUEFid0x5TjRuNDBDX1lFTGwzMHJMeS1MbTdqU0dZUFo2UQ?oc=5",
-        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5taVhEdWVXa096OWFDS0gzaDBWeFlHM0tCUnVTQ0JEUDA4U0pTNGNyeElYUWhJaGZSNnEtSTFkY0YyX0dhYmVJb051T1FkbklIbUF5UHBB?oc=5",
-        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9uTnQ2QVcxaWo1M3hxRUt2dU5kS3Z5Z3oxV1VLbUE1SG1raHh6M3BVRTlFZE5mT1F1SzdMNGp0aGdnYUJFTDBRRlVGT3hBQ2xQejB6SWhB?oc=5"
+        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1uZng0djM2VnFfZXRVcTFTMHhPcU96YXpNdHhOcHVjUVhwdm1ZZ2tpTy1USWQ5Y0Q4czY1NnhWR1ZibEtKM1N2MFdYUkRkblMxdlBfNlBR?oc=5",
+        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zTVhadU1heUpmTm45d3Ntc2ZTQnlFRjZKUjd1cGZfbzJpVG41MzdieXBGRzFGNTd6a3hUQUNoaExTR29zNl9hNDJlYkJTTU5lTXE0bE9R?oc=5",
+        "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBETW9HZnk4MlgwdUVhaWRBUm8xS3cwcnpWR1VIRVdCRXF1NTBseWFMaWJfcGg3MS02NTFiSmtQaVlmOS1samxnZWZGOXhBQTdiNmpoTU9B?oc=5"
       ]
     },
     {
-      "term": "投入",
-      "jlptLevel": "N1",
-      "articleCount": 3,
+      "term": "基本方針",
+      "jlptLevel": "N*",
+      "articleCount": 4,
       "channels": [
-        "community",
         "news"
       ],
-      "score": 19,
+      "score": 17,
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMioAFBVV95cUxNU0NkUHJCeFhrLWRnUlFWSTN0TGxZUl9QNG9MdEowcHdrajl0Qjh6b3FueGFNS2p6VEhZdlNRWDRSSUduSDhYeDU3QllFaEhVNEJ3UGZkRDJYX0xGZkdocldiVk1WTUZYUG9mSVJWeUk1a2g1b1p4anNEdEtZUmNBdzZicWw3Nmw4UGplaV8xNHRfUGYyMUZXOXo3V0FmSE9z?oc=5",
-        "https://qiita.com/bug-mi-dev/items/91ce5281536ca05b2506",
-        "https://qiita.com/lhjjjk4/items/3754abea83272df41620"
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTE5uNnJraHFCOEhEM2tRaDF5WGhxOHRLTFEybWEyNHNxNHU2M0FSdC1jQzNwTmlSZ3pLWU5wTTZ4dENZYTZVVVR2ajBmaFRlcmEzVEl5QlRNU3RxTTZJTmhjYmdldW12UExhbTc3bA?oc=5",
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTFB4RmR5ZnJoNVFlTEtPNzhuNmhXSFZQbDNpSTEzYnpGUXNiNEk5MnZYTlBTWlh3Rm1Qa2JWUjY3cHdYUERaSUZGY2MyRVlqb1JsV3NzdHhKTlJJekVwbDdidEtwLWJ4a1hzS0ZsNg?oc=5",
+        "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jaGdXQXJEZ2pMYVRET3VTNjNwQXFXMXFYZXh4VXJPb0RGVHJhQll3d3RzQWZaY2J3ZHFaUXFMbjVidC1pNE45VlJrMGRETk04TlJmb3FuT2xtM01KaHBhM0pNZGpvZTc3aFdXOElFSHNaYzNO?oc=5"
       ]
     },
     {
-      "term": "廃止",
-      "jlptLevel": "N1",
-      "articleCount": 3,
-      "channels": [
-        "community",
-        "news"
-      ],
-      "score": 19,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiT0FVX3lxTE50b2pNcEZDV2NxV3hJYzNBSHRNc0lJVmF4cUdKOF85SDVKSmhTcE1SYndTVUlHU3lwXzR5dXVnNHgwSVJOaFJjczNHWDNiUkk?oc=5",
-        "https://qiita.com/hibiki-ishida/items/4042d877b0a5668c4dc9",
-        "https://qiita.com/locallab/items/89abb61b0b4f2a95b2d1"
-      ]
-    },
-    {
-      "term": "再現",
-      "jlptLevel": "N1",
-      "articleCount": 3,
-      "channels": [
-        "community",
-        "news"
-      ],
-      "score": 19,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4xRWo5RTNwVmJZcWRXcGRIQkFlQTNxYkdZZkttUS02WE9BcVZ3bWpMN29Fd1dMTk5fcExEeThoUkJFV2s2ZUZYMVJ4ZUYwT1pZdjh2RG1B?oc=5",
-        "https://qiita.com/bebebefu/items/668eb03f2d22318e1754",
-        "https://qiita.com/ennagara128/items/4b8bfd96b1fe773b9e28"
-      ]
-    },
-    {
-      "term": "補足",
-      "jlptLevel": "N1",
+      "term": "術",
+      "jlptLevel": "N*",
       "articleCount": 3,
       "channels": [
         "community"
       ],
       "score": 14,
       "sourceUrls": [
-        "https://qiita.com/bug-mi-dev/items/8d1ba6b124aa7e648b3e",
-        "https://qiita.com/bug-mi-dev/items/91ce5281536ca05b2506",
-        "https://qiita.com/bug-mi-dev/items/df5e5d8359679f23809d"
+        "https://qiita.com/Maku-Inc/items/b9509a4ae5666134edc9",
+        "https://qiita.com/NovaSolver/items/98663b475c772b6930ad",
+        "https://qiita.com/lumichy/items/de990e08a81788b8b0fa"
       ]
     },
     {
-      "term": "文書",
-      "jlptLevel": "N1",
+      "term": "統計学",
+      "jlptLevel": "N*",
       "articleCount": 3,
       "channels": [
         "community"
       ],
       "score": 14,
       "sourceUrls": [
-        "https://qiita.com/engchina/items/c324740d386fa46048f2",
-        "https://qiita.com/penta-design-system/items/185c7e45f4ce6037ac64",
-        "https://qiita.com/realbios/items/ef477789bd23aa06e67a"
+        "https://qiita.com/ai_lab_datascientist/items/afb92aec180cc29deaea",
+        "https://qiita.com/kooohei/items/c63ab2c3616c156f5321",
+        "https://qiita.com/tikeda123/items/42c76cd1fa9679040222"
       ]
     },
     {
-      "term": "勝利",
-      "jlptLevel": "N1",
-      "articleCount": 3,
-      "channels": [
-        "news"
-      ],
-      "score": 14,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5FNmNQYjhsdlJHSFFhOGxQSjFpRldaSnA4RWx2ekdOVVhGeWZGZXVadTc2VnVRUXEwa2dSQnhJUW91TlJhbnAybFVSNmtMSlNMc185RA?oc=5",
-        "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBVTlBVZV8yakJEYVhrVlJkcW1wejFmT3lUT3IxWllMMXRmSHlNbUZWd3hOYXVjX2RTVEFnTVZOMWVFRlRWWGZuRjBuMXhGVGZ0ZjhCd01rRU5vdXJUWDdiay1sOFo?oc=5",
-        "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1OOXFCMXBfY0FFY1BKbGFiNnlDU0hPeEJsaDJxNDdtclZVSFNWai1kQmd1MURJYTEyOU1DaE1yZ0xEcDlWQ0NvVjhQYnFNQjdlMGhRU1E1VnFMUXhnMDFqb19JZU9PWnp0?oc=5"
-      ]
-    },
-    {
-      "term": "判定",
-      "jlptLevel": "N1",
+      "term": "智能",
+      "jlptLevel": "N*",
       "articleCount": 3,
       "channels": [
         "community"
       ],
       "score": 14,
       "sourceUrls": [
-        "https://qiita.com/agentmemories/items/d4302823e559ff4f6bcd",
-        "https://qiita.com/realbios/items/3e4f1b4b6b9c2e356758",
-        "https://qiita.com/sakutto-panda/items/91fb2eb1a2f2338efcd9"
+        "https://qiita.com/dzv37fchsf/items/b30f9e3658b3b2d6484c",
+        "https://qiita.com/fkdoae5wjp/items/6314bad139e2b49dff0b",
+        "https://qiita.com/g332o4ozmn/items/ed461a6cd40768698d18"
       ]
     },
     {
-      "term": "トラブル",
-      "jlptLevel": "N1",
+      "term": "工程",
+      "jlptLevel": "N*",
       "articleCount": 3,
       "channels": [
-        "news"
+        "community"
       ],
       "score": 14,
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBENnlJUHkwQnZxcnFwR21OSW1qbXNaOS1oc0ROdklLUU1ZMHFOajV4MXE5aFYxbmJ6V3pVSEJkU0VwQ2IwTXVQLXlWUQ?oc=5",
-        "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB3cm5pVFcwRzlFRVFUU0xHbkVEc2JtWjNjcjFfR2pjcExYaHZXWmFtbFRiRmZ3TDhHcjQ0N09VSmlNZWYzV3VxQ3NCWUo1c3lDbzRDUUhVdw?oc=5",
-        "https://news.google.com/rss/articles/CBMiakFVX3lxTE85UWJGdUlmZHYxZlNrX3pOTjFrZ19qTndQdWNuaVFHNVhod1NCMjRqN0tCcEFoeHZSSjZKX0hmZVFsM1ViVFQzb0NoQkF3WEV0bWJLY3VpakoyN3l0Q2hkY3pTNHJpWllKaFE?oc=5"
+        "https://qiita.com/kawabe121/items/13c124ce9cfb70e2faf9",
+        "https://qiita.com/ohkurayohei/items/cfc2011e7a5a22f625eb",
+        "https://qiita.com/yamazaki_yuto/items/be3da528d2e94ca0c73c"
       ]
     },
     {
-      "term": "ゲスト",
-      "jlptLevel": "N1",
+      "term": "事務",
+      "jlptLevel": "N*",
       "articleCount": 3,
       "channels": [
-        "news"
+        "community"
       ],
       "score": 14,
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiX0FVX3lxTE90S1J0bHBxazdlY1pWYXViZzhqcElreENjaTZEQk9KeEhCZnQzbWtaWVVQY2ZRWFBybjZEQWsxMWlNQ0ROaEQtVllLN0dBbVM1d2xCSUY0aVNiaHhLN0hj?oc=5",
-        "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1VUEJKWU5tOWZ0YUNMMDUxZTFQNzE3UmxtRzF6Nnd0TkNUT3o1RjRvS2gzQ1J2RFMzYnJjYUdleWtxYm00ZE9zenFWTXVuc2ZEZjl0RkFteDgtenNvZlE?oc=5",
-        "https://news.google.com/rss/articles/CBMie0FVX3lxTE9PME9ROExYODNhT3JCOS03M2x5d3o4R0JOUG91RXZ0bFlJMHZvZnFHdEQzMlB1ZjRsd1ZOa1RONl9sTXRHaUpaVGRUYkJNS1NndHpnZE9DbWJsbmpFb1VQMXZhQ0JzVkRRbmU0TzQtRC1Ed2dXSExtYlBDUQ?oc=5"
+        "https://qiita.com/mi-ta/items/167ff60eb89cf2806cc1",
+        "https://qiita.com/mi-ta/items/529b9216ef41b79dd6aa",
+        "https://qiita.com/mi-ta/items/7cd9778690f1d54fd246"
       ]
     },
     {
-      "term": "配置",
-      "jlptLevel": "N1",
+      "term": "コンテキスト",
+      "jlptLevel": "N*",
+      "articleCount": 3,
+      "channels": [
+        "community"
+      ],
+      "score": 14,
+      "sourceUrls": [
+        "https://qiita.com/Eito-Atsuta/items/14dd02d379287271ab7b",
+        "https://qiita.com/hanakata/items/67a2880265eac8625eff",
+        "https://qiita.com/lumichy/items/de990e08a81788b8b0fa"
+      ]
+    },
+    {
+      "term": "进化",
+      "jlptLevel": "N*",
       "articleCount": 2,
       "channels": [
-        "community",
-        "news"
-      ],
-      "score": 16,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYmI1SUxORUZsVFpuOHhJMnlubU8weXd1bXhjZ05ZY2loY0pDNnhfczFwUHcxMGFrQTktdXVzWDFKaWRYMEtqdmhVVXJFZGZfdEF6d1JITmRMb3FtNkMxNHRmalZBc3I0R1VyVkk5VXl4YUViX0dUeHhGMTFSVGdfZGYxMFFMdnhJRm80TVVPeEc5UUtEVTJVVFBiT0M?oc=5",
-        "https://qiita.com/issy929/items/4f023701102737d49f58"
-      ]
-    },
-    {
-      "term": "一息",
-      "jlptLevel": "N1",
-      "articleCount": 2,
-      "channels": [
-        "community",
-        "news"
-      ],
-      "score": 16,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMibEFVX3lxTE5QVWRJS2R1VlY4dzktOVRqUWFBSHg1bUFwZ0F3UW5OeFYyaXFibmpZMFFWdF93dlJuTlBDWUtSOWdyeHJicDBGSmJwSGNvb2hpelY3bXNjTGd6RWpGSU1wakMzc2tFLW96QVFLSg?oc=5",
-        "https://qiita.com/taitech_dev/items/13280e4bcc8c4bd0d914"
-      ]
-    },
-    {
-      "term": "サイズ",
-      "jlptLevel": "N1",
-      "articleCount": 2,
-      "channels": [
-        "community",
-        "news"
-      ],
-      "score": 16,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBYTjBzQmRyXzM1UTJqa0s1bGtFOTZmb3JzWEFNMV8tV0oyb3JBdGM0cEFHRjZVOTNWRmRRaXl1UTROVU9fbUhzXzc1S1hfTHBwMHRhVDZn?oc=5",
-        "https://qiita.com/mori-dev@github/items/8f25cb9f8e793ac2e093"
-      ]
-    },
-    {
-      "term": "騒動",
-      "jlptLevel": "N1",
-      "articleCount": 2,
-      "channels": [
-        "news"
+        "community"
       ],
       "score": 11,
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mUEZ4Wl9SQ1JRTWhUU2NsdXRpd2F6aG0tTDlubk8zenFObTFjcFh4cFR6NXpTaXpUaGdVSV9xWG9iR1JCdGZnY0VoUHVoMWtYbE12VF85cGVtRmUwdTdad3ZiamRfSU1DWEtQLWVFYw?oc=5",
-        "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNcDFlcVd2MlRIQ2ZDWjRLRVozWnEzVzhka29vcnNBUzRaOTdnblJuVjB1Qi00T3VKaG5HTWo1NEoyZDFWNWpxUElFdnV3SlhPb2VJWXpVVmRaQmt5NnhCNUxHSV92MENib0RPdUxxVUNQX1h3bndmYWszSG5fdk0?oc=5"
+        "https://qiita.com/dzv37fchsf/items/b30f9e3658b3b2d6484c",
+        "https://qiita.com/furuse-kazufumi/items/81e6e603ed93206736c2"
       ]
     },
     {
-      "term": "持参",
+      "term": "転職",
+      "jlptLevel": "N*",
+      "articleCount": 2,
+      "channels": [
+        "community"
+      ],
+      "score": 11,
+      "sourceUrls": [
+        "https://qiita.com/Skillsheet-Port/items/c423fa4c983ca8a6c8e0",
+        "https://qiita.com/siam__/items/5e650661342baf3be0f6"
+      ]
+    },
+    {
+      "term": "課金",
+      "jlptLevel": "N*",
+      "articleCount": 2,
+      "channels": [
+        "community"
+      ],
+      "score": 11,
+      "sourceUrls": [
+        "https://qiita.com/Synthorai/items/e6ec113992eb2ef48add",
+        "https://qiita.com/papa_story2010/items/f10bac569cc0b01b71f4"
+      ]
+    },
+    {
+      "term": "組み合わせ",
+      "jlptLevel": "N*",
+      "articleCount": 2,
+      "channels": [
+        "community"
+      ],
+      "score": 11,
+      "sourceUrls": [
+        "https://qiita.com/sugarfree/items/9100866c6f39b9bb42b9",
+        "https://qiita.com/tetsuko_room/items/ee43eb9946acb6f8d19b"
+      ]
+    },
+    {
+      "term": "揺らぐ",
+      "jlptLevel": "N1",
+      "articleCount": 9,
+      "channels": [
+        "news"
+      ],
+      "score": 32,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiUEFVX3lxTE94UEVvdmNCZVJGMDNodk5uZzR6V2ZZNkxpUldWSXpucnFiOUVXbGF0MzB1eG5UT1FSUnIyRVpjb1RSQXJsZkkwLTdiQmV5dElh?oc=5",
+        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE96aEcyTWtCbVdjMkJCRTBiNjdRUVIxNy0xczRmNXpqTHFlT2xwLTRLOUpjX3pNWkJUd0UwR1ROVGxBb1U3cUVTTW1DVjdmMTNZcDZNWDBn?oc=5",
+        "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA2Qng0Tjd1dlJOMVFZTzBqXzJaM2JtN3dQOWNIV2dUWS1NVVo0b0Y2MkNhUTJqYzNibllyTTZabk5kT1FHMlF0QkZwOVdoWVVsZDc2endn?oc=5"
+      ]
+    },
+    {
+      "term": "負担",
+      "jlptLevel": "N1",
+      "articleCount": 5,
+      "channels": [
+        "news"
+      ],
+      "score": 20,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9kdzNhR0RVWmR3dEQtdWx3cjVuTndOTVIxUi0wdUwxWVA5Y05ZenBnM214QnZwcG5sN0JiYmNJaC1YVWM2Y25PenpDZXpBT2Nmanc?oc=5",
+        "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41akpyOWRoNDhfQlNvQmRGMVRIWjdlbWlBR3YxXzdPYnRXSG5RdFI2QV93dGtvay1XZVFzQkJ1TXltbHFuWk5kVHd1Sy1xV2ljdkU5cVdpNENoQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTE1RTklzT1FvTXRibEp5Z1BjSG1NcHd0TGNhXzdta2llQWlPcGV6TndSZWY4WGZrSldOQ09pTWI3R0ZBRUZfSjBhTlFRcDVkQWc2UE8tc1RIWWFUQWlWQ1k2VndhUHRsQUxPNXRtRA?oc=5"
+      ]
+    },
+    {
+      "term": "格差",
+      "jlptLevel": "N1",
+      "articleCount": 5,
+      "channels": [
+        "news"
+      ],
+      "score": 20,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41akpyOWRoNDhfQlNvQmRGMVRIWjdlbWlBR3YxXzdPYnRXSG5RdFI2QV93dGtvay1XZVFzQkJ1TXltbHFuWk5kVHd1Sy1xV2ljdkU5cVdpNENoQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBVNW84VElydnpzX3VPb1FYejFWS3ZwdW1ud0JoS2F1dTBCRlhONmtTQ0RiVVNIVmpmX0xaT2l6TTh1QWFGMWw3bG1rMFNsWWhVUWF4c3ZIODBpRU9WNlg0?oc=5",
+        "https://news.google.com/rss/articles/CBMiYkFVX3lxTE85QzdvbE1OeWN3V0kwU0lBSWlYZ0V2aE1QSDJuaWZOcFlnVFptZDlkajJXWmxDQ1l3V2pFMlpUdW5sOVR2NHE5MFZ4OVUzUk54QmZNZUh0LWpESnBOLS00S2Rn?oc=5"
+      ]
+    },
+    {
+      "term": "情勢",
+      "jlptLevel": "N1",
+      "articleCount": 4,
+      "channels": [
+        "news"
+      ],
+      "score": 17,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9WblNaYlpQYkc5ZEI1XzQxN0VoV2plcjVQeGxQVXJlLThMWW9ESDNWV3BkOTBacHhWNVpqQl9rdnVweWNlTURRVzNTVWFoZTdBYmNtTg?oc=5",
+        "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5mSndSMUUxbFpEb2JGdnVpZHpiXzBqR3g3MEswWEU0b0tza3hJbDViRXFCM3E5SnIwS3RHRHJNcDZTS2l5N0R5X05Ib3lQN0luc0lsMFVUZi1CMU01RW5Z?oc=5",
+        "https://news.google.com/rss/articles/CBMiYEFVX3lxTE42LUFrWmd0UW1LckQ2NjBTclNPWUZueFQwOHM2RFFNaDd4TzYyNGNLQVhCenVyd3JPbmNvMGFMQjFla1hnbXE0U0k4RFh3cWR5T0JjajJfMEJtc0J3UFRHeQ?oc=5"
+      ]
+    },
+    {
+      "term": "実家",
+      "jlptLevel": "N1",
+      "articleCount": 4,
+      "channels": [
+        "news"
+      ],
+      "score": 17,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiTkFVX3lxTE12blFuaEQ1NmVoS0RKLWVXSHYwN0poUmFmNzhfSXBLbGhkOHQxbU9QY3M2b3cycnU1WHhrVFRqRnBncEdLT2Mza3NlbklUQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1Zb25YaFdOZDJfbE9LbURqbWdZcFFoTlREN2hRTUc2RWVLMmYxTm1vTEh5NV84ZHFIQmo4U1RiOXVCWlZsZkxVRkhmNHVCMmNEb1hKeWZyQVM?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJV3gwcDdpOFQ4OGRVdGRRUVJ0WUhrWlFaSndXOHNKVnhmbFRvY0ZBaGxyS0YtaGVwVjFmd21MUEhpMWNmdkZzNmpWaDNNV19TRFdhMVcyZmlqbFBuY054eVMxSkY0TVR1WG8xZ1ljYzhNSnZBUHVIamF5RHRTNjQ?oc=5"
+      ]
+    },
+    {
+      "term": "取り組む",
+      "jlptLevel": "N1",
+      "articleCount": 4,
+      "channels": [
+        "news"
+      ],
+      "score": 17,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9CNWRYQlZPd0E0amE0dC1xR0R0TUpjZmd4Tlk2WWtsdjZiU3Q4RnlISGxCRHpCYXJsUEdNbkZlbXFWRm16b2xLUTl6WkJyRVBob1FWTy1vRjctNkJxc0ZpRS1zTk5tOHY1?oc=5",
+        "https://news.google.com/rss/articles/CBMiakFVX3lxTE5wRFBaOEhWX1VHVmNUeTAtMEF6NzB2N0QyODVyaGpQRlAzejRRSXB5dkJmTmJCZkktSE52c0hZSmFiZ0hYMG50WWRMakxZSlNRNTF6TVlTbDFjai1uWXlyTHozQl8tdVRWaEE?oc=5",
+        "https://news.google.com/rss/articles/CBMidEFVX3lxTE81aXJIM1JpZGNxaVZXTjZrZXJCRUNBYTZVTXJobURpbFNrbkpyQXZhdGQ3MVR2TnczTXJCVEJjRHZoN2hPUWFTTk44aFZSeDU5ZmFxMWVST3B2UEtCU0YxeGo2TWtod3NFSl80aGNwa3Vudm9p?oc=5"
+      ]
+    },
+    {
+      "term": "内閣",
+      "jlptLevel": "N1",
+      "articleCount": 4,
+      "channels": [
+        "news"
+      ],
+      "score": 17,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBVYXRIbUY1V2JuTVJESk11Sk12alVpUVRUZ1k1QV9zUkNJRlp1RVJMaHRwdzZBR1AzWXJONmhxaGYzWFlMS0ZZbTVvaWhpR2Q3LTZtdkRPYTVBXzcxcjRN?oc=5",
+        "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ObkdkUkRYWXRZRi1ZZk5FaXZzeUV3bzUwWVhreDRBalhLU2VSSWU4MHNYaXYydnZJR1pfdlcwVWQyVmZEcEUxNVF5RlZTcGJ1RDRBRFF3bGtiSTRTUjlZeVpmOUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PQVpHcG53MDRIQjZxbTlzcTVLZUpFVkd0cXE0TDV6aVBJb0E2blpEcHRLVEtnZWJaVzVPSGpqU2JFdHlJMzJjTEM1blo2ZmNMSGJUYTRTRkhyNVZHT1B6MVJLd0Q?oc=5"
+      ]
+    },
+    {
+      "term": "ホール",
+      "jlptLevel": "N1",
+      "articleCount": 4,
+      "channels": [
+        "news"
+      ],
+      "score": 17,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiS0FVX3lxTE41MzRjVVA2R1JLRUFrY3p4UTJFOWNXaE9kYWl6YlF3amVEbTJxVDZCNDNGbzA5NFJKWkNBTlZnc2hrR3U3VUpjNXBWUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1abmpXQWJSZHNNUV9raXFQZTV0OXNfR3cwNDF5dC1hZmY5dGhsYzNfdnpTYUxTMkRndlVfZDhPV0k5VS1fSURrTWpXcl9jWXR5Ymx1WlVsUnFxdw?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTFBnYUU3eXVodmhUN0g4NEpSVm4wQVhDeGJNU1BMNnNpaVhINzI2NDEwSHZxUVBJc0g4enU3Y1ppMklsTjJka1daZFdUYVkyYU1rRkhHc19mcTJKX0dSNTJwOWppSXpsSmpHVUkwSEh0V2daSEczMUpORkV3azJ6MzQ?oc=5"
+      ]
+    },
+    {
+      "term": "込める",
+      "jlptLevel": "N1",
+      "articleCount": 3,
+      "channels": [
+        "news"
+      ],
+      "score": 14,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1BbDVmQ3Bhc0x1N0d4Y0hVanhoQjNDblQwbGJaMHRGcF95WWpQRmd3YUFKX0RfWTJITndlWmFIbzRHRUI5dXRzeWlXWGVLVjNKMlE2a0M0UHpWZw?oc=5",
+        "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5mbWo5Sk9lc2xIX25KMTNrbml5X0pDcnVtT2I0ZUdTZHlxYWNXVGd2U2xTZmRnX2pla1NHU3lBRUFBNUdlaFV2cVZJc2NyeC1GLVY4WlJFeVhFZw?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE9zNE5jdkRlTHV4cWRqdmZHTTJHX3E5SnBhWDdGdVhwa2xIbmFTNVh1OWplWnpvT0NyVnp0SlVpMU5yZXpKNktpS3RZYUtpNXlIaFBCQ0VsdnhIdEdaYVBRV3AzYWxRTjc4UEFkb3luZVU5UVpWVW5UcEZkc3dNSDQ?oc=5"
+      ]
+    },
+    {
+      "term": "見込み",
+      "jlptLevel": "N1",
+      "articleCount": 3,
+      "channels": [
+        "news"
+      ],
+      "score": 14,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vX19FQUdmOTNkVzRXOF95aTNvLXRhaGhjZWt5X2xiTFdOUmJYQVhpNVZDU2Z6Q0pReEw2Q0JYX1ZWLXpKX2NCLVBiMFE5R0E2RlBQTnNzUWZHWHE0allXb0tyZ1BWbkpVQTR2ekhtbmvSAXZBVV95cUxQeHp3WmlobWY3NkF0NXBzYUNWcVhSWFIwZjM5emZqb1Z5aGxKbmV6UG9zb0lsQ2hCNk5jWjIxZ2ROZHF2SkNpRERVdzFkeHlQUWZrbEtpeVZzTUZ5Szdsc3Z0a0RySmJidmZvemxsWVlSRkx6M3Fn?oc=5",
+        "https://news.google.com/rss/articles/CBMidEFVX3lxTFBGeVFyTy1ieW5nSHVObWF2V3c0d3RhQUNLUG9VemgyOGdMSUxBS3NZOEp4Y0kxLUpkYktGMHo4SnJwX3M4ck4zVUc5enN3TnM2S2N2MFlMbFFfQ3duMjcyTmRHYV94YzBkYXVNdEl3QkVmN1NW?oc=5",
+        "https://news.google.com/rss/articles/CBMihwFBVV95cUxQd3ZIdHJwQ2pDZDFxR3hsWjFYYjBrUUI1WFd6d1I5Tl9UWkJudGFHUl80REdNRW9nVHFOWExuT0s2dlZDRjk2eVBmNzJRYlptSnhtMVFOTC04UGVEc2FwVGFyeDdzeGJTQ1d2dWFyeWFBZE1qWldsajI5NmlraEVvaUZFQkt1NzQ?oc=5"
+      ]
+    },
+    {
+      "term": "行為",
+      "jlptLevel": "N1",
+      "articleCount": 3,
+      "channels": [
+        "news"
+      ],
+      "score": 14,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QekFFaUQ2UFphM1dZM3ozWWs4Z3ZhRjdFQ0RxZjVjUE1aWWFxS3hlQ3pTR0p4cTVWUTNwVnEyamZaRWJMaWJRdDM3eU1OZHBIZGhXVWUtYTF5aW1sZjVza0hLc0s0bFRtMWZmMg?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE5aMEsxS0c1ZWpLbUFESE5ldjkwc2V6YVhzSjJNeUplQklVc1M4REtpbVJDd0o1RURYUlFQTTlxd1Zrc0UxOVdTVEZvUFFHVzdSbnZVc3FQeXlRM2VFaVB6dl9rUjlvOU1qcFJKb3N1TEtVLWE0Vkl0ejZZclhEaGc?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTFBvWDZ6b09jSlhFUDYxUjctS2FhTWtUUTIwbUpJRDNaME5GRHdlOVFfSWN2Skh3aHk4Slg4eUZ5LTc5b0haY2FVTzFVcW1JR1pkQmlTNDdyYmhDVW56bERXdlpVSW42cHRaYjNoRWwtU0JIdzdRVDZsXzJsanAxRlE?oc=5"
+      ]
+    },
+    {
+      "term": "教訓",
+      "jlptLevel": "N1",
+      "articleCount": 3,
+      "channels": [
+        "news"
+      ],
+      "score": 14,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tLUtONWhNS2xVOXZwNlRYU0xDQW5xZmd1SjNiWkg1bFl0MnlydE85a0ZRb0NaaHJfVzVBUF9sOHQ0YUhBLUwxLUNZbDc1X3A2Mm1zOGdneUROUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE43eC1TcjJLR0E0Vk8xcjA2em5hcnNtZWZsbTBBQjVST3lyRkF4OGVLQ1ZQc0tnN3AxQ0x2a24ya09pZE1wWE82bXIyd0V0VVQ2WXFkakxmRXBLYlNxX2hHT3NTTHdmLXpNeTlGNWtjM0RiQ05pWS13VnF5VXNHbXM?oc=5",
+        "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMXJZZ19IVnVoVWoybFlmSHRRZjA5SGZFWW45dWFFclRVa01PNmtMZnR6YW5OMDJNSWdBQUVYYmhhRDE5aC1nTFBCRnVvSjNKLWpPYlg4dkR2TU1xeGJEaGpPMHlKTFkxdFNoNlFzdkRZM00xbTVpTDlCMHVhR29HX0hUTkkyRUVxQWVJ?oc=5"
+      ]
+    },
+    {
+      "term": "当選",
+      "jlptLevel": "N1",
+      "articleCount": 3,
+      "channels": [
+        "news"
+      ],
+      "score": 14,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1uZng0djM2VnFfZXRVcTFTMHhPcU96YXpNdHhOcHVjUVhwdm1ZZ2tpTy1USWQ5Y0Q4czY1NnhWR1ZibEtKM1N2MFdYUkRkblMxdlBfNlBR?oc=5",
+        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zTVhadU1heUpmTm45d3Ntc2ZTQnlFRjZKUjd1cGZfbzJpVG41MzdieXBGRzFGNTd6a3hUQUNoaExTR29zNl9hNDJlYkJTTU5lTXE0bE9R?oc=5",
+        "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBETW9HZnk4MlgwdUVhaWRBUm8xS3cwcnpWR1VIRVdCRXF1NTBseWFMaWJfcGg3MS02NTFiSmtQaVlmOS1samxnZWZGOXhBQTdiNmpoTU9B?oc=5"
+      ]
+    },
+    {
+      "term": "外来",
+      "jlptLevel": "N1",
+      "articleCount": 3,
+      "channels": [
+        "news"
+      ],
+      "score": 14,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1YY0JhVFRISHFSYUYxdEZReEtHcjhNTTc0LU43TVhXMmxVVEg0RFlxZXJJQk5lbV9BNVk4VFY1VXhoeFVhdndkMm5sbEVsUXpyN3dGVjFZVGZ2ZVJRYldWb0pGTmQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9MeDRXaGdkeTJiZUVURjZzWHRRU2NiX1JBTXZjdDViUHdVQU1ya2UyUHM3Z29DR3FSUUR4OEhIdkt0S1BZd0p6S2I2ckdfOGZXX1QyRzRVX1pCb2tlVXRUdDE2NEQ?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCMm1kTFBSdk5Pd1FzSlFWTS1GR3lsck15V2h3c0tZZndIRTJnUnA5QWtPT0R1VUpQR3Q4S0NETUhkMUZfRGJsTzlDYVVkSGFVLWhCTGpub2stM0lCY01pSklQcElUc1k3eTZWZ1E0NlctOEkyWk9idlRHaG5OY3c?oc=5"
+      ]
+    },
+    {
+      "term": "回収",
+      "jlptLevel": "N1",
+      "articleCount": 3,
+      "channels": [
+        "news"
+      ],
+      "score": 14,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jQlpvb0tqb2FRNzI0WEtUV251S1VYYU1sODBKS3R3M25vd21HVWU4MDdoMjFfWHB0THEzUnhQZmFiX1lIQWpCcW9yRzlGRnpETjIw?oc=5",
+        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE01RzNmUW5aR05KSVhPMzRYZTZhWF9iS1E0NzNrZmtncExxM3RELVZ3N3pDcWR3SFNyYndQR1FGYkhiTXJtWkY3cENJNThqU1l4Y2c?oc=5",
+        "https://news.google.com/rss/articles/CBMidEFVX3lxTE5VVnRkQ3FtOFNWekg4QWNQdEVrMjU3dHJSc1BDYlFYWUxGZ3haeWFhZ005OFN4cXc0WEFxWnJDMmtCa21VUzA5SVBKRmJBX0FHSGlhbDZvQldYcnlTWGFFMDc0dHFjVmg4SUMyY0sydjZMUlJX?oc=5"
+      ]
+    },
+    {
+      "term": "商",
+      "jlptLevel": "N2",
+      "articleCount": 5,
+      "channels": [
+        "news"
+      ],
+      "score": 20,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiS0FVX3lxTFA2eHpsd0JINGQtSWVJNzA2VGpWRmtDbXJia1E5Nkc2T3Z5Q1pqMENBNW1FNDVBS3puSGFjZFpUelcwVWlTYjVZeHJGdw?oc=5",
+        "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Zb2d4Z2ZNeTEwUFp5VkxjVVQ5MXpKSXF1ckJmcHdKZF9GMjY5a1dLTHZTY2pRYm14VXlHRnhRR25XYUc2VEt5d1FpWWFDV0pUTHo2ZUphVWdydw?oc=5",
+        "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1vNEdpekhQdlFubF9vYi1DVkprYkxkaEptLUZBQVJVLUNFWjRsQThaMFRxb3YzaVVrX2pYTjdDUHVLMXlHMzRsWHdIa0VlNVBaVlRZelJCeTVyMVRmQkEwUnJMZGxYZEto?oc=5"
+      ]
+    },
+    {
+      "term": "銅",
+      "jlptLevel": "N2",
+      "articleCount": 4,
+      "channels": [
+        "news"
+      ],
+      "score": 17,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1yQmZ3Nk9HN2MyR0EyNjl0dU9TY29YRXA0SFBXQ18yOHhib19vbEpocFZ2ajRPS1RJeGFsRWVnTUdwTmxIVWFSQ3VtYnZEbDlUY0RlRVd0RDYtcEZl?oc=5",
+        "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA1Ri1IQXlabnVMOEFUMldFRXVVZUVRMzd4RVFlYTFpbVhqQVVTNElBa3lxSmk2QVZ4TFZMUTZmYmJyNWc1cGJuUlcwQTlNaW9FblFscG1jQ01YTlMx?oc=5",
+        "https://news.google.com/rss/articles/CBMia0FVX3lxTFBOM19qbGdMRWMyMGJ5Sl83QjY1bVphYlkwRzNmeFN2cDlHR0l4Q1RJaXRlTm1fQ21Jd1kyR2c4THYwSHVLSGhHLUw3bnk4SU8tcjgyQzFNdFQwUDVVelg4SnlJaEplZTZkcGxv?oc=5"
+      ]
+    },
+    {
+      "term": "重点",
       "jlptLevel": "N2",
       "articleCount": 3,
       "channels": [
@@ -668,701 +690,643 @@
       ],
       "score": 14,
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBXbUxVUVdjdTdzbXlYdVJOU3huVExzV0kwOFY1RGFRb2xGVi1ZYmlSc2VXRDhfYmlQLXVxWGZVd2tWRkt0TTBWZnRWYw?oc=5",
-        "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5NZUFoQ0h2MGktbFNKU2daZ0h1OFBCUThWTzhDaVFBQkdfU3U0bXU1U1dZMEJHM3NyYXZoLXQ3OHY1WWlEZEtlTFJNN3Q2QQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9jcVBIUnJpQVB5QUVMOXB0OXpQTnBaNXpkd2thd01KRlJ3dDhpWWFPQUxNTGoxMG1HQzcwYlRGdWExcVBVRjNDb3dmb1NiVnlsOG1BUHkycw?oc=5",
+        "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9BdEQ3T3F4endyb00wTWhkdEhUaDVhNXRZR2RCTkxPNHRKLVZjblRjckhfZ01rTjFjVFRYelhtX1A4VWl5VW1qQTR4d05tbWEtLXVNTHdJMmVFZG1hRWxXMHNudTg?oc=5",
+        "https://news.google.com/rss/articles/CBMickFVX3lxTFBkUU80SnJmczVfSUx1ei1SM0FwQmZWZTQ0aEtCMm8zM3NGaFczc2JpWDN2VGhodFNJVUFQLWc4TjhCMG5TSzNyU1N5NHVPQ1VjRHNnMzdlZ3p0eW5GTldVb0tJVnpPY29uRFp1X1I4d3l4d9IBd0FVX3lxTE5fWWxGMEMyVVFMeTZjdi0tMlNmUTBULWhWclViZFd3dnJTRDM5RVdSaHgzRHR1NTZMSzllNFZ3MXBkNGFTQ1BzWG5OdkR4LTRZclJkQ0pURGh1NkNoc1A1OWNxbUozTDNVaUJIWkhqaVpFcmNaZXpJ?oc=5"
+      ]
+    },
+    {
+      "term": "盛る",
+      "jlptLevel": "N2",
+      "articleCount": 3,
+      "channels": [
+        "news"
+      ],
+      "score": 14,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBfRk1IN3Jtc1BSRUlmcFlQVGdROVk1dzNQWXU4QkgwNmhWQTEzc0lpWkUtMnJWVFVHamhZTmNsOXRIYVk0TVltS09XY0dxU3RsTk1mc29ZSWlUUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE5IeFZZY1VnWlJjLTZqOFNsXzdrS2F5MWIxVDBIUXowUXZMbkNiT3lOSU9RbnBlS2pzRnBiWGh4UUlNUmJodEtVbVVrQnVWZW1fdUg0cXlRZnFheHhHaU5zS2hHYmZfS3lMRTlSbXI3aW53d09BMTNFbDE0RDlMdDA?oc=5",
+        "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbC1MdFBPUG9lTlMtN0tqbVBGREp3aHFuREtNT3JtblowMWFJRkFhNThSajduMWdZQlNMZlh5TzBhdWRmYjZCakV5bWlLZjF5TUg0bnM0Y1M4eExRX0hsZi1zT2puUHRYRUlTWl91ZVhBRVRELThOV29UMXpiWjlLRg?oc=5"
+      ]
+    },
+    {
+      "term": "引き出す",
+      "jlptLevel": "N2",
+      "articleCount": 3,
+      "channels": [
+        "news"
+      ],
+      "score": 14,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB3VUNJY3hQbXFlUmVmTjJSUEZtaGY5LWR6TGFUU0l6d1JqdVd6Z1BxU3VmTXlIRjJNQ0o2LWllTWJJdDBSUURvYlBob1hCWk1UYlozUmNkcW9FbDZp?oc=5",
+        "https://news.google.com/rss/articles/CBMia0FVX3lxTFBYdmhHaDJCalF4MUMxNnJQN3VuQVdjZDBJNkVGUU5DeFUxTldfUzVyWW01RE9aMDZZWUp2YVhGRUNVYWVrSERfak5teHZsN1ZTbmhwM3ZxeXhJWU03a180M2poQWd6RUJSNVY4?oc=5",
+        "https://news.google.com/rss/articles/CBMia0FVX3lxTFBiRlp3eUZ6M1FKZUY5dGlEcThXajNkU0VGVFVpRkZpaERUbVh1RTB3MmtZTEVsRmMwcW5FYnhaZXJLUDc3ZUpmNDNHUXZIaG0yTkhZajBEY0hTN2I3ZEp4SjBTemx4RmtVTksw?oc=5"
+      ]
+    },
+    {
+      "term": "姿勢",
+      "jlptLevel": "N2",
+      "articleCount": 3,
+      "channels": [
+        "news"
+      ],
+      "score": 14,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBVYXRIbUY1V2JuTVJESk11Sk12alVpUVRUZ1k1QV9zUkNJRlp1RVJMaHRwdzZBR1AzWXJONmhxaGYzWFlMS0ZZbTVvaWhpR2Q3LTZtdkRPYTVBXzcxcjRN?oc=5",
+        "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ObkdkUkRYWXRZRi1ZZk5FaXZzeUV3bzUwWVhreDRBalhLU2VSSWU4MHNYaXYydnZJR1pfdlcwVWQyVmZEcEUxNVF5RlZTcGJ1RDRBRFF3bGtiSTRTUjlZeVpmOUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PQVpHcG53MDRIQjZxbTlzcTVLZUpFVkd0cXE0TDV6aVBJb0E2blpEcHRLVEtnZWJaVzVPSGpqU2JFdHlJMzJjTEM1blo2ZmNMSGJUYTRTRkhyNVZHT1B6MVJLd0Q?oc=5"
+      ]
+    },
+    {
+      "term": "地点",
+      "jlptLevel": "N2",
+      "articleCount": 3,
+      "channels": [
+        "news"
+      ],
+      "score": 14,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiVEFVX3lxTE85YUFHdi1Md2tEemdQY1N5Q2tBdkFNM09qclBkTl9rdlY0TUpVMlBKSjdKNmloR0JXMFJLOFdLNW5Ud1RhT2dSdHpSSFpaZllaS0phUg?oc=5",
+        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9rZng5UTA3Y1h4WEVYUVpEeG4ybDhOMlNZeFN1RUc2TmduLVJULVo4N19fQ24zM0YyYUthQWo0Qk5VMzhuMm5IOG5vWXNMQWVRLXp0TXVB?oc=5",
+        "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4wbzc1eE5sSldaTzhHLW5kRTIyWkR1RXNKbkFJcTREZnBlOGpLUWxxc05TVEFIWVJHeksxQ2todHZLS19IZ0Y1TkJDcXV6ekxlZTBfU3R6aGxYelVH?oc=5"
+      ]
+    },
+    {
+      "term": "ありがたい",
+      "jlptLevel": "N2",
+      "articleCount": 3,
+      "channels": [
+        "news"
+      ],
+      "score": 14,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5SbVh1R3VVRGVtWlJRSExFa1BjY1BnYl80a0hCLV93LTJPX1JzNFJ2NmVOUWx0RU00b1lSZDdLamhBUVV3anQ5LTA2Z0JKc1loWk5kd05ubFNwLXdTVFRPaTZLVTg?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE9WT3hKNUZMX1ZwaDJndDRhTzlTRHp3RWljOXlaWXozT05xNE5URWE2WVdNa1I3ZXFpRVlJOXozQ2FhdTFYcHE1a1gwUUdReG9IOWV3ZDNQQkI4OVVsblhpbXJwUkMzeU16cmpZZzdIWldIZGVSMTdiUzNHYUh3SEU?oc=5",
+        "https://news.google.com/rss/articles/CBMiigFBVV95cUxNc2ZHVkc2ckstOU42UG00TC00V3NNR3ZXaFFENGFLZkpTdlI3SVFMeUZPVjI4cmlsM0lXUmU2LTFsRmxDWkdKT2dRVnZXa2ZYVU5XcHVsYld0LUxlZzJ3aVRXX3VBa2Q5WmRLMkFfSl9UNnRwOVZBMEpHTF9IYWZlekwxYnAxNEdkWXc?oc=5"
+      ]
+    },
+    {
+      "term": "循環",
+      "jlptLevel": "N2",
+      "articleCount": 2,
+      "channels": [
+        "community",
+        "news"
+      ],
+      "score": 16,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMid0FVX3lxTE1DNkFVOHFIa082VkJiYWRBUTNNVmN1MS1mWFJUYU9lakFtRTAyWHNEU3dWXy01MEt0Njc1Y24teS1helVydG41WWFVUHpqbEh4RlJvdWlYVGg4b1VGLWlvNEZRZVliUHNHcG5BT1ZYcjNzTDk3eDhn?oc=5",
+        "https://qiita.com/Integrateio/items/1aee9f09fb1f99553de7"
+      ]
+    },
+    {
+      "term": "バック",
+      "jlptLevel": "N2",
+      "articleCount": 2,
+      "channels": [
+        "community",
+        "news"
+      ],
+      "score": 16,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9LeGpnSC12UmloSEZ0a0owRGFhb2FKVm5zLWFTZF9EeEMwb0JvMzVpa0RaMW96aFhSUUZPS2JnWG9ZSElSTGZoVjFOWlAxWk9Hcl9DWjU0azRMTWN1WVZNZmNGOHV0WnE1?oc=5",
+        "https://qiita.com/Gorilla-mae-syugou/items/5db9531c93ab16231e78"
+      ]
+    },
+    {
+      "term": "通",
+      "jlptLevel": "N2",
+      "articleCount": 2,
+      "channels": [
+        "news"
+      ],
+      "score": 11,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE1uMm0zbFpSSnprLWFXU1gzVjlzTlZvYlRrbmdqQ1JJWThPTXBrZ0RWZmc1cXFlZEtfNjN2MVhfeFJQZ0ZpWmRWUVhyRG51OEp0d0ZEcG0tS1dpZWdXRW8yRmF6eXpuOW9GN2pYM2dsY3kzb2dEMlFLWElSSHJWREk?oc=5",
+        "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTDBhdEJ3RjRHb09aTE5CZThBU1FDZlZwNUczTEpWTGdlcjBKWHViUzh3SFVHOWlFYWRteGs3RkxUZzh1ZlZSMXlNeU80MkV0ZzhPTGZfZHBzYVg3THE4UFJKakhSOWJKUko3NlgxYTNUdEFOXzVnZHRLRHNpWVNvbg?oc=5"
+      ]
+    },
+    {
+      "term": "躓く",
+      "jlptLevel": "N2",
+      "articleCount": 2,
+      "channels": [
+        "community"
+      ],
+      "score": 11,
+      "sourceUrls": [
+        "https://qiita.com/Yosh31207/items/02c8aaa0e4ec63462227",
+        "https://qiita.com/eng3352_/items/b19662b9b87ef1b63408"
+      ]
+    },
+    {
+      "term": "誓う",
+      "jlptLevel": "N2",
+      "articleCount": 2,
+      "channels": [
+        "news"
+      ],
+      "score": 11,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBPeWN3Y1dPM25RQlpvXzRjclp5d2xodkdmb016b3pjMjlYbktkMDdXaU5SdFVGbmZtRHdBdFU3RVVpOEd2c1RV?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xUV9PWVF6SjlvcDhNb3cyUUVLYkZSazF5d2ZfMTVQUE82Tmxpa1o1Uy1SbjZJbi1mbW4xX2hYQlgtUmFlTUEyTm5Kb3JpOVg4X1VBVE1ZakZTX0JrTkd3UFNDYlkwOHB4aUxIN1dvWWhmaFJZOGlacS1IWWY0UU0?oc=5"
+      ]
+    },
+    {
+      "term": "膨らむ",
+      "jlptLevel": "N2",
+      "articleCount": 2,
+      "channels": [
+        "community"
+      ],
+      "score": 11,
+      "sourceUrls": [
+        "https://qiita.com/Synthorai/items/e6ec113992eb2ef48add",
+        "https://qiita.com/tashua314/items/820df20f3d175cca8984"
+      ]
+    },
+    {
+      "term": "窓口",
+      "jlptLevel": "N2",
+      "articleCount": 2,
+      "channels": [
+        "news"
+      ],
+      "score": 11,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9aWXBTWHREbkJwS3VGX3BYZjdVUUhGTDQtTF95elB2dGdEeXJicU5HSFpKcVJwQUpZQWxycVg1Rm1pXzhFc0NyX3NMTHRqZHJWcF96R1RYSEQ?oc=5",
+        "https://news.google.com/rss/articles/CBMifkFVX3lxTFBmX1VSV2R2QmJfQXpDMTVhYjVYZWNEaW9wYUVYM3NKaGZxdXViVUh2QUU5bGZxdXp2TVd0MjlaMC1PcW8zOUpSdUd2Vm90R2dyNURiUDlNbTE3M1M3UFZLTUo1REg1R3ZkQ0NyVjB1N2NUMHRtdlhGVElyblViQQ?oc=5"
+      ]
+    },
+    {
+      "term": "銀",
+      "jlptLevel": "N3",
+      "articleCount": 7,
+      "channels": [
+        "news"
+      ],
+      "score": 26,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1yQmZ3Nk9HN2MyR0EyNjl0dU9TY29YRXA0SFBXQ18yOHhib19vbEpocFZ2ajRPS1RJeGFsRWVnTUdwTmxIVWFSQ3VtYnZEbDlUY0RlRVd0RDYtcEZl?oc=5",
+        "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9WeEdMcWtOa3N3Y1RBU2JSUHhKSzlVQk1ET21UcGZ4MEVHeDJXY1RyQW16VGhHdVg0Z3JCdWQwbWhpWWptSmU2bTI2NlVZMkVEaXJmUzlkRHJlNmhX?oc=5",
+        "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA1Ri1IQXlabnVMOEFUMldFRXVVZUVRMzd4RVFlYTFpbVhqQVVTNElBa3lxSmk2QVZ4TFZMUTZmYmJyNWc1cGJuUlcwQTlNaW9FblFscG1jQ01YTlMx?oc=5"
+      ]
+    },
+    {
+      "term": "訓練",
+      "jlptLevel": "N3",
+      "articleCount": 6,
+      "channels": [
+        "news"
+      ],
+      "score": 23,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1MSTBTT0VMdC1BU1ppenZrUFBtN0kxQzhrY0RPSWNrLWtwYlJDMnh6RV9pTWNLVHR3V1lRa3hyZjd4ai10TUtTRHVkMVM5Z3phbkcybm53UVpBa21FNTRJNmJ6TQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiZkFVX3lxTE96WllvdDZTZ2ZqM3NJNUlWVDVuWXdIOHFiN1RqVzJUaGZwckdLRHNXUmhZVWtlWUdQelJhUGlIVlhqT3FDN2EwVndaZUlqT3I3b054bFkzTnZhRm0wdWFZWnI5ZXhvUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMidkFVX3lxTE53enFqUzMydDZscGNFSy1kanZvdzNMdGRLUGhTTFZ3c3VsS1RkbTJqa3JkQmltS21qOGdyOVhKWGFrT09FRk9hZ3hMTTAxcWNGUmtjbVpkbHVOMEJMbTJJNVdyOW9haEU1U1hPUVpvemk5ZUU3QXc?oc=5"
+      ]
+    },
+    {
+      "term": "平和",
+      "jlptLevel": "N3",
+      "articleCount": 6,
+      "channels": [
+        "news"
+      ],
+      "score": 23,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jQlpvb0tqb2FRNzI0WEtUV251S1VYYU1sODBKS3R3M25vd21HVWU4MDdoMjFfWHB0THEzUnhQZmFiX1lIQWpCcW9yRzlGRnpETjIw?oc=5",
+        "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5XbzZHVUVYdlBhX2RRVnBCbVBvSllyWUNuSEJ1c3RlS3VsTkt0ME5MT1Rxdmx1RjNfcmRHZy1TRTZCNDRHRUQtRWFuSTkzdGtYUzd0SUNycVNhRzZXOWc?oc=5",
+        "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBQekFOZnAtX3Y3M3hXT0JIVTNzUE8xWXZ6bFRNejZ3TnNMWWRBVWY0SVVLVS15c0NPclNlYzFZVGxsVUsyUk00NHE4RVJ1OVM3Q01qci1HZmxST1haZFdlOXdvTWp1WUNl?oc=5"
+      ]
+    },
+    {
+      "term": "全員",
+      "jlptLevel": "N3",
+      "articleCount": 6,
+      "channels": [
+        "news"
+      ],
+      "score": 23,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1yQmZ3Nk9HN2MyR0EyNjl0dU9TY29YRXA0SFBXQ18yOHhib19vbEpocFZ2ajRPS1RJeGFsRWVnTUdwTmxIVWFSQ3VtYnZEbDlUY0RlRVd0RDYtcEZl?oc=5",
+        "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA1Ri1IQXlabnVMOEFUMldFRXVVZUVRMzd4RVFlYTFpbVhqQVVTNElBa3lxSmk2QVZ4TFZMUTZmYmJyNWc1cGJuUlcwQTlNaW9FblFscG1jQ01YTlMx?oc=5",
+        "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBvT1A5d2U3VWhmZzNobmJaLTZDODNrOTl4YzFMWDhRQ2I4SkloeFY4aHhvTFZhSU11SEN4WUltdWQtUE9xN1V0T3BsUTBpMTJrSUVBOXAtcmwza01mSmc?oc=5"
+      ]
+    },
+    {
+      "term": "章",
+      "jlptLevel": "N3",
+      "articleCount": 5,
+      "channels": [
+        "community",
+        "news"
+      ],
+      "score": 25,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTE5uNnJraHFCOEhEM2tRaDF5WGhxOHRLTFEybWEyNHNxNHU2M0FSdC1jQzNwTmlSZ3pLWU5wTTZ4dENZYTZVVVR2ajBmaFRlcmEzVEl5QlRNU3RxTTZJTmhjYmdldW12UExhbTc3bA?oc=5",
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTFB4RmR5ZnJoNVFlTEtPNzhuNmhXSFZQbDNpSTEzYnpGUXNiNEk5MnZYTlBTWlh3Rm1Qa2JWUjY3cHdYUERaSUZGY2MyRVlqb1JsV3NzdHhKTlJJekVwbDdidEtwLWJ4a1hzS0ZsNg?oc=5",
+        "https://qiita.com/Nekonecode/items/a7320190c0d632e4923e"
+      ]
+    },
+    {
+      "term": "秒",
+      "jlptLevel": "N3",
+      "articleCount": 5,
+      "channels": [
+        "community",
+        "news"
+      ],
+      "score": 25,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5hamROZzVMV0lJVFJ5WGo2dHd3QkZURks3d0xGNzczVnNZeEVOTlhLNlczVDU3UVBsalhuTVlpdmV4bWVNNS1yQ2Zjekpldm9pUDRHb3ZveWJuZw?oc=5",
+        "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1rUmprSjlsek1tM0s0Vjdzc05LMnZRN3JtQnZJQThGc284WFUyWWV2SEpzUGs0X1MzU0FYNWxTMjRoLU9iN1FTNExjMi1xS2xiWDNfUVJOQ0t3SVBBWjRud0VB?oc=5",
+        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMUhNX2VRMEoxbnNUUHNfaTBRV1l6a2Z5R3FtaUc3TmFiM3hkY0hwOGkyX3ZGcUYwODFuckJUTVRLTUVXUHY1TmlmZ0lJdFVSUkp4X1RHVWRlWS12Z051Z3NCeXZ0Y25JWHJJQ0RaNzF5NUNXZDdqdmJJVF94UDVUbW9XM2FQQ3RJY0ZnMWtLR1ItZmYwRmdmZlZrYVhRWG5NeHR5UVJNMmZoZw?oc=5"
+      ]
+    },
+    {
+      "term": "営業",
+      "jlptLevel": "N3",
+      "articleCount": 5,
+      "channels": [
+        "community",
+        "news"
+      ],
+      "score": 25,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiXEFVX3lxTE93Q3kxSGsxZmtFWGRQWGZmSUJHN0xMNC02clNKUWNqbm9aeHlZR0N1TlhheVJWS1ZIdTdLU2F4SDFIVEtSMmplcHh5Mlp3d2hwVGFXaFFqZ0V2VDRi?oc=5",
+        "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4tZ3V2R2M1RlJRUG1faTk5dFFITFhOUFhBVXN0cHlScWpvV0VvYk5GaTJta1dUNHZPaGVEeHBibTRFa09hRjBncTdwYTVzY3ktSDlEQjAyOF9ieWRpcWtCQ0ZwLTNhazg?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE9GUHlZVEpZNjRYSmNwTl9uYmwtT1E0dmItVFMwbEZjRy1QN282ZlpJUmVkdG1pMXVLa3BjRDFzRmpOblBNRHM0Zk1iWmJjVnEtVzJaMkxJSXNGTVdIazFxT2lWWl9vM1pQU25xNFRMVHIxaFJuOXlFNnlRNGpGbU0?oc=5"
+      ]
+    },
+    {
+      "term": "予想",
+      "jlptLevel": "N3",
+      "articleCount": 5,
+      "channels": [
+        "community",
+        "news"
+      ],
+      "score": 25,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5iX2JGNTZlOFZZdlV5LUVIUnVDVnhpZThQcmJBS1R3ZDNtSFE2N3VDbE1KWGRscXZSYTc5UFV6WDJVSmZkX09XdWxRWVpNR0ZMd3A1UGVLVlFmaER1Ml9zM2pB?oc=5",
+        "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9YNzRoejJJTWI3TUhMMGtjTW1oU2JoWkQ1d2g2T1k1blhUS0VIb2VzN0xuVUFaNGNTYXJUdm9DXzFsVjRFYXc1VmxwMmlsOUNjcXBtVlNBMjJWcXFtT0tocmdYZlg?oc=5",
+        "https://news.google.com/rss/articles/CBMiakFVX3lxTE1JWkdyc0lMVVViN09PSlQ3a29TR2xHck5ZT0dmVHBnLW5nQTY0bU5EOE5VbWw0STVYZTdLV1BCQ1lYcUxYVVNJMjkzTk1VTWh3TXVGNzN2U29GMjA4OHdZTkx0aExjRUlDTnfSAW9BVV95cUxPRy1FQTd3OHJIMlVzZ1RHcnZoQ2V4NkViTWljaHMtTExIcDVTVlF6OHhXS01pMmc4anRCWHV6RExWX3Jxc2JITi1VcU02bkpTV1RySEdlb1BlcmtvUGFvRWhvOTREQzlLb3M2TDZLejA?oc=5"
+      ]
+    },
+    {
+      "term": "農業",
+      "jlptLevel": "N3",
+      "articleCount": 5,
+      "channels": [
+        "news"
+      ],
+      "score": 20,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBNMzZRMUtUWnhNNE8wOU9rSmJ2ZGdZYkpieVBVa0pmbjNLYlJfM0pBM01vcXNyVTR0OW5WRFBlYVJiLWlHOEN0bzJITzVvamJQZkpEMzlTYURaQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiakFVX3lxTFB1SFo2dTVuLUVGeGwzaDZIeUNleXIzREI5WmduZlNSOG1OdmlHU01wUjgzZF9mQjRMZ0lSYmkxUFpja0lMM09XaUM4RkNIMWZZMzhxc0lMd25RV3p5ZGVHMXA2SGRJSWdDdEE?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ReE5WdnZaUVBFUzg5RXk4VTlxQ01SYUlmQVUyMXBITGc2X09FRlpVdUsySjRUMEdPZWxEY3E3SmczTERvbm5seUFQZ1hUSTkzNDZQSmpkSUIwbW9iZmNJam5acGktNDZqNFFQQW0xOUtKYTdoc1g0UTNNNGpzNHM?oc=5"
+      ]
+    },
+    {
+      "term": "触れる",
+      "jlptLevel": "N3",
+      "articleCount": 5,
+      "channels": [
+        "news"
+      ],
+      "score": 20,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiS0FVX3lxTE00VFhqemhFME8tUkZfVUc3Z1dvRm1BZTU2b0dQX3VYQXA2YURpRExBRDdwNi1YQ1NNWFM0bjZCTU5uS2NvbVZvNk9pdw?oc=5",
+        "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1wV2F2NW9mQXlGbHQyMm9JcVlCcng1ZnNRUWo0NW1reDFSOXNwYzFoeUNyWmpraHk5cFhDUDhhWWJWWHRDUFNzd2dDUDAxbTdnU2pZaW9QMFhaNUNXenhSQXMzUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE94dzhwemhpb1JDN1JnM3ZDVGdrMXNMUDBHTG1nX0NyeHZ5WHVWcnhSVkphZ0RvbGtfNC1Rd3V1eXR1TWxFTWQ1eHRXcjlDclNGUW83NkRsa2g3bGN2SHlqemJjRmpzMG8?oc=5"
+      ]
+    },
+    {
+      "term": "材料",
+      "jlptLevel": "N3",
+      "articleCount": 5,
+      "channels": [
+        "news"
+      ],
+      "score": 20,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMi2wJBVV95cUxQbmJSWTJpa21DMXFaZjlXNVF2Z1RvQmZSVVRoR2ZpbjhmQVEzNDF5Q2E4eEVGemdDTVdaLTRpcTdxZUF5aDJ0clIwWmFiUDRHczM4U1FxSkxBTEhDcEVIbHRiN1BzSUtSeDFwTHViVW1PMS04Q01IakMyckNqdWtjcXlKdVJ0eFVSdUh1T0plZkc4ZmViMlB1ZWFET1g1YUplNmYwMmViejZvSDVDb00wQ203Q09OdkY3SGxFTndhWDNjemU0RW1vcUc5OUtzd0hQYkd5Q0FRamwyaVNmdVo5SFJsWGlSMGRxVFZ2UUVISVZDYnNDSG1WOWhBNGlVVUVVTU8xZGlCVGdkSUhyVEllSnNxQ3FScExHWTVCeHBLZ0RoVkRKV2Jib3Q2UjhSa3lqam5WYm45QzdVTlNZeUt1TWZBcWdHYmUwYlFXWk1zMDNwYTJkeHg3LUtLYw?oc=5",
+        "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBCUVRqMUR2MWRMbFZkbDRsUjNQdnpPZXdWOW1LR3FGTUZZcFFPakNEUElXN1ZGMVRHSjhvcUY5TXJVbGxIRVR2dFNUM1B6b1BwazZiSWRJUURZNWdvbnlv?oc=5",
+        "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5WNE50c2JPeWl2VEZFRER3NG9Ybmk2WjlEbXhYZVBWMEV5dTk3eExyZ3N6Rm1vS2lHRHFNRmRWWXNWX3lwd0wwcHk3VEFQQ0dOMUxDcEJYU1JxVEpKYWx0NQ?oc=5"
+      ]
+    },
+    {
+      "term": "相手",
+      "jlptLevel": "N3",
+      "articleCount": 4,
+      "channels": [
+        "community",
+        "news"
+      ],
+      "score": 22,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5CbU92MkxNS0pPRktiWkNSV0c1RkhES0I0MkNBbURETnNXRzNyU251Yy1EZ01YRFhQYXNVamVycjJadFRhMjNSRDFUWHNDbTZWOWVKemJZd0Nld09EWFE?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE1UNzJGS2F6MFJrTThwaktib0l2VHR3bndYU2tsSU1Sdzh3MzlpNkl0cnRaelN5bWp3LXlsbDVsTlo4eVNON1pzb0tFQmJEN096Y2ozYWhwcDlPTGlsWEVGZnhKRnhSRG40WUYyYVF5U1VnRGo4cDhUUkRhckJ1UVU?oc=5",
+        "https://news.google.com/rss/articles/CBMilgFBVV95cUxORW9OUHpJMjhabmp2SDNGQ0FBdy1XNV9rZlY2VWxLWjdSUF9HZHdldkFQaEUyTnFWUWhJNk51c0J6bU1sR0ZJOVpvODZKelFEaDlnbmE1Z1QweERhUmgySFRQYnRoNlBUZl9uVkxid1oyUEZqWk1lTnhCMzlDTFVNZTFRZk51M1NlYWxHNm5RNlhqcVN6TFHSAYoBQVVfeXFMTkhoR2xwdXY3RXhuazV3UmN4UENuX0pnQ3pydWxnSEhQVTUtMFRTNVNjc1h2b0QtN2wyUlVJdF9DTVlSNnRhSU12NnhWaC1kbGJrdFNBSEdCVFI4NHhpNG9xdEI5eWMwT09ZakdfMmxBamd4aUNpNlRBTThlWmhyZ1UwQnFZV3daczFR?oc=5"
+      ]
+    },
+    {
+      "term": "大臣",
+      "jlptLevel": "N3",
+      "articleCount": 4,
+      "channels": [
+        "news"
+      ],
+      "score": 17,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMi4gJBVV95cUxNSmJTejdwLW5uckFCb09odFhJejhRWlJ0QXVQdHFyMmk2RVFmUVVuMElCWEJUNVYzTUtkUGFrd3VzYjFmdEpzaFVQZC01cWlGeXlyQThweFZIeG5rLW1sNU03ekh5WkN6M0dZdmt0Z2dZTXV4UW5kVlRZQUNsbFJfU2Q0ODZWN1FFNFFzVnZTMThEUklIenVVM2hSalpYVHhoTk9lelBseVpuWENHbVNONllUbDFTeG9VSk9WY3hPSUtxbzJQTEJOOXhUVFNyTnZVYzg2WFRFaUhyckd4bGI1NDNFSkZTZzN0ZnBYd1BCamhUUEF6SFA3Tmo2VTZhUFhuMW9sSEpPSTNtMVh4cWJCb3FJcGRteDQ0RmRFY05CYkFmUkVNRUNmLXBsRVhiSW1JeU5DOEFrU1hjUVc4TFFVZC1GRHZLMVpRYjgwUTJzUVJlMDFpYlVNZ2pPc25nWG5ic0E?oc=5",
+        "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wRnU0NXk0N0w1UnNxYWdHV1NWcXNKel9WbnI2T1BWb1dYczdlcXk2cVdzOHVha2pOX1NsVzlfbDlwN3hpYXdqbDhJOWNrb3dsM21WRmtOZU5WQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBQMGQxQ2tMQUxjV0hKeWJQcjdobDdvWXNqdzRHSXVSQUhUZGFiaG1pbjNHcEFHZUtCdVBDcWdXRDFsNmRTUTdhNVFBSm4tRV9oYVRKS0t1MWNBRmZjSkVNUkJSMA?oc=5"
+      ]
+    },
+    {
+      "term": "臨む",
+      "jlptLevel": "N3",
+      "articleCount": 3,
+      "channels": [
+        "community",
+        "news"
+      ],
+      "score": 19,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE9iM0tRVFF4THNCRWtvS2NUWHAtTXc1b056UjIwRWhiNUVXYjNxM25fSjZmNUZfNFhNWW1VMy02MDNPX0F3MDlLQ21kaFhXX19ZY3ljV1pIWC00S1I3SjVDbC03SUxHZGpNSTFUSnlIWEF1Skoxek1xZEJPV3NLMGM?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTFBYc1IxZU9LcXY5VXVsaVRMR2tVM001aEczMVdwVVVZRTlfckhNUERremtVZnJmUTJ2S2p2TGFvSE5MNHR6V0JRVEVadnJyWEJHdTVpUTZxVkxFQkhWOUFxS2JrQTE1dkJhLTFHU04zUndwWWVEdlF6OFFCUVRKc1k?oc=5",
+        "https://qiita.com/shukumaru/items/bead954f61b8ba9e7271"
+      ]
+    },
+    {
+      "term": "知識",
+      "jlptLevel": "N3",
+      "articleCount": 3,
+      "channels": [
+        "community",
+        "news"
+      ],
+      "score": 19,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiggFBVV95cUxNcW5ualFNUkF0cm1Bclo5RUpBN014MXMyOXU3b0lrMWszT3Vsd1dfczEwSzBkU2ZYNmRzbk55aGxGYlhLRVNvZVVxVnFrQWtXY0lwUnRQSUZTNTVVTnd1TzQtdWtaaThIdFVTdko2bzZORVdFekFWNERWN0F3YjVhUGZn?oc=5",
+        "https://qiita.com/noah-chai/items/026048e9030132b0a1cb",
+        "https://qiita.com/zelenkavojtech7/items/a308b9c13790dbb7d4f9"
+      ]
+    },
+    {
+      "term": "学部",
+      "jlptLevel": "N4",
+      "articleCount": 3,
+      "channels": [
+        "news"
+      ],
+      "score": 14,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB3VUNJY3hQbXFlUmVmTjJSUEZtaGY5LWR6TGFUU0l6d1JqdVd6Z1BxU3VmTXlIRjJNQ0o2LWllTWJJdDBSUURvYlBob1hCWk1UYlozUmNkcW9FbDZp?oc=5",
+        "https://news.google.com/rss/articles/CBMia0FVX3lxTFBYdmhHaDJCalF4MUMxNnJQN3VuQVdjZDBJNkVGUU5DeFUxTldfUzVyWW01RE9aMDZZWUp2YVhGRUNVYWVrSERfak5teHZsN1ZTbmhwM3ZxeXhJWU03a180M2poQWd6RUJSNVY4?oc=5",
+        "https://news.google.com/rss/articles/CBMia0FVX3lxTFBiRlp3eUZ6M1FKZUY5dGlEcThXajNkU0VGVFVpRkZpaERUbVh1RTB3MmtZTEVsRmMwcW5FYnhaZXJLUDc3ZUpmNDNHUXZIaG0yTkhZajBEY0hTN2I3ZEp4SjBTemx4RmtVTksw?oc=5"
+      ]
+    },
+    {
+      "term": "はじめる",
+      "jlptLevel": "N4",
+      "articleCount": 2,
+      "channels": [
+        "community",
+        "news"
+      ],
+      "score": 16,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1XQW9Bb3FLbWNES09VSERORUtsZnZPSjF2bzlTbjluVXBfS2JxWlphdmhlTld1eUVRZE5VVXF3d0RiTEFIUXphUmtlRHRHbGNfZEJqTHZGVWJiSEpU?oc=5",
+        "https://qiita.com/Sakaaaaai/items/6356c29d1862bd6c252f"
+      ]
+    },
+    {
+      "term": "プレゼント",
+      "jlptLevel": "N4",
+      "articleCount": 2,
+      "channels": [
+        "news"
+      ],
+      "score": 11,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5SbVh1R3VVRGVtWlJRSExFa1BjY1BnYl80a0hCLV93LTJPX1JzNFJ2NmVOUWx0RU00b1lSZDdLamhBUVV3anQ5LTA2Z0JKc1loWk5kd05ubFNwLXdTVFRPaTZLVTg?oc=5",
+        "https://news.google.com/rss/articles/CBMicEFVX3lxTFBpazRsOU4xcGt2eHNJLXktVHlrMkZuazNmNnJxZ0hoZFNPOWJXa0dNTjl4ZlhGRkpaeTdnQjh2MHA3S0xlazRRRWJWRDF3LWZyTmZoMTJscGlHbnhla012elI5RGpDV1R3OUh5RGhMUnfSAXhBVV95cUxQU2ppQXpHbTcyeTBrN0piajF0akd4V0dpZHdnNk5WNFQzVUdEb011VmJiVks4Yk5GMk9JcC1HZlJlMzVheHlPTmxxS1IyNTdDNTRSRFVpNW43WmNHMTZBZTQxT0JUcWM3YXRTSmdKNlRpdkhBRXlPLWI?oc=5"
+      ]
+    },
+    {
+      "term": "飾る",
+      "jlptLevel": "N4",
+      "articleCount": 1,
+      "channels": [
+        "news"
+      ],
+      "score": 8,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMicEFVX3lxTFBpazRsOU4xcGt2eHNJLXktVHlrMkZuazNmNnJxZ0hoZFNPOWJXa0dNTjl4ZlhGRkpaeTdnQjh2MHA3S0xlazRRRWJWRDF3LWZyTmZoMTJscGlHbnhla012elI5RGpDV1R3OUh5RGhMUnfSAXhBVV95cUxQU2ppQXpHbTcyeTBrN0piajF0akd4V0dpZHdnNk5WNFQzVUdEb011VmJiVks4Yk5GMk9JcC1HZlJlMzVheHlPTmxxS1IyNTdDNTRSRFVpNW43WmNHMTZBZTQxT0JUcWM3YXRTSmdKNlRpdkhBRXlPLWI?oc=5"
+      ]
+    },
+    {
+      "term": "遠く",
+      "jlptLevel": "N4",
+      "articleCount": 1,
+      "channels": [
+        "news"
+      ],
+      "score": 8,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTE1RTklzT1FvTXRibEp5Z1BjSG1NcHd0TGNhXzdta2llQWlPcGV6TndSZWY4WGZrSldOQ09pTWI3R0ZBRUZfSjBhTlFRcDVkQWc2UE8tc1RIWWFUQWlWQ1k2VndhUHRsQUxPNXRtRA?oc=5"
+      ]
+    },
+    {
+      "term": "約束",
+      "jlptLevel": "N4",
+      "articleCount": 1,
+      "channels": [
+        "news"
+      ],
+      "score": 8,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSXVqdkZYeFdhRDY3M3JFX2JEdDhPR1QtNjQ1VERWT3pBQkZDT2hwanN2ai1fSmdmYktRM0ZzWEdLMkg3OWU1X1ZfM3V0VGNmekRGYklxSmpWVDhZOGhPOTZlaUtLZ3U2YkcxbWZ0Ynlvb25MaUhUcC1NRUVEUk9OS0dWZXZ0R1ZLR0V0NFFqci1xTTNXOXdtYmpVQWpKOGxlRW4xb3kwYzFfTzloWGRDN09n?oc=5"
+      ]
+    },
+    {
+      "term": "珍しい",
+      "jlptLevel": "N4",
+      "articleCount": 1,
+      "channels": [
+        "news"
+      ],
+      "score": 8,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMijgFBVV95cUxPR0ZtNWVWU2p6ZmQyT195T0VwVGFfVURxNjUwdnBEZktubGxtR2V5VzlZSmhIdDdxZWxHajB6eVNZNDV1UF9xSElBSkMzMDUxbjFlSmNUbW5zcHMzMmhDbEU0MWhGSTJKbG5nM0FGSHE1YWQycFFMZ2hYVzB3UU41cDlUdVJ5cFBCdDJ1dFdn?oc=5"
+      ]
+    },
+    {
+      "term": "景色",
+      "jlptLevel": "N4",
+      "articleCount": 1,
+      "channels": [
+        "news"
+      ],
+      "score": 8,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMilgFBVV95cUxORW9OUHpJMjhabmp2SDNGQ0FBdy1XNV9rZlY2VWxLWjdSUF9HZHdldkFQaEUyTnFWUWhJNk51c0J6bU1sR0ZJOVpvODZKelFEaDlnbmE1Z1QweERhUmgySFRQYnRoNlBUZl9uVkxid1oyUEZqWk1lTnhCMzlDTFVNZTFRZk51M1NlYWxHNm5RNlhqcVN6TFHSAYoBQVVfeXFMTkhoR2xwdXY3RXhuazV3UmN4UENuX0pnQ3pydWxnSEhQVTUtMFRTNVNjc1h2b0QtN2wyUlVJdF9DTVlSNnRhSU12NnhWaC1kbGJrdFNBSEdCVFI4NHhpNG9xdEI5eWMwT09ZakdfMmxBamd4aUNpNlRBTThlWmhyZ1UwQnFZV3daczFR?oc=5"
+      ]
+    },
+    {
+      "term": "大体",
+      "jlptLevel": "N4",
+      "articleCount": 1,
+      "channels": [
+        "news"
+      ],
+      "score": 8,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMic0FVX3lxTE1KTUFtM3gzQU1jX0J5M2dTYWlyOXVETmZVLUdyQUNJd1Yya2tQWlNIU2k5VEFwR3FwLXhOemVVUnVabHdhcGpsS1VqQ3diU0lzcGNHZUZuVVdLdDVzdVZCV2hFNTBTc01VazVqaWt1Ri0xcGc?oc=5"
+      ]
+    },
+    {
+      "term": "台風",
+      "jlptLevel": "N4",
+      "articleCount": 1,
+      "channels": [
+        "news"
+      ],
+      "score": 8,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiakFVX3lxTE1JWkdyc0lMVVViN09PSlQ3a29TR2xHck5ZT0dmVHBnLW5nQTY0bU5EOE5VbWw0STVYZTdLV1BCQ1lYcUxYVVNJMjkzTk1VTWh3TXVGNzN2U29GMjA4OHdZTkx0aExjRUlDTnfSAW9BVV95cUxPRy1FQTd3OHJIMlVzZ1RHcnZoQ2V4NkViTWljaHMtTExIcDVTVlF6OHhXS01pMmc4anRCWHV6RExWX3Jxc2JITi1VcU02bkpTV1RySEdlb1BlcmtvUGFvRWhvOTREQzlLb3M2TDZLejA?oc=5"
+      ]
+    },
+    {
+      "term": "包む",
+      "jlptLevel": "N4",
+      "articleCount": 1,
+      "channels": [
+        "news"
+      ],
+      "score": 8,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTFB3SE5HaGpJSmp2LUpLbEFjTC1ERDhOWEh1THFvTXBpOHFPam5peTUxZmk1WUtJVHFrWE42bjczMl9rR3ktOW1vcFRURGxESjJzNG9GRmU0aHlUOUo3azBLUWpkUGVtU09rQmliLUtVTDMyZzFNNXhTMnFpRkg5ME0?oc=5"
+      ]
+    },
+    {
+      "term": "亡くなる",
+      "jlptLevel": "N4",
+      "articleCount": 1,
+      "channels": [
+        "news"
+      ],
+      "score": 8,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMilAFBVV95cUxPalRqa1dTRl9HLTlJdG45b0JXdW81dXc1M2FGaE5BU2tSOHp0ZGNrb3VfS0w5Qm9YTkdCUkpZWktDTDk0QlltdGNURHp0Z2dkQW9md3c4UDVfbHdXR0EtTHNrMmtOYXdWTXlPeHI3RFBKWmZ5RkdmeU0zMVhzbUFzcHNOTWpMZE8xcFU1TlRkVnJrZFFp0gGaAUFVX3lxTE5fa3F6dlRqR3BSS2hsZk4wUTh3UGFSakh0ODFYYURoa0dKcFJCakQtamlEdEZNdzN6UUV0cDBZbExVNy1RbVFtZ0xhQ3FNSlk5OHFTYjROcDZXX0ZmTjZ4dXV2b2thYzJ5anZ3akg3ZE54aG1JcUtuYlBWYmZBTk0wSkhwQlBFUlk4a0RQSTloWlRVU2kxOTI1Q2c?oc=5"
+      ]
+    },
+    {
+      "term": "パソコン",
+      "jlptLevel": "N4",
+      "articleCount": 1,
+      "channels": [
+        "news"
+      ],
+      "score": 8,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ILUs2a0F6TzhXZFY1NHk2NUc0NnFaVVExbHZPbkNlZW13RklwQ3NBWUJPVTFZMXM5V05qSUc5SVBlS2pGT0NnUExaMWJMMURHd1Nmb0Q5eVU1SlM4YTR1b3FCbDNvTnZFQldsWQ?oc=5"
+      ]
+    },
+    {
+      "term": "ひげ",
+      "jlptLevel": "N4",
+      "articleCount": 1,
+      "channels": [
+        "news"
+      ],
+      "score": 8,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAxLVhJMjE2SkZTNnFWT2pUcnlZcmY3SzJwN3A1ZXAxbG1LUUxWR1VmWlF1WFIyOFU5UkQ4dXFtNGpsUjBpdGZ1WHdRU0dGQdIBSkFVX3lxTFBVU2hvWDhydWpMZzIxWEluQnpWRk9vZlc5WU0zN0ZZNElwTkxKOEdlV0hQU1NKQzd5WklMd05QU2J0UWE5bV9YU0pR?oc=5"
+      ]
+    },
+    {
+      "term": "てら",
+      "jlptLevel": "N4",
+      "articleCount": 1,
+      "channels": [
+        "news"
+      ],
+      "score": 8,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5FV2gtd2hxbVo3aENIcHdkalg2cERPRWpTWUpvaTl6RkNNR2doZGlZRFpjVm1qeWJyZ2pqcGFIWGlOdzdfNFFhRFEycjEzdzlLYm1mNzdwZVpEQ1diWWJ4Q3hxMzA?oc=5"
+      ]
+    },
+    {
+      "term": "女の子",
+      "jlptLevel": "N5",
+      "articleCount": 2,
+      "channels": [
+        "news"
+      ],
+      "score": 11,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0tczc0RkhZUGhJMEJmQUtXN0ZvTVgwNGNLNC1QSGlsemV3cXJ2bERPdnVIMVg4MFJfMWdHbVFRa3lpSURrdUVrZFdSdUFvQQ?oc=5",
         "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQjF2eTFXQ0FiZVppVlFLZGFqaEgzS3Fvb0xjeUQ2Tnl3YW0wTlN3Q3hvYW9UMzE0M3ZZQVNfeGZiMWxuRGVMcmhWMC1MLUd5RjAwc3dKUkRidHpadUI1WU5iMi1JRS1INGJwUXdlc3o3LVpkX0x0MENHTGk0ZTZtcUpNMFpCc19CWTh3Mkdn?oc=5"
       ]
     },
     {
-      "term": "統一",
-      "jlptLevel": "N2",
-      "articleCount": 2,
-      "channels": [
-        "community",
-        "news"
-      ],
-      "score": 16,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMidEFVX3lxTE1tTHhvOVc1M2piTm50U25HX0NZdXF5bVotYmRzNFBSUldrSHUzQXpwOW4tWi1CWVpMc1ktM0F1cDFYeEI1VWFLUlBlUmhSMHNCZXlPdHktdXZNZjVnVTMyQ0Vhb1JGTmp4Sll2QmhYcFVDUUha?oc=5",
-        "https://qiita.com/kouki_miura/items/8e013667deb517d24a2b"
-      ]
-    },
-    {
-      "term": "項目",
-      "jlptLevel": "N2",
-      "articleCount": 2,
-      "channels": [
-        "community"
-      ],
-      "score": 11,
-      "sourceUrls": [
-        "https://qiita.com/orange006/items/bfdb5ab652b4ee8d5add",
-        "https://qiita.com/saltyoffice/items/103f4171a0c370664493"
-      ]
-    },
-    {
-      "term": "頂点",
-      "jlptLevel": "N2",
-      "articleCount": 2,
-      "channels": [
-        "news"
-      ],
-      "score": 11,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiR0FVX3lxTFA1ZEszNmUxWU9CU2liZ1pFMVMzQWhseFFWODdnUzhQQTd1alE2bmQwRmtDbHhpR1EzbE9zNXVicFQ0aTM3RFhv?oc=5",
-        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5oYWdxbS1iQm80Z2xldkhUbkdpbVE2T21jZVhWYjhQdnFCUVBmQ2kzU0VhU21uT2JGNGlBMXkycktuNjJQMGE5UWkyeFpVN25QWHc?oc=5"
-      ]
-    },
-    {
-      "term": "系統",
-      "jlptLevel": "N2",
-      "articleCount": 2,
-      "channels": [
-        "news"
-      ],
-      "score": 11,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBENnlJUHkwQnZxcnFwR21OSW1qbXNaOS1oc0ROdklLUU1ZMHFOajV4MXE5aFYxbmJ6V3pVSEJkU0VwQ2IwTXVQLXlWUQ?oc=5",
-        "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB3cm5pVFcwRzlFRVFUU0xHbkVEc2JtWjNjcjFfR2pjcExYaHZXWmFtbFRiRmZ3TDhHcjQ0N09VSmlNZWYzV3VxQ3NCWUo1c3lDbzRDUUhVdw?oc=5"
-      ]
-    },
-    {
-      "term": "突っ込む",
-      "jlptLevel": "N2",
-      "articleCount": 2,
-      "channels": [
-        "news"
-      ],
-      "score": 11,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMickFVX3lxTE5EdW13VVFaNXB4VGN4Vk5PUnBXdU5hU2ZvZzZFSEhsZ19Ed2pWNmViX0FLOUNGaTRvczZrbEVDMjZOUkRBU1VsTVFBUU5lX00xR0dGYmVYZjFZQ09fUjhCOU52UnpGbzZpWmQ5MUdMQnY0QQ?oc=5",
-        "https://news.google.com/rss/articles/CBMickFVX3lxTE94eEZfenJrY2FVZ3JucGtlbTk5VXN5R0FETEhzLW1pSEJ2SEUyRXhlQmg3bmpUWloyZUtfdUNhcWR3dzY2UDFvdzh5cEVreFZLSTM5RE1KOEpmOW5fdS1lYXB4b3UzX3VrNUdFc0FpOGpEdw?oc=5"
-      ]
-    },
-    {
-      "term": "相撲",
-      "jlptLevel": "N2",
-      "articleCount": 2,
-      "channels": [
-        "news"
-      ],
-      "score": 11,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1sdmk4Sy1vWmZ3bVF5TjFuclNkNDlDTVFXcGpvRU1sd2xLTTN2UzNXbnpuaEMtcGRpSWpjcVU2eWp5N1lnbnBhaUwwTGVLX0hONWx2STRLeGFPc0NVejBxZ29B?oc=5",
-        "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0X1lzZ0JQbGp6dTR1U2xEcE1Ua1dra3BLUks4Z1hlSF9zU1c5X0FqbjBsbk9Hd2JxN292d1JQajRONG5jMVlOWjZXT2xONDFtZkttY1N3MVhSQUMyTkg1MW93blg1X183RVhSRW5oVHdkdWhVbE1GbVRHOHhuMW8?oc=5"
-      ]
-    },
-    {
-      "term": "海水浴",
-      "jlptLevel": "N2",
-      "articleCount": 2,
-      "channels": [
-        "news"
-      ],
-      "score": 11,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiZkFVX3lxTE44dWJlbDhQUDJHd1RtbDRvbGRxclVKYno0TE5XcFV3YTdrR1VoMmRwZVpHdzRtSHBIekEtSF8yck40Y25iUm9xX0RnUWlHX3N1NnFRcGMzMWJjdWE2ZjVtTWNGTHBmUQ?oc=5",
-        "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Qd0x2TTl4NVhTTDhfY05XRG9mM1lQbDhEVW95UVVVWVBCek01MWhURGpfSnMzanU4THlDS0IxaS1wUl9fSEVZNHZnY3o2SERxeXZ6VXRXMVFYazN6cTVBMkZwZ3d3N2FhakhNNUFtR3B0VURlQ1E?oc=5"
-      ]
-    },
-    {
-      "term": "小学生",
-      "jlptLevel": "N2",
-      "articleCount": 2,
-      "channels": [
-        "news"
-      ],
-      "score": 11,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9xU2J5Q2l4aERidWRLMjFUNXBKQ0FDbWdDbnJFYVFVcWFWTTlpUk43VzN3U3JoWlExNm9YdHhaeHlhZW9xNEx1OFMyM1hBMmpyV0xGZmphVVM1eWpo?oc=5",
-        "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Qd0x2TTl4NVhTTDhfY05XRG9mM1lQbDhEVW95UVVVWVBCek01MWhURGpfSnMzanU4THlDS0IxaS1wUl9fSEVZNHZnY3o2SERxeXZ6VXRXMVFYazN6cTVBMkZwZ3d3N2FhakhNNUFtR3B0VURlQ1E?oc=5"
-      ]
-    },
-    {
-      "term": "夕刊",
-      "jlptLevel": "N2",
-      "articleCount": 2,
-      "channels": [
-        "news"
-      ],
-      "score": 11,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5XcFRMOXNlZ0ZoNW1uRUh3WXNLWURnaUE3dFozWm5VTC1wNHpYN0RVLS1aQ0Z4b3huYWdBTkZiRmszNFotdlJWamtRSQ?oc=5",
-        "https://news.google.com/rss/articles/CBMibEFVX3lxTE4yTDdGZG1PUmZwUXZXWk9ySGEwU2kwQ3g5UzdtU1dIVWZQWG80bU5ySHo1Vk5xb2FBMXNEdzd6SGVRWWtvMktpaE8tQl9uOTlBV1VHbThzaVI4Z1owaTMtV1hyajFtWTVkVnM3Xw?oc=5"
-      ]
-    },
-    {
-      "term": "包丁",
-      "jlptLevel": "N2",
-      "articleCount": 2,
-      "channels": [
-        "news"
-      ],
-      "score": 11,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMibkFVX3lxTE9XaUZVZ042RV9ZX1JFanZMVU5QVEJJajh1NzhZU0ZnZGMzZElCSC05TURZb0pqZGxJX3RNckxNZTNlVXVaeGc4U0RfVkhKbWh4ZnhUTTFnLVU0U0h3b01hdGtLTkdQc1czN3B6ZGJn?oc=5",
-        "https://news.google.com/rss/articles/CBMickFVX3lxTE94eEZfenJrY2FVZ3JucGtlbTk5VXN5R0FETEhzLW1pSEJ2SEUyRXhlQmg3bmpUWloyZUtfdUNhcWR3dzY2UDFvdzh5cEVreFZLSTM5RE1KOEpmOW5fdS1lYXB4b3UzX3VrNUdFc0FpOGpEdw?oc=5"
-      ]
-    },
-    {
-      "term": "公共",
-      "jlptLevel": "N2",
-      "articleCount": 2,
-      "channels": [
-        "news"
-      ],
-      "score": 11,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcW1oR0I0Rk5WNGlkSXdQNE9VbGExQlN5eng0eHc0M0lRczdLbW9yclpRWWctSmpONFNrV2RGci0tRzF3UTVWQWU5X1VleTljdUIzTUJRMFo4MDJkZm05TGY0N200dExlOEhobzAyVG1Vd01DcFlEbUFVMHBBbWw5QTY4MGE0ekhuRGUzNlFFckFDZw?oc=5",
-        "https://news.google.com/rss/articles/CBMitgFBVV95cUxNX3FOd0RJeHdFdnRpLWI2Mkk3UEFwcEJPcjBWOFJZTFV3MTJYQ3JVQzdrQ1hVT0tNRjA5cXBOQy1KdnN5WGtpbjF0dXBBRmlFeWhWZk9mWkZWRk50ZXp6QU9Wa0lWRjVWYkNYb01xaVg3OWFKMDN1UDB4Q01iZ1BHSXVlUmNnVXlrajlycVNIT0k3WXZld1N5ZGZYTU1qUWhRNlpCOUhKUEdPS09DbS1lU2dzMUJKdw?oc=5"
-      ]
-    },
-    {
-      "term": "会館",
-      "jlptLevel": "N2",
-      "articleCount": 2,
-      "channels": [
-        "news"
-      ],
-      "score": 11,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMif0FVX3lxTFBkXzF5QXNjSWRMRnhLb2hqQVZNMW96bm9BZE9Ta19JNFgxekdvOHlYX0ZsaUJMTkxSUGJHdDY0REM5d3Bwc21nM2ttZE9VWmJIREkyV2tpYzB1VjBnTFQyMk5Icnp1Q2Z3c3pqcTB2Nk9RX0VmNUc0aEI0ZklJZkk?oc=5",
-        "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMG9Qb3lTZUtaWTZlc0x1b2NTNFFlNFhOMnlBYkNOQjVfR0lQanBwSnFQYlVsMkVRN2FuaVd2SDZDMERSdjBOS3ladkxINWIwOENzdkcybnVBaVVTMXliRlIwdUs0eW5OTFdyd0N6amlROEFTY0pYOEZzRnV1MGhBZVM5YkVfTXhoY3hqU0dmYjZBQ0x5RkZadGNJWWJNRHdkaXJEVTVzVi0ydm1Rb21aZlJ5Z1hOQQ?oc=5"
-      ]
-    },
-    {
-      "term": "あふれる",
-      "jlptLevel": "N2",
-      "articleCount": 2,
-      "channels": [
-        "news"
-      ],
-      "score": 11,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0tZEl1RVFiQ1RjdUl3dDVrN2Q1c2RscG5mZHlDMWpjWXl5Z0VNVW4wNlJoVGg0SmdlWTRUNjg0TW9YMWd4X3lIRmJCQjNUdWZrNTcyWnJ3?oc=5",
-        "https://news.google.com/rss/articles/CBMif0FVX3lxTE1RdExfODdJa1Qya3hWYjY3cEtIWndLTUp2TlVhaHlBSnNra2I1djBGcVF4aFJvM3ZMSXc1Vjgtbk5ZSXUwNWZ5eGxzaTBNbjlad2N4aldmel9vWW1rSzBKX2ZZQks2cFZBbkJDeHBnU2JNWm9zYjZRS0dXTF9Eamc?oc=5"
-      ]
-    },
-    {
-      "term": "高層",
-      "jlptLevel": "N2",
-      "articleCount": 1,
-      "channels": [
-        "news"
-      ],
-      "score": 8,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMibEFVX3lxTFBWUGF3ekY4RTBPX0IyRUJrUWFHSFBZVWlkZkVXSVhqMHoyZHliVnZWaU1xYXk3WC1adndRd3UyYU9xYmtHLVlLMkdsMUVibHppTzdvdXhlWjAxSGt0MnJKWndxNmtOQjlncVBIZQ?oc=5"
-      ]
-    },
-    {
-      "term": "幕",
-      "jlptLevel": "N3",
-      "articleCount": 6,
-      "channels": [
-        "news"
-      ],
-      "score": 23,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiT0FVX3lxTE14VTh6NnJXLXhKVmlvYkFkNFFobmVQNzFJaWJYWlFiUW9QdmtVTkFPaXhQeFZiNHFCOHVYb0xKWjdKQmZJYlVodjRsanZQa2c?oc=5",
-        "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1fdV9MU1ZCSnc4UDJLeUFxeXdrbGFzUi1MbFBwU2pERUJKVkJPbkMyWlBRSEt1ZHpsQlFGZG1RSmNIaHZsVHNyT3RMTFgxb1Jy?oc=5",
-        "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBvTGlIM0xocWFMZWRhQXhCcDZBbFAyd1Nicm91UVAyQTctV1lpaWdyMTZsTHpaUGZEa3p6V0F0WmZKdkFmUXNLZE1uckRQbmRWTDhhQS1Zcw?oc=5"
-      ]
-    },
-    {
-      "term": "型",
-      "jlptLevel": "N3",
-      "articleCount": 6,
-      "channels": [
-        "community"
-      ],
-      "score": 23,
-      "sourceUrls": [
-        "https://qiita.com/myaX/items/a438f8a4f737b703e6c5",
-        "https://qiita.com/okssusucha/items/410a6e824f3b46dbfd03",
-        "https://qiita.com/sho417sho/items/a0d9ce5c46370254be52"
-      ]
-    },
-    {
-      "term": "出場",
-      "jlptLevel": "N3",
-      "articleCount": 6,
-      "channels": [
-        "news"
-      ],
-      "score": 23,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNZzFBRklya1d6NzNCS2JHQUpNVWl3UE1RZ2V4YXAzaHI5OERlWVd2ZWpkMVBmQ2dSZmJOallmU0h3Yjdpc3BCbE1ZZzJZWmN3emMyeWtWek1nZU5DZUt2V0I1NFRmazhKVWpOUzk3UW1KeTFNN1VjTHhUeUVhN0tXbDlxckpGZmNwaEZxS00zSDFQekNBeEluZzltcHNlN3o5SWJPZlo3YzRJLXc2RUZZYXFITWNYemFtLVR1NUhUamVMdHNwOTFiRGszRkpHY0hoVUhfOTRvMzcyU2Fsc3ZZZjJaVdIBkwFBVV95cUxQMEtLaGI5OVFpWFdfN2FoM2lJRjA5SjAzVFgyUVQxbGQtRHYwNHlNc3pkU0syQU9qSlJSZTRXYjltVFJGV0pRUEVzcWZkQUFOVDhKVE81ODBJQTF0RllLdUhJN1NOMC1aMldQZVV5bXI2TmVrcWZ1RDZ4YzdoNjRaMUJFeHFiYjk0QTl1c1BZNl9vRVU?oc=5",
-        "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5XcmNxd2RHOUs5TWNrMG1FbjBza3gza0FsMmhXVTVHd1oxWW5qQXhRTGZ2dW1OTWZsbjlvSEhUMmNtcnozY2pIZVZfNUZ5X3htSVZ1M2lqM2UtTG85Zmc?oc=5",
-        "https://news.google.com/rss/articles/CBMiZkFVX3lxTE91TldVUjEzWi1iQVh0aVVtT3V3VGctTWdTYlpWd095UUxNTnowNjI3Z2k4X3pDWUdWOEx6RGNUQ1lYS29VTTg1RG9RZHp6a0dXN0U4UW5qUUFsdGtPQ2J6SW9FU3Zrdw?oc=5"
-      ]
-    },
-    {
-      "term": "意識",
-      "jlptLevel": "N3",
-      "articleCount": 5,
-      "channels": [
-        "news"
-      ],
-      "score": 20,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBCVHJSOGktT1A5QVM4WEFvU1FzQ0ZVcEMzVTBBU19ZU3Atem1mWXpMZkVrRE9NOWhGRENmWnl3Tm00TjV4eVhQWmx5TmRuZ1g3d1ZNUmRLa01QSU9f?oc=5",
-        "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAxMzhmSmtMOU9kcGQ1MGF1TEpDWFl4VVk2cHVEVmpqdHlzallMMndST1M3N3Q0cXZTMTItVlJPTlJ4Um9TNHZiLXJMWW1lZWc0b09PcjdhRlZKb1M2Z0E?oc=5",
-        "https://news.google.com/rss/articles/CBMiZkFVX3lxTE15NHZqSzhGWmZOQnhWb2ZqQUFtUkRZd0VvZmZGVFVxWHBhN1laYTNRYWVJYy1COV9zalMxSGNJb2tpaFg1QVZZRjE5Y0JVcUxSSElCTWVEV2o5bkRiMTZZM3RRbnI4QQ?oc=5"
-      ]
-    },
-    {
-      "term": "都市",
-      "jlptLevel": "N3",
-      "articleCount": 4,
-      "channels": [
-        "news"
-      ],
-      "score": 17,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5ZcTRnQWFQMFdmdWhEWkduQUtGdmhaeGZ5YXVNVUdRbTZBZklCdlZBVzlsQ1M0eUtBbzZOc0Y0M2lIbkU?oc=5",
-        "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5MRDFBM2JuY0pDT0tnNl9DNVU2SndCakN1NU1xZ0J1cHpnZUg2Vkdwb1VvYm1zUnlYdXNGeGk4UkdzTmpRWGh3?oc=5",
-        "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5LVWEzS0paU09TYVNpRUpsWTRtMF9oM2NkRDVybmYtdTE4UWh0alRBLVpXYV9IekhTbEJiRVphMUl2aUhsUjRXb2c4VEpZVjNUREV0TQ?oc=5"
-      ]
-    },
-    {
-      "term": "資格",
-      "jlptLevel": "N3",
-      "articleCount": 4,
-      "channels": [
-        "community"
-      ],
-      "score": 17,
-      "sourceUrls": [
-        "https://qiita.com/Teddy_/items/fa83f4299928d2ee6461",
-        "https://qiita.com/happy_engineer/items/721bc628efbd5377041a",
-        "https://qiita.com/kaiju_t_e_k_04/items/919791997e2c5cc5b18f"
-      ]
-    },
-    {
-      "term": "男子",
-      "jlptLevel": "N3",
-      "articleCount": 4,
-      "channels": [
-        "news"
-      ],
-      "score": 17,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiR0FVX3lxTE8xSUU3cHh6TWtXaGRkanRsWmZxT2VpcDlNdktyYllzRmJEanp5YjNkNE1YTkh4NmZWYVFxNFZFUnp5YnFDbjdF?oc=5",
-        "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Qd0x2TTl4NVhTTDhfY05XRG9mM1lQbDhEVW95UVVVWVBCek01MWhURGpfSnMzanU4THlDS0IxaS1wUl9fSEVZNHZnY3o2SERxeXZ6VXRXMVFYazN6cTVBMkZwZ3d3N2FhakhNNUFtR3B0VURlQ1E?oc=5",
-        "https://news.google.com/rss/articles/CBMif0FVX3lxTFBRbWpxMkxaa2pIUW5TSkpibFNFYXdOcnlBY2VuZVJRcW9LSXYyLXBlNGRDQXJpNUh5aE9DRmNMM2xNQi02SnNfUEJ5Zno4Y2h4SFR2OGFYeWRvUlJWOWZMNXg4WUZuY1ZObWpHZ1kxa1RWc2E0TmxNNjNnMHFaUHc?oc=5"
-      ]
-    },
-    {
-      "term": "無事",
-      "jlptLevel": "N3",
-      "articleCount": 4,
-      "channels": [
-        "news"
-      ],
-      "score": 17,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Idk0ybGxiaUVranRpeDN5VnM0anBYdU5pZ1dMSzFlWFVnRzQwaE9VaWVYNUpVNHRmRXktZU9ib3VENS1tWEdaVVdvOUc2SzF1N0VJenEwNjMwZw?oc=5",
-        "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1LNEstNmViM1drZDdIM3psX1ZKUDhtNnNLNU43VW5WV2Z6bkUtUF9BelEwUUs3d3Z5SGZnWlNYZUg5VXpSMFNmMkdFYUY5UHBxTkNOcDFFOU10blpwU0duVmtwYkJkQ3c?oc=5",
-        "https://news.google.com/rss/articles/CBMif0FVX3lxTE1MQWU5cFgyd1o3amw3UXdtOGhpZ0E0LWRjTFIzWEhOSXlLc3ZudUJoMXc0Wk8tYXZPby1icXlKT3g3blgwU21tbHE3M3hEWmZJd2Q0NERKZDdGYWd1cUZQSi1STzN3OFA0UzZjX0E5bXJNVkhUbjZJcGk3b3ZMTjA?oc=5"
-      ]
-    },
-    {
-      "term": "宇宙",
-      "jlptLevel": "N3",
-      "articleCount": 4,
-      "channels": [
-        "news"
-      ],
-      "score": 17,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9WalVia3pxRVlaV2NsbE5KTURaR0l1NE5TMl95MmthdVRXZjl5VjJlb2NxMExsUzZXbWd6T2FLbmFNS1dWWkJHbnFqSW1iRnZvaGJDVWtTaVlQZw?oc=5",
-        "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9pMTJBcDd2Y0Q4WGRXZ1FZSi1NZEMyY1Y4dUYyOVFnLWJrZ0NzLVNMQy14NXhKSHJuNWxvdW5fN0F4a0x1YW5IZlNtcTI5QW04TGE3b1J3VGhZSUhtemhZY19JX25seUE?oc=5",
-        "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNam9laGpLbExtNDRLZFlTRmFpTUtyMktzbzZHdmlIOC1BSlowSHdjQjlKcEd0Z2xYcjluWEFyZXM3Zk1aLWVXekI0VU95cWR2bWVIbjJDN1FsX2kzanRycFZTU09SQ3FZanJIU01jak1GS0JXQXQtMHZMbGNOclA4QXd0MWRJTGhWT05V?oc=5"
-      ]
-    },
-    {
-      "term": "合わせる",
-      "jlptLevel": "N3",
-      "articleCount": 4,
-      "channels": [
-        "news"
-      ],
-      "score": 17,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8xRkU1aDBLc052aGVsRzFJNmhITU5WVE9lVFRXb2hGZWE3YnlKbkNaaXlaaXJtWWNXZGE4dEhXb2FXVGRnd01xN21kVQ?oc=5",
-        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0tZEl1RVFiQ1RjdUl3dDVrN2Q1c2RscG5mZHlDMWpjWXl5Z0VNVW4wNlJoVGg0SmdlWTRUNjg0TW9YMWd4X3lIRmJCQjNUdWZrNTcyWnJ3?oc=5",
-        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1pNGx1eXhkNDQ3eTRzMFVEOHNzc0x5ZUJZa0dEcHJIS1RHTkoxY25hVDduMmRxU2VyeXhKYll2UEt0RFRyb01QdDVWcVU2VVV2UXNHVHZn?oc=5"
-      ]
-    },
-    {
-      "term": "協調",
-      "jlptLevel": "N3",
-      "articleCount": 4,
-      "channels": [
-        "community"
-      ],
-      "score": 17,
-      "sourceUrls": [
-        "https://qiita.com/nabehan/items/069eae51dbdf08820d72",
-        "https://qiita.com/nabehan/items/84ccc9d1d335493fa148",
-        "https://qiita.com/nabehan/items/8f89aed682fb5a4a33fc"
-      ]
-    },
-    {
-      "term": "光景",
-      "jlptLevel": "N3",
-      "articleCount": 4,
-      "channels": [
-        "news"
-      ],
-      "score": 17,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBULVFUNkdyRnd1al9uZ1JsOE5JTmx6WEl3S0djaDN5c09aYWVIUmwzSkcwLUZncGJYbGJ3VXZFX25WSDVyRmRrMmFSVllSZw?oc=5",
-        "https://news.google.com/rss/articles/CBMif0FVX3lxTE5sNlBEaExtcWx3QXlxNTlHRWxQRnRFTUFnTFBnb3FiWXVHbUMyS0JOTnp4YVpVdzFHNnQwMERFREluYjBPNnA1OHN6cnI2M210Rk9HZGt0S0FkQmFzTTFuU2d2eVctYTJsOVh4RUo3S3ljTFJ0Ym9LN2luUmJHamc?oc=5",
-        "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSXZ6WWhoaW4zTmJNcGV6YlljdnRnVG54Vjc4UTJ6R09NTnhSa0gycVNhaERBMXpwZHViR3lGc1hQTzdpNUhOd0pzVDBlUGowdGNBbklzWkhmblVKMWVPeGZ6ZzNJQmRwTFhwNk1WVjk2bUo3TlV0ektlczdoWWl3VmxR0gGHAUFVX3lxTE10UV9KcTVkcF96QXRKLU1sVHA0SFFsMHZQdU9sOENpQ29lUmJrdTctSmV3YmxBQWpHcU52LWdTd0NwTVJjYUpDaFRvUmdxc01XWjJJRXFGMUVFNjlGckptQnlzWGJYNGdqamNOVTJyN085MnJGVDZnNktzVjV4aElHZ2o0NU9mVQ?oc=5"
-      ]
-    },
-    {
-      "term": "予測",
-      "jlptLevel": "N3",
-      "articleCount": 4,
-      "channels": [
-        "news"
-      ],
-      "score": 17,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9MNWdJTk0zZGdicVplVUFwQ3FaTWFzQXFlNVQxdmprMERvQXYwVVdiWEpxem0yUlBNbGEyYlJTX3NCdW5DWkJTUUs1LTFnS3c?oc=5",
-        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pcFpNVXFhUVlWMWQ4ZVlnTkR4Q09HZWs2S1lQcnVuQUZDci16eXJpUmV3V1J1RnZPX28wYmc0a1VoV1FhVm5nUzBsc0dOYWlGam1FLWJn?oc=5",
-        "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB6czUxZlhxVVhFMzEzcDZHdEt2dHBaZkwyeFlpRmVBU3JlLUdmb1JCYWIwb3ZkYjh6UjYwdEVIWTExRmxzRVNQemdSemJTRTI4VXZqOHZjTEk?oc=5"
-      ]
-    },
-    {
-      "term": "ママ",
-      "jlptLevel": "N3",
-      "articleCount": 4,
-      "channels": [
-        "news"
-      ],
-      "score": 17,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBXbUxVUVdjdTdzbXlYdVJOU3huVExzV0kwOFY1RGFRb2xGVi1ZYmlSc2VXRDhfYmlQLXVxWGZVd2tWRkt0TTBWZnRWYw?oc=5",
-        "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5NZUFoQ0h2MGktbFNKU2daZ0h1OFBCUThWTzhDaVFBQkdfU3U0bXU1U1dZMEJHM3NyYXZoLXQ3OHY1WWlEZEtlTFJNN3Q2QQ?oc=5",
-        "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQjF2eTFXQ0FiZVppVlFLZGFqaEgzS3Fvb0xjeUQ2Tnl3YW0wTlN3Q3hvYW9UMzE0M3ZZQVNfeGZiMWxuRGVMcmhWMC1MLUd5RjAwc3dKUkRidHpadUI1WU5iMi1JRS1INGJwUXdlc3o3LVpkX0x0MENHTGk0ZTZtcUpNMFpCc19CWTh3Mkdn?oc=5"
-      ]
-    },
-    {
-      "term": "むしろ",
-      "jlptLevel": "N3",
-      "articleCount": 4,
-      "channels": [
-        "news"
-      ],
-      "score": 17,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5DSndTTDBJc2FTdlJzcXZ6SmxoQTFmZnByYzIwcTQyZi1aaEp5cUZVbDRWWklCeDN4U2E1TWNDZngyTW0tNmNfY0ZIMlJOeFJmQ0E?oc=5",
-        "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5JRkM2VkNKTU5majhIbnd0blNFNkFCRVpxNnBmbkJVYnFWZ01YZHd2emIzRDdvdzcydHYxeHd1cTdXdHpteGpGUzFZWmJkcGJvcjZveFUwS2FCYVE?oc=5",
-        "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWnltTFVBajViMmxDb3lQcThOWlZFbENsMVlVNjNfUGJLdXVBaE1DVTFwOENmRkowQWUtZkxzcUk2OTZ0dUZpUE1WenZaNkZ4TmZWVXlCdmg5LUVvY3ZiTDJvUkNIeFhkWGtuaVFVWEpiWHFKNThTTkppcGlKcjZiZTBTU0ZneDhX?oc=5"
-      ]
-    },
-    {
-      "term": "焼く",
-      "jlptLevel": "N4",
-      "articleCount": 3,
-      "channels": [
-        "news"
-      ],
-      "score": 14,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBENnlJUHkwQnZxcnFwR21OSW1qbXNaOS1oc0ROdklLUU1ZMHFOajV4MXE5aFYxbmJ6V3pVSEJkU0VwQ2IwTXVQLXlWUQ?oc=5",
-        "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB3cm5pVFcwRzlFRVFUU0xHbkVEc2JtWjNjcjFfR2pjcExYaHZXWmFtbFRiRmZ3TDhHcjQ0N09VSmlNZWYzV3VxQ3NCWUo1c3lDbzRDUUhVdw?oc=5",
-        "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5Ebm9Xb3AtYTZaaGlzdVRMaGVtNnVTSWZ3NHBzbE1DNUNQTU95d3NiT0N0aXUtUEY0bmtnM0JoQUhKZk5zYTRia3hQU0M0VDYycEgzUXZ4aVhESXRJN2c?oc=5"
-      ]
-    },
-    {
-      "term": "十分",
-      "jlptLevel": "N4",
-      "articleCount": 2,
-      "channels": [
-        "community",
-        "news"
-      ],
-      "score": 16,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYmI1SUxORUZsVFpuOHhJMnlubU8weXd1bXhjZ05ZY2loY0pDNnhfczFwUHcxMGFrQTktdXVzWDFKaWRYMEtqdmhVVXJFZGZfdEF6d1JITmRMb3FtNkMxNHRmalZBc3I0R1VyVkk5VXl4YUViX0dUeHhGMTFSVGdfZGYxMFFMdnhJRm80TVVPeEc5UUtEVTJVVFBiT0M?oc=5",
-        "https://qiita.com/azsoft-jp/items/3961c22cca3a580c8fa2"
-      ]
-    },
-    {
-      "term": "焼ける",
-      "jlptLevel": "N4",
-      "articleCount": 1,
-      "channels": [
-        "news"
-      ],
-      "score": 8,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMif0FVX3lxTFBORUIyQTJ3TE5pU0dreXRRS3Naaldpc040dkQtcVhCdkl5eHM5bkxRVVVRZ3N6azFWSHRETDQyb05pdjNFcmRTeXgyRkYyTXgxRFFlejdkOHhhWVVmX201enZEYVNkOVF1QUxpUmNwNXpBaGpMWFBNUHlOLUhvSlE?oc=5"
-      ]
-    },
-    {
-      "term": "校長",
-      "jlptLevel": "N4",
-      "articleCount": 1,
-      "channels": [
-        "news"
-      ],
-      "score": 8,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1aS00ydFFCM1YxNUVhR1FqN1dCaWtDRWZwRWlNd21MMVpaaHFFenA3ZHk4bFRqLU02elhmLWcyZlJRSHVIUFYzWUw1dndhWXNCeGZZZHpCQWNlWmdhWTA3ajZ3?oc=5"
-      ]
-    },
-    {
-      "term": "挨拶",
-      "jlptLevel": "N4",
-      "articleCount": 1,
-      "channels": [
-        "community"
-      ],
-      "score": 8,
-      "sourceUrls": [
-        "https://qiita.com/sagochiko/items/77ba979b5cf15d28a8c7"
-      ]
-    },
-    {
-      "term": "指輪",
-      "jlptLevel": "N4",
-      "articleCount": 1,
-      "channels": [
-        "news"
-      ],
-      "score": 8,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1YbFRqMmZmQzVOWmFsajBFbEY4Yl9ZQ3gxbjhMWmZNX3M5eFdsNVdMQXZRMjFRTWprYzMzNm9XMUNLZUxFUjBTU2x6QlZEOVdadENoT25waEs0WU5FSEp0X2ZELVJYZw?oc=5"
-      ]
-    },
-    {
-      "term": "復習",
-      "jlptLevel": "N4",
-      "articleCount": 1,
-      "channels": [
-        "community"
-      ],
-      "score": 8,
-      "sourceUrls": [
-        "https://qiita.com/amu-kuroneko/items/1e73340a78ad88ce816d"
-      ]
-    },
-    {
-      "term": "引っ越す",
-      "jlptLevel": "N4",
-      "articleCount": 1,
-      "channels": [
-        "news"
-      ],
-      "score": 8,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMif0FVX3lxTE1UdTQtcEQ0VGZuQnhMZkhnQ1BNRmRobkhrZWRKNzhNaENNSTc0YzFvWjVCOG9vN0VtLTZLeVl0eElRenBWelNpV1dpVXNVcGd1REZmTW52UXZUTTFzV0lhQmRzenZhbk5ON3plMTNHUnFkR3dSRXNyS2RkdlEycmM?oc=5"
-      ]
-    },
-    {
-      "term": "代わり",
-      "jlptLevel": "N4",
-      "articleCount": 1,
-      "channels": [
-        "news"
-      ],
-      "score": 8,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiT0FVX3lxTE50b2pNcEZDV2NxV3hJYzNBSHRNc0lJVmF4cUdKOF85SDVKSmhTcE1SYndTVUlHU3lwXzR5dXVnNHgwSVJOaFJjczNHWDNiUkk?oc=5"
-      ]
-    },
-    {
-      "term": "中学校",
-      "jlptLevel": "N4",
-      "articleCount": 1,
-      "channels": [
-        "news"
-      ],
-      "score": 8,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1aS00ydFFCM1YxNUVhR1FqN1dCaWtDRWZwRWlNd21MMVpaaHFFenA3ZHk4bFRqLU02elhmLWcyZlJRSHVIUFYzWUw1dndhWXNCeGZZZHpCQWNlWmdhWTA3ajZ3?oc=5"
-      ]
-    },
-    {
-      "term": "一度",
-      "jlptLevel": "N4",
-      "articleCount": 1,
-      "channels": [
-        "community"
-      ],
-      "score": 8,
-      "sourceUrls": [
-        "https://qiita.com/tabata/items/b4a2cad080b760ad1a33"
-      ]
-    },
-    {
-      "term": "ビル",
-      "jlptLevel": "N4",
-      "articleCount": 1,
-      "channels": [
-        "news"
-      ],
-      "score": 8,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMibEFVX3lxTFBWUGF3ekY4RTBPX0IyRUJrUWFHSFBZVWlkZkVXSVhqMHoyZHliVnZWaU1xYXk3WC1adndRd3UyYU9xYmtHLVlLMkdsMUVibHppTzdvdXhlWjAxSGt0MnJKWndxNmtOQjlncVBIZQ?oc=5"
-      ]
-    },
-    {
-      "term": "まんなか",
-      "jlptLevel": "N4",
-      "articleCount": 1,
-      "channels": [
-        "news"
-      ],
-      "score": 8,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0yeW5yMVZsMVZ0TjMwcUN1eDFOUTYySzViSTlHQzVzaUUxTTRfVWZEeEhWWHYzUXVPVm42UVJ4NDhRS2pCQnhZZVJ2cnk2MmRKRm9LaGloSF9mWnVIMWlDbg?oc=5"
-      ]
-    },
-    {
-      "term": "にがい",
-      "jlptLevel": "N4",
-      "articleCount": 1,
-      "channels": [
-        "community"
-      ],
-      "score": 8,
-      "sourceUrls": [
-        "https://qiita.com/azsoft-jp/items/3961c22cca3a580c8fa2"
-      ]
-    },
-    {
-      "term": "ごみ",
-      "jlptLevel": "N4",
-      "articleCount": 1,
-      "channels": [
-        "news"
-      ],
-      "score": 8,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMickFVX3lxTFA4bE43V2xTMTFMTER5LU05bTJMajNRb01sWmx0TmRwa1ZGazdoajNMTnhDVU5LSFNkRU5uNEp5QktLZEt1TkxnUENTemNYQVI4dzJzZjBfUHBQMFpKR29zS1R4Z1Q2eGZMYUUxcG4zWXEzZw?oc=5"
-      ]
-    },
-    {
-      "term": "差す",
-      "jlptLevel": "N5",
-      "articleCount": 10,
-      "channels": [
-        "news"
-      ],
-      "score": 35,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1XSF9leEgzeG1IczRGcDZFRFFGVElma3k4T29DMjhrd080b20zUUtSWkdxaXVrYk45VDA4VnFPaUJ0aXY1dEczVEQwOUlJWGs?oc=5",
-        "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBKOGhfMHhUcUt0TkhrUUhNcmplZElUZEZuSzBTSDN4WFQ3NjN0Rk9SN1c5cXBMdVVKSjZzTW0xY2t0ZWpBZ2d1Vk5NZFRBb3c?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBlNGpNVGRrLWdkcUdGcF9jelZMUmM5OTRqN0tjXzFLM1RHek5UMTlpR21fckp2T0RRMFRib1Vvb0RkZHdlaTMyYk1IdUd0V3Y0M2tj?oc=5"
-      ]
-    },
-    {
-      "term": "カレンダー",
+      "term": "危ない",
       "jlptLevel": "N5",
       "articleCount": 2,
       "channels": [
-        "community",
         "news"
       ],
-      "score": 16,
+      "score": 11,
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9Va0FtQldaQURlbTk4UWNkdWZBUVhsdEZGY013b0Y1S1p2eGczenRnVU1aa1hNSnZrODF2UlVMWFdmM1JjNmZOMnotNUpwMFNoSWJNY0Nn?oc=5",
-        "https://qiita.com/ettomio0518/items/e869fff3c034a8492361"
+        "https://news.google.com/rss/articles/CBMickFVX3lxTE5HVDMxcXlzNWMydlNWSmY5MTlqbzVXTzBGMEtyRnAtelBUTFFZdkgwNFFRVXR3SWpyQWFfekIzV3ZOZzREUUt4dUFab0RRQ0g2SnlTU0hyaHBJRzExM0xQc1ZRRjJMakVJNUticlRxMTNYQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMHJMRkF0VUZkazJzcFluamhRRzByZVhwQkIwRnVydmlsSUdsXzB0NE1oYzV1SzN4SVBZMHNBODZwV3V6YXg5SUtWWGhUZ3hqbUprVUxtNUVOYVkwaXNPamx0WVpXbFBOU2NGby1tRFJuNnBRZWx3M25URXpJQVBnWnZZZldqNWllRHoxVGpR?oc=5"
       ]
     },
     {
-      "term": "豚肉",
+      "term": "むら",
       "jlptLevel": "N5",
-      "articleCount": 1,
+      "articleCount": 2,
       "channels": [
         "news"
       ],
-      "score": 8,
+      "score": 11,
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMibEFVX3lxTFBWUGF3ekY4RTBPX0IyRUJrUWFHSFBZVWlkZkVXSVhqMHoyZHliVnZWaU1xYXk3WC1adndRd3UyYU9xYmtHLVlLMkdsMUVibHppTzdvdXhlWjAxSGt0MnJKWndxNmtOQjlncVBIZQ?oc=5"
+        "https://news.google.com/rss/articles/CBMiTEFVX3lxTE14U01BbEN1TXpHNmVLWHJQRnRQTGQ1RWlNOGp2SFV3WnFUTi1tSjRGUVNLUnhTQzdkaFh5TEMtU2dKWHM0WjFSZ1JNUmQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBVRDVzZ1VsMTZwZEVqb211Tm9rR1lzYkJUc0Z4dlR3NGhpcHZ0ay1SNVF3eUw2bGJ6T0Y4V1NmYUxpWlFKRG05N3VvWlZaVlZueTZZV05Zd1o?oc=5"
       ]
     },
     {
-      "term": "警官",
+      "term": "たくさん",
       "jlptLevel": "N5",
-      "articleCount": 1,
+      "articleCount": 2,
       "channels": [
         "news"
       ],
-      "score": 8,
+      "score": 11,
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMickFVX3lxTE94eEZfenJrY2FVZ3JucGtlbTk5VXN5R0FETEhzLW1pSEJ2SEUyRXhlQmg3bmpUWloyZUtfdUNhcWR3dzY2UDFvdzh5cEVreFZLSTM5RE1KOEpmOW5fdS1lYXB4b3UzX3VrNUdFc0FpOGpEdw?oc=5"
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE0wcVZzQjMtZGc3MXFlMDNnZWhsOGM0NkxmSmlweWhCSlJZU2RWREN6Zm1YSWxLZ1JhanJYQ1VmN1Y3MFVlVm1qelpSVzJCVkY3Z1U1NGt3Y2FER2NTV0lNcTMzdzN1SWZGdDUxdFB6SXctWHctTWJGSE5DNFJhT28?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qb0NTVlpVcmxiLVFKTHE2SmF5cXlJOF8zUnZjbks4bnhPMm42bnFFYzZZUU5PMmtUM0RkeVkyWnRFTXhvSmY1dm55VFNQQnJ3aVI3SUstQTBVYVRCRGlSdmk5S0FZX1BfaE9NSHIybjU1WnNMWGJiZWZiYkRla0k?oc=5"
       ]
     },
     {
-      "term": "廊下",
+      "term": "か月",
       "jlptLevel": "N5",
-      "articleCount": 1,
+      "articleCount": 2,
       "channels": [
         "news"
       ],
-      "score": 8,
+      "score": 11,
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMif0FVX3lxTFBORUIyQTJ3TE5pU0dreXRRS3Naaldpc040dkQtcVhCdkl5eHM5bkxRVVVRZ3N6azFWSHRETDQyb05pdjNFcmRTeXgyRkYyTXgxRFFlejdkOHhhWVVmX201enZEYVNkOVF1QUxpUmNwNXpBaGpMWFBNUHlOLUhvSlE?oc=5"
+        "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5JeVVBN08zTWUwR3p1X1otRDdjTi1neExJTzJpaV92ajBleEtrUkJsMUZhV25BM19TTGh2YUJRZWJ2NUhqMmdEckN2Qm9NRnM0Ym5HX25TZw?oc=5",
+        "https://news.google.com/rss/articles/CBMiakFVX3lxTE1JWkdyc0lMVVViN09PSlQ3a29TR2xHck5ZT0dmVHBnLW5nQTY0bU5EOE5VbWw0STVYZTdLV1BCQ1lYcUxYVVNJMjkzTk1VTWh3TXVGNzN2U29GMjA4OHdZTkx0aExjRUlDTnfSAW9BVV95cUxPRy1FQTd3OHJIMlVzZ1RHcnZoQ2V4NkViTWljaHMtTExIcDVTVlF6OHhXS01pMmc4anRCWHV6RExWX3Jxc2JITi1VcU02bkpTV1RySEdlb1BlcmtvUGFvRWhvOTREQzlLb3M2TDZLejA?oc=5"
       ]
     },
     {
-      "term": "寒い",
-      "jlptLevel": "N5",
-      "articleCount": 1,
-      "channels": [
-        "news"
-      ],
-      "score": 8,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMib0FVX3lxTE9UYW5TN0Mya01VM3M1RFdXb2Z2OWsyVDZvX3RLaUE3dmJHeEVXM3dwVDVmdGhCcjEyY1U4TjZ4NWNiclhKRDBWQkVLTHNxWTFfNWFRN1ZodDE4a1cydl9BNGpFS3g2Ny1zcHgwdE1EUQ?oc=5"
-      ]
-    },
-    {
-      "term": "夕方",
-      "jlptLevel": "N5",
-      "articleCount": 1,
-      "channels": [
-        "news"
-      ],
-      "score": 8,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pcFpNVXFhUVlWMWQ4ZVlnTkR4Q09HZWs2S1lQcnVuQUZDci16eXJpUmV3V1J1RnZPX28wYmc0a1VoV1FhVm5nUzBsc0dOYWlGam1FLWJn?oc=5"
-      ]
-    },
-    {
-      "term": "地下鉄",
-      "jlptLevel": "N5",
-      "articleCount": 1,
-      "channels": [
-        "news"
-      ],
-      "score": 8,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiogFBVV95cUxPak8zVjFOVkdyR3hCZWxfcVRHX3N6MFBTMjBRUmdsOG95dHNUMWtRQ2tySmlBT3Y1WVlBYkJDR1pmTTl0RlVYVHdselFkOWJiSGd4RWxlb3gydjA2ZGVadVBKMGcxS1dVVUZJaVRSd200ZWVNS1cxMGJjX25Pd1p4TFFlY3F2d1Q1NmFEWFBZZUhyV0VMb2pWc3hvZTFCRnNSdnc?oc=5"
-      ]
-    },
-    {
-      "term": "同じ",
-      "jlptLevel": "N5",
-      "articleCount": 1,
-      "channels": [
-        "news"
-      ],
-      "score": 8,
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiYkFVX3lxTE83dmExLThyTTNkOXU2RFdxQW9WbzFxZzBRSTI0ZXFzOWRpNDB2TnlFZy1WZE5ONUludWszLW5pTVpaYnJRcUdIZ2NsdXBoRG1sc1poX3M1cGFwSm85OWRuS2R3?oc=5"
-      ]
-    },
-    {
-      "term": "古い",
+      "term": "貼る",
       "jlptLevel": "N5",
       "articleCount": 1,
       "channels": [
@@ -1370,11 +1334,11 @@
       ],
       "score": 8,
       "sourceUrls": [
-        "https://qiita.com/Miraigent/items/56f125631fd7e6d8ec33"
+        "https://qiita.com/rikuto125/items/64d39d506dab8420d1fc"
       ]
     },
     {
-      "term": "去年",
+      "term": "紅茶",
       "jlptLevel": "N5",
       "articleCount": 1,
       "channels": [
@@ -1382,11 +1346,11 @@
       ],
       "score": 8,
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5XcmNxd2RHOUs5TWNrMG1FbjBza3gza0FsMmhXVTVHd1oxWW5qQXhRTGZ2dW1OTWZsbjlvSEhUMmNtcnozY2pIZVZfNUZ5X3htSVZ1M2lqM2UtTG85Zmc?oc=5"
+        "https://news.google.com/rss/articles/CBMiakFVX3lxTFAtS0xESi1JUTdmQTBURWJnUGl0aVFCN182My1qUUpZcGIweUpySUhSMm1QeGVGUGxfR0U0dTQ4c1BkTHdYRl8zMnZkY3FnOWRvNi1DYTdxS2xBVGJvVDlBNWhKVjFRc3Uyd0E?oc=5"
       ]
     },
     {
-      "term": "公園",
+      "term": "病気",
       "jlptLevel": "N5",
       "articleCount": 1,
       "channels": [
@@ -1394,11 +1358,11 @@
       ],
       "score": 8,
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdENOaEZyOHQwTGNXSXhqV241NElQWGZoQS1NYWM5Qjl2aFRPN09NNE93VlJialBFVzB5MnI2YWFOcUdvMHduMV9aVjVLTnYzOEpubDVndWhtenRfUzFudXg0b1NWLUlOQXFoMWw3WnJuMURNTnJpVVpLVUdNeHo2YXlsVTNGZERoOEhkZGNXVVJSVzA?oc=5"
+        "https://news.google.com/rss/articles/CBMidkFVX3lxTE02SWtTT2xfdFFXZTdYS3VPek94OGdGZmpWQ3hGUHB0SjVjSi1MZkU1NlZGVjkwNktjdjc3OHI2NWRENzVBZmpGNDBvNHBYWmZGdlQtS3RNM3hVaHVHcHRuVlNLQUFMZzZ4b1NQa0psN1gyeGNHZGc?oc=5"
       ]
     },
     {
-      "term": "先週",
+      "term": "掛ける",
       "jlptLevel": "N5",
       "articleCount": 1,
       "channels": [
@@ -1406,11 +1370,11 @@
       ],
       "score": 8,
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiYkFVX3lxTE83dmExLThyTTNkOXU2RFdxQW9WbzFxZzBRSTI0ZXFzOWRpNDB2TnlFZy1WZE5ONUludWszLW5pTVpaYnJRcUdIZ2NsdXBoRG1sc1poX3M1cGFwSm85OWRuS2R3?oc=5"
+        "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ZVFlreGVTT0JDSW9tWktZbDNqNXdqU0Fhel9ickUzTVJLVlZXcGlEeXo1M1JoWXY4VzVWYVpJeHEwaDM1QmEzTlFkM2l2RkpTQ2NDeDZLbTNTTU5p?oc=5"
       ]
     },
     {
-      "term": "兄弟",
+      "term": "手紙",
       "jlptLevel": "N5",
       "articleCount": 1,
       "channels": [
@@ -1418,11 +1382,11 @@
       ],
       "score": 8,
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1OOXFCMXBfY0FFY1BKbGFiNnlDU0hPeEJsaDJxNDdtclZVSFNWai1kQmd1MURJYTEyOU1DaE1yZ0xEcDlWQ0NvVjhQYnFNQjdlMGhRU1E1VnFMUXhnMDFqb19JZU9PWnp0?oc=5"
+        "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5CbU92MkxNS0pPRktiWkNSV0c1RkhES0I0MkNBbURETnNXRzNyU251Yy1EZ01YRFhQYXNVamVycjJadFRhMjNSRDFUWHNDbTZWOWVKemJZd0Nld09EWFE?oc=5"
       ]
     },
     {
-      "term": "元気",
+      "term": "後ろ",
       "jlptLevel": "N5",
       "articleCount": 1,
       "channels": [
@@ -1430,7 +1394,55 @@
       ],
       "score": 8,
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1oUWVoLVZYalE1NmcwSXUwM3VvU0hrTC1rTTAxWVBZR09FdDUxczVzak9UN1lSSFJJbHg3UDJYalB2X0tHV0hJLWhFMEtmcVpUbV9oUjNR?oc=5"
+        "https://news.google.com/rss/articles/CBMickFVX3lxTE5HVDMxcXlzNWMydlNWSmY5MTlqbzVXTzBGMEtyRnAtelBUTFFZdkgwNFFRVXR3SWpyQWFfekIzV3ZOZzREUUt4dUFab0RRQ0g2SnlTU0hyaHBJRzExM0xQc1ZRRjJMakVJNUticlRxMTNYQQ?oc=5"
+      ]
+    },
+    {
+      "term": "寝る",
+      "jlptLevel": "N5",
+      "articleCount": 1,
+      "channels": [
+        "news"
+      ],
+      "score": 8,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4wbWNKTG9hX3l6cUpLUFFLZENHT0RXNFM3eDUzeUtJMFptay0xT2o3RW1LRWY4U1pNRlh1X25aS1lSVDduY2pZZE91M2tqV1A3eXFlMlBUWmMyajRLZ1h5SXZTd3BRT3ls?oc=5"
+      ]
+    },
+    {
+      "term": "冷たい",
+      "jlptLevel": "N5",
+      "articleCount": 1,
+      "channels": [
+        "news"
+      ],
+      "score": 8,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1XQW9Bb3FLbWNES09VSERORUtsZnZPSjF2bzlTbjluVXBfS2JxWlphdmhlTld1eUVRZE5VVXF3d0RiTEFIUXphUmtlRHRHbGNfZEJqTHZGVWJiSEpU?oc=5"
+      ]
+    },
+    {
+      "term": "交差点",
+      "jlptLevel": "N5",
+      "articleCount": 1,
+      "channels": [
+        "news"
+      ],
+      "score": 8,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1yeGJRX1VNNXIyR2ZMQzBXYi1fMXBXSC1Yd29GdG01Y2drZXB5TDFpcFk3ZlNGcGNzMU5abC1BUmRpZw?oc=5"
+      ]
+    },
+    {
+      "term": "ラジオ",
+      "jlptLevel": "N5",
+      "articleCount": 1,
+      "channels": [
+        "news"
+      ],
+      "score": 8,
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE9zZnNRblY4SmhERC1FMEJ2eGh5TVlvMENRWDdsbXl0VGQtdmtxeUcyOXBUbkVOdkl1ZGhhVC1RNEZUZVFvNlNQcW5zUUFLN3dXMDhlam9JeFJ6SldMM3p3SnF5cHduRkIxMUUyLUdlc1R1TW9CbWtrdWZwUTAxQWc?oc=5"
       ]
     }
   ]
